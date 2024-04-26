@@ -1,0 +1,72 @@
+\section{Background Knowledge}
+\subsection{Hypothesis Testing}
+Hypothesis testing is a fundamental statistical procedure used to make inferences about population parameters based on sample data. It is widely employed in various fields, including scientific research, quality control, and decision-making processes. The primary objective of hypothesis testing is to evaluate the plausibility of a specific claim or hypothesis concerning a population parameter, such as the mean, proportion, or variance.\\
+
+In hypothesis testing, two mutually exclusive hypotheses are formulated: the null hypothesis ($H_0$) and the alternative hypothesis ($H_a$). The null hypothesis typically represents the status quo, the baseline assumption, or the claim that the researcher wishes to test against. The alternative hypothesis represents the opposite or the alternative claim that the researcher aims to support or conclude if the null hypothesis is rejected.\\
+
+The process of hypothesis testing involves the following steps:
+\begin{enumerate}
+    \item Formulate the null hypothesis ($H_0$) and the alternative hypothesis ($H_a$).
+    \item Specify the significance level ($\alpha$), which is the probability of rejecting the null hypothesis when it is true (Type I error).
+    \item Calculate the test statistic from the sample data.
+    \item Determine the critical region or the critical value(s) based on the significance level and the chosen test.
+    \item Compare the test statistic with the critical region or critical value(s).
+    \item Make a decision: Reject or fail to reject the null hypothesis.
+\end{enumerate}
+
+The decision to reject or fail to reject the null hypothesis is based on the comparison between the test statistic and the critical region or critical value(s). If the test statistic falls within the critical region, the null hypothesis is rejected in favor of the alternative hypothesis. If the test statistic does not fall within the critical region, the null hypothesis is not rejected.\\
+
+There are several types of hypothesis tests, including:
+\begin{itemize}
+    \item Tests for means (one-sample, two-sample, and paired data)
+    \item Tests for proportions
+    \item Tests for variances
+    \item Tests for correlation and regression coefficients
+    \item Goodness-of-fit tests
+    \item Non-parametric tests
+\end{itemize}
+The choice of the appropriate hypothesis test depends on the nature of the data, the research question, and the assumptions underlying the statistical model.\\
+
+It is important to note that hypothesis testing is subject to two types of errors: Type I error (rejecting the null hypothesis when it is true) and Type II error (failing to reject the null hypothesis when it is false). The significance level ($\alpha$) controls the probability of committing a Type I error, while the power of the test (1 - $\beta$) represents the probability of correctly rejecting the null hypothesis when it is false, where $\beta$ is the probability of committing a Type II error.\\
+
+Hypothesis testing is a powerful tool for making statistical inferences and drawing conclusions from data. However, it is crucial to carefully interpret the results, consider the practical implications, and recognize the limitations and assumptions underlying the chosen statistical test.
+
+\subsection*{Linear Regression}
+Linear regression is a fundamental statistical technique used to model the relationship between a dependent variable and one or more independent variables. It is widely employed in various fields, including economics, finance, engineering, and social sciences, to analyze and make predictions based on observed data.\\
+
+The primary objective of linear regression is to find the best-fitting straight line that describes the relationship between the dependent variable (also known as the response variable) and the independent variable(s) (also known as predictor variables or explanatory variables). This line is represented by a linear equation, which takes the following form:
+$$ Y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \varepsilon  $$
+Where:
+\begin{itemize}
+    \item Y is the dependent variable
+    \item $ \beta_0 $ is the intercept (the value of y when all independent variables are zero)
+    \item $ \beta_1,  \beta_2, ...,  \beta_n$ are the coefficients (slopes) associated with the respective independent variables
+    \item $x_1, x_2, ..., x_n$ are the independent variables
+    \item $\varepsilon$ is the error term, representing the difference between the observed values and the predicted values
+\end{itemize}
+
+\vspace*{1cm}
+
+The process of linear regression involves estimating the values of the coefficients ($\beta_0$, $\beta_1$, $\beta_2$, ..., $\beta_n$) using a set of observed data points. This estimation is typically performed using the method of least squares, which aims to minimize the sum of squared differences between the observed values and the predicted values obtained from the linear equation.
+Linear regression models can be classified into two main types:
+
+\begin{itemize}
+    \item Simple Linear Regression: This model involves only one independent variable and is represented by the equation $ Y = \beta_0 + \beta_1x + \varepsilon  $.
+    \item Multiple Linear Regression: This model involves two or more independent variables and is represented by the equation $ Y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \varepsilon  $
+\end{itemize}
+
+Once the linear regression model is fitted to the data, it can be used for various purposes, such as:
+
+\begin{enumerate}
+    \item Prediction: The model can be used to predict the value of the dependent variable based on new values of the independent variables.
+    \item Inference: Statistical tests can be performed to assess the significance of the independent variables and the overall model fit.
+    \item Interpretation: The coefficients of the independent variables can be interpreted to understand the magnitude and direction of their impact on the dependent variable.
+\end{enumerate}
+
+It is important to note that linear regression models make several assumptions, including linearity, normality of residuals, homoscedasticity (constant variance of residuals), and independence of observations. Violations of these assumptions can lead to biased or inefficient estimates and invalid statistical inferences.\\
+
+Additionally, linear regression models are susceptible to issues such as multicollinearity (high correlation among independent variables) and outliers, which can influence the model's performance and interpretability. Various diagnostic techniques and model validation methods are employed to assess the reliability and robustness of the linear regression model.\\
+
+Linear regression serves as a foundation for more advanced regression techniques, such as logistic regression (for binary or categorical dependent variables), nonlinear regression, and time series analysis, among others. Its simplicity, interpretability, and widespread applicability make linear regression a fundamental tool in statistical modeling and data analysis.
+
+\newpage
