@@ -19,11 +19,38 @@
 \usepackage{geometry}
 \usepackage{setspace}
 \usepackage{epsfig}
+\usepackage{listings}
 \usepackage{tikz}
 \usetikzlibrary{arrows,snakes,backgrounds}
 \usepackage{hyperref}
 \hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true} 
 %\usepackage{pstcol} 								% PSTricks with the standard color package
+
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
 
 \newtheorem{theorem}{{\bf Theorem}}
 \newtheorem{property}{{\bf Property}}
@@ -119,12 +146,12 @@ FACULTY OF APPLIED SCIENCE
 
 \begin{table}[h]
 	\begin{tabular}{rrl}
-		\hspace{5 cm} & Advisor: & Phan Thị Khánh Vân, FAS-HCMUT\\[6pt]
-		& Students: & Lê Nguyễn Gia Bảo \hspace*{0.05cm} - 2210216. \\
-		& 			& Trần Đình Đăng Khoa \hspace*{0.15cm} - 2211649. \\
-		& 			& Bùi Vũ Thiên Đăng	  \hspace*{0.41cm} - 2252151. \\
-		& 			& Trần Tuấn Minh Khoa 	  \hspace*{0.5cm} - 2252365. \\
-		& 			& Nguyễn Hữu Trí		  \hspace*{1.2cm} - 2252842. \\
+		\hspace{5 cm} & Advisor: & Phan Thị Khánh Vân,\hspace*{10pt} FAS - HCMUT\\[6pt]
+		& Students: & Lê Nguyễn Gia Bảo \hspace*{12pt} - 2210216. \\
+		& 			& Trần Đình Đăng Khoa \hspace*{0pt} - 2211649. \\
+		& 			& Bùi Vũ Thiên Đăng	  \hspace*{13pt} - 2252151. \\
+		& 			& Trần Tuấn Minh Khoa 	  \hspace*{0pt} - 2252365. \\
+		& 			& Nguyễn Hữu Trí		  \hspace*{28pt} - 2252842. \\
 	\end{tabular}
 \end{table}
 
