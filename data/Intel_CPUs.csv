@@ -1,0 +1,2284 @@
+Lithography,Processor_Base_Frequency,TDP,Max_Memory_Size,Max_Memory_Bandwidth,Graphics_Base_Frequency
+14 nm,1.30 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,1.60 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.80 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+32 nm,3.60 GHz,130 W,64.23 GB,51.2 GB/s,
+14 nm,1.20 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,1.50 GHz,15 W,16 GB,25.6 GB/s,100 MHz
+22 nm,1.46 GHz,4.3 W,4 GB,,313 MHz
+22 nm,2.41 GHz,10 W,8 GB,,688 MHz
+22 nm,2.60 GHz,55 W,32 GB,21 GB/s,650 MHz
+90 nm,2.80 GHz,88 W,,,
+22 nm,2.40 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+90 nm,1.30 GHz,5.5 W,,,
+14 nm,1.90 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.10 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.60 GHz,6 W,8 GB,,400 MHz
+,32 MHz,,,,
+22 nm,2.41 GHz,10 W,8 GB,,688 MHz
+22 nm,2.41 GHz,10 W,8 GB,21.3 GB/s,688 MHz
+14 nm,1.60 GHz,6.5 W,8 GB,,400 MHz
+14 nm,1.50 GHz,10 W,8 GB,,250 MHz
+14 nm,1.60 GHz,6 W,8 GB,,400 MHz
+22 nm,2.00 GHz,7.5 W,8 GB,,313 MHz
+22 nm,2.17 GHz,7.5 W,8 GB,,313 MHz
+22 nm,2.16 GHz,7.5 W,8 GB,,313 MHz
+22 nm,2.16 GHz,7.5 W,8 GB,21.32 GB/s,313 MHz
+14 nm,1.10 GHz,6 W,8 GB,,200 MHz
+14 nm,1.50 GHz,6 W,16 GB,29.8 GB/s,300 MHz
+14 nm,1.60 GHz,6 W,16 GB,29.8 GB/s,300 MHz
+14 nm,1.50 GHz,6 W,16 GB,29.8 GB/s,300 MHz
+14 nm,2.30 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.90 GHz,15 W,16 GB,25.6 GB/s,100 MHz
+22 nm,1.20 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.20 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.30 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.80 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.50 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.90 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.10 GHz,10 W,32 GB,25.6 GB/s,350 MHz
+90 nm,1.20 GHz,5.5 W,,,
+90 nm,1.10 GHz,5 W,,,
+90 nm,1.00 GHz,5 W,,,
+130 nm,1.10 GHz,7 W,,,
+90 nm,1.60 GHz,7.5 W,,,
+90 nm,1.40 GHz,7.5 W,,,
+90 nm,1.50 GHz,7.5 W,,,
+90 nm,3.80 GHz,115 W,,,
+,800 MHz,5.9 W,,,
+130 nm,1.30 GHz,12 W,,,
+90 nm,3.80 GHz,115 W,,,
+,750 MHz,24.6 W,,,
+90 nm,2.26 GHz,27 W,,,
+90 nm,3.60 GHz,115 W,,,
+,700 MHz,7 W,,,
+130 nm,800 MHz,10.63 W,,,
+90 nm,2.13 GHz,27 W,,,
+90 nm,3.60 GHz,115 W,,,
+,400 MHz,10.1 W,,,
+130 nm,933 MHz,11.61 W,,,
+90 nm,2.10 GHz,7.5 W,,,
+90 nm,3.60 GHz,115 W,,,
+90 nm,2.00 GHz,27 W,,,
+130 nm,1.13 GHz,28.7 W,,,
+90 nm,4.00 GHz,,,,
+90 nm,3.40 GHz,84 W,,,
+130 nm,2.80 GHz,68.4 W,,,
+90 nm,2.00 GHz,7.5 W,,,
+130 nm,1.26 GHz,30.4 W,,,
+90 nm,3.40 GHz,84 W,,,
+130 nm,2.60 GHz,62.6 W,,,
+90 nm,3.40 GHz,84 W,,,
+90 nm,1.86 GHz,27 W,,,
+130 nm,900 MHz,23.2 W,,,
+130 nm,1.40 GHz,32.2 W,,,
+90 nm,3.80 GHz,65 W,,,
+130 nm,2.50 GHz,61 W,,,
+130 nm,1.00 GHz,12.1 W,,,
+90 nm,1.80 GHz,21 W,,,
+180 nm,850 MHz,22.5 W,,,
+90 nm,3.40 GHz,115 W,,,
+65 nm,2.80 GHz,95 W,,,
+130 nm,2.40 GHz,59.8 W,,,
+180 nm,933 MHz,27.3 W,,,
+90 nm,1.80 GHz,7.5 W,,,
+180 nm,800 MHz,20.8 W,,,
+90 nm,3.40 GHz,103 W,,,
+90 nm,3.20 GHz,84 W,,,
+130 nm,2.20 GHz,57.1 W,,,
+22 nm,2.10 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.41 GHz,10 W,8 GB,21.3 GB/s,688 MHz
+32 nm,1.20 GHz,40 W,375 GB,25 GB/s,
+22 nm,1.40 GHz,40 W,384 GB,38.4 GB/s,
+130 nm,1.40 GHz,20.8 W,,,
+32 nm,2.60 GHz,65 W,32 GB,17 GB/s,850 MHz
+90 nm,1.73 GHz,27 W,,,
+180 nm,866 MHz,26.1 W,,,
+180 nm,750 MHz,19.5 W,,,
+130 nm,3.40 GHz,89 W,,,
+90 nm,3.20 GHz,84 W,,,
+130 nm,2.00 GHz,54.3 W,,,
+180 nm,600 MHz,9.7 W,,,
+130 nm,1.50 GHz,25.8 W,,,
+32 nm,2.20 GHz,35 W,32 GB,17 GB/s,650 MHz
+130 nm,900 MHz,7 W,,,
+180 nm,800 MHz,20.8 W,,,
+180 nm,700 MHz,18.3 W,,,
+90 nm,3.40 GHz,103 W,,,
+90 nm,3.80 GHz,115 W,,,
+90 nm,3.20 GHz,84 W,,,
+180 nm,2.00 GHz,71.8 W,,,
+130 nm,1.60 GHz,26.9 W,,,
+,1.50 GHz,15 W,32 GB,21.3 GB/s,
+32 nm,2.80 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.60 GHz,65 W,32 GB,17 GB/s,850 MHz
+130 nm,1.00 GHz,7 W,,,
+90 nm,1.70 GHz,7.5 W,,,
+180 nm,733 MHz,22.8 W,,,
+180 nm,650 MHz,17 W,,,
+90 nm,3.20 GHz,103 W,,,
+90 nm,3.80 GHz,115 W,,,
+90 nm,3.00 GHz,84 W,,,
+130 nm,1.70 GHz,30 W,,,
+,2.00 GHz,15 W,,,
+32 nm,2.90 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.70 GHz,65 W,32 GB,17 GB/s,850 MHz
+180 nm,667 MHz,17.5 W,,,
+250 nm,600 MHz,34.5 W,,,
+130 nm,3.20 GHz,82 W,,,
+90 nm,3.00 GHz,84 W,,,
+90 nm,2.80 GHz,103 W,,,
+180 nm,1.90 GHz,69.2 W,,,
+180 nm,900 MHz,30.7 W,,,
+130 nm,933 MHz,20.1 W,,,
+130 nm,1.80 GHz,30 W,,,
+32 nm,3.00 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.30 GHz,35 W,32 GB,17 GB/s,650 MHz
+45 nm,3.33 GHz,65 W,,,
+130 nm,1.20 GHz,12 W,,,
+90 nm,1.60 GHz,27 W,,,
+250 nm,600 MHz,34.5 W,,,
+180 nm,600 MHz,19.5 W,,,
+65 nm,3.60 GHz,130 W,,,
+90 nm,3.20 GHz,103 W,,,
+90 nm,3.60 GHz,115 W,,,
+90 nm,3.00 GHz,84 W,,,
+90 nm,3.06 GHz,84 W,,,
+130 nm,2.80 GHz,68.4 W,,,
+130 nm,1.80 GHz,68.1 W,,,
+180 nm,850 MHz,27.5 W,,,
+130 nm,866 MHz,19.5 W,,,
+130 nm,1.90 GHz,32 W,,,
+32 nm,2.60 GHz,35 W,32 GB,21 GB/s,650 MHz
+32 nm,2.00 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.70 GHz,65 W,32 GB,17 GB/s,850 MHz
+,400 MHz,13.1 W,,,
+130 nm,1.10 GHz,12 W,,,
+180 nm,600 MHz,15.8 W,,,
+250 nm,550 MHz,30.8 W,,,
+65 nm,3.40 GHz,130 W,,,
+90 nm,3.00 GHz,89 W,,,
+65 nm,3.60 GHz,86 W,,,
+90 nm,3.06 GHz,84 W,,,
+90 nm,3.06 GHz,84 W,,,
+90 nm,2.80 GHz,84 W,,,
+180 nm,1.80 GHz,66.7 W,,,
+180 nm,800 MHz,25.9 W,,,
+130 nm,2.00 GHz,32 W,,,
+32 nm,2.10 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,3.10 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.80 GHz,65 W,32 GB,17 GB/s,850 MHz
+,366 MHz,13.1 W,,,
+,300 MHz,,,,
+45 nm,3.20 GHz,65 W,,,
+45 nm,3.20 GHz,65 W,,,
+65 nm,1.86 GHz,35 W,,,
+130 nm,1.30 GHz,22 W,,,
+180 nm,550 MHz,14.5 W,,,
+65 nm,3.40 GHz,95 W,,,
+250 nm,533 MHz,29.7 W,,,
+130 nm,3.00 GHz,81.9 W,,,
+90 nm,2.80 GHz,84 W,,,
+90 nm,2.93 GHz,84 W,,,
+130 nm,2.66 GHz,66.1 W,,,
+90 nm,3.60 GHz,115 W,,,
+130 nm,1.70 GHz,,,,
+180 nm,750 MHz,24.6 W,,,
+130 nm,650 MHz,7 W,,,
+130 nm,2.20 GHz,35 W,,,
+32 nm,2.40 GHz,35 W,32 GB,17 GB/s,650 MHz
+,266 MHz,,,,
+,333 MHz,11.8 W,,,
+45 nm,3.00 GHz,65 W,,,
+45 nm,2.20 GHz,35 W,,,
+65 nm,1.73 GHz,35 W,,,
+65 nm,2.40 GHz,65 W,,,
+90 nm,1.60 GHz,7.5 W,,,
+130 nm,1.40 GHz,22 W,,,
+180 nm,533 MHz,14 W,,,
+250 nm,500 MHz,28 W,,,
+65 nm,3.20 GHz,130 W,,,
+90 nm,3.00 GHz,89 W,,,
+65 nm,3.40 GHz,86 W,,,
+90 nm,2.80 GHz,84 W,,,
+90 nm,2.93 GHz,84 W,,,
+90 nm,2.66 GHz,89 W,,,
+180 nm,1.70 GHz,64 W,,,
+180 nm,700 MHz,23 W,,,
+130 nm,1.33 GHz,,,,
+130 nm,3.20 GHz,76 W,,,
+130 nm,2.30 GHz,35 W,,,
+32 nm,2.20 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+,300 MHz,11.1 W,,,
+32 nm,1.20 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+,233 MHz,17 W,,,
+45 nm,2.30 GHz,35 W,,,
+45 nm,3.06 GHz,65 W,,,
+45 nm,2.80 GHz,65 W,,,
+65 nm,1.60 GHz,35 W,,,
+90 nm,2.80 GHz,89 W,,,
+65 nm,3.20 GHz,95 W,,,
+180 nm,500 MHz,13.2 W,,,
+130 nm,1.40 GHz,31.2 W,,,
+90 nm,2.80 GHz,89 W,,,
+90 nm,3.40 GHz,84 W,,,
+90 nm,2.80 GHz,84 W,,,
+130 nm,2.53 GHz,61.5 W,,,
+130 nm,1.60 GHz,38 W,,,
+180 nm,650 MHz,21.5 W,,,
+130 nm,1.26 GHz,22 W,,,
+130 nm,3.06 GHz,70 W,,,
+90 nm,3.46 GHz,88 W,,,
+130 nm,2.40 GHz,35 W,,,
+32 nm,2.90 GHz,65 W,32 GB,17 GB/s,850 MHz
+32 nm,2.30 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.30 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,2.27 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+,300 MHz,11.6 W,,,
+,200 MHz,15.7 W,,,
+,200 MHz,37.9 W,,,
+,333 MHz,20.6 W,,,
+32 nm,2.93 GHz,73 W,16.38 GB,17 GB/s,533 MHz
+45 nm,2.93 GHz,65 W,,,
+65 nm,2.20 GHz,65 W,,,
+65 nm,1.46 GHz,35 W,,,
+130 nm,1.50 GHz,24.5 W,,,
+250 nm,450 MHz,25.3 W,,,
+90 nm,2.80 GHz,89 W,,,
+130 nm,1.33 GHz,29.9 W,,,
+65 nm,3.00 GHz,95 W,,,
+90 nm,3.20 GHz,130 W,,,
+130 nm,2.80 GHz,69.7 W,,,
+65 nm,3.20 GHz,86 W,,,
+90 nm,2.80 GHz,84 W,,,
+180 nm,1.60 GHz,61 W,,,
+180 nm,600 MHz,34.5 W,,,
+130 nm,1.20 GHz,22 W,,,
+130 nm,2.80 GHz,68.4 W,,,
+90 nm,3.33 GHz,88 W,,,
+130 nm,2.50 GHz,35 W,,,
+32 nm,2.40 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.50 GHz,35 W,32 GB,17 GB/s,650 MHz
+32 nm,1.40 GHz,17 W,16.38 GB,21.3 GB/s,350 MHz
+32 nm,2.13 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+,800 MHz,9.8 W,,,
+,266 MHz,10.3 W,,,
+,166 MHz,13.1 W,,,
+,90 MHz,,,,
+,200 MHz,35 W,,,
+,450 MHz,27.1 W,,,
+,300 MHz,21.5 W,,,
+32 nm,2.80 GHz,73 W,16.38 GB,17 GB/s,533 MHz
+45 nm,2.93 GHz,65 W,,,
+45 nm,2.70 GHz,65 W,,,
+45 nm,2.10 GHz,35 W,,,
+65 nm,2.00 GHz,65 W,,,
+90 nm,2.80 GHz,84 W,,,
+65 nm,1.86 GHz,31 W,,,
+90 nm,1.50 GHz,7.5 W,,,
+130 nm,1.60 GHz,24.5 W,,,
+130 nm,1.20 GHz,29.9 W,,,
+65 nm,3.00 GHz,95 W,,,
+90 nm,3.00 GHz,130 W,,,
+90 nm,3.20 GHz,84 W,,,
+90 nm,2.66 GHz,84 W,,,
+130 nm,2.40 GHz,59.8 W,,,
+180 nm,1.50 GHz,57.8 W,,,
+180 nm,500 MHz,16.8 W,,,
+130 nm,1.13 GHz,21.8 W,,,
+130 nm,2.66 GHz,66.1 W,,,
+130 nm,2.60 GHz,35 W,,,
+90 nm,3.20 GHz,88 W,,,
+32 nm,1.50 GHz,17 W,16.38 GB,21.3 GB/s,350 MHz
+32 nm,2.00 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.33 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+,150 MHz,,,,
+,150 MHz,,,,
+,75 MHz,,,,
+,200 MHz,44 W,,,
+,180 MHz,31.7 W,,,
+,400 MHz,24.3 W,,,
+,266 MHz,16.8 W,,,
+,266 MHz,10.3 W,,,
+32 nm,2.80 GHz,73 W,16.38 GB,17 GB/s,533 MHz
+65 nm,2.16 GHz,35 W,,,
+45 nm,2.60 GHz,65 W,,,
+65 nm,1.73 GHz,31 W,,,
+65 nm,1.80 GHz,65 W,,,
+65 nm,3.73 GHz,130 W,,,
+130 nm,1.70 GHz,24.5 W,,,
+130 nm,1.13 GHz,29.1 W,,,
+180 nm,1.10 GHz,33 W,,,
+65 nm,2.80 GHz,95 W,,,
+90 nm,2.80 GHz,95 W,,,
+130 nm,2.60 GHz,69 W,,,
+90 nm,3.73 GHz,115 W,,,
+130 nm,3.40 GHz,102.9 W,,,
+65 nm,3.00 GHz,86 W,,,
+90 nm,2.80 GHz,84 W,,,
+90 nm,2.66 GHz,84 W,,,
+90 nm,2.40 GHz,89 W,,,
+180 nm,1.40 GHz,54.7 W,,,
+180 nm,450 MHz,15.5 W,,,
+130 nm,1.06 GHz,21 W,,,
+90 nm,3.06 GHz,88 W,,,
+32 nm,1.60 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+,1.06 GHz,21 W,,,
+,233 MHz,9 W,,,
+,133 MHz,,,,
+,120 MHz,,,,
+,100 MHz,,,,
+,166 MHz,35 W,,,
+,150 MHz,31.7 W,,,
+,350 MHz,21.5 W,,,
+,233 MHz,34.8 W,,,
+32 nm,1.20 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,1.86 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+45 nm,2.80 GHz,65 W,,,
+45 nm,2.00 GHz,35 W,,,
+45 nm,2.50 GHz,65 W,,,
+65 nm,2.00 GHz,35 W,,,
+130 nm,3.00 GHz,81.9 W,,,
+65 nm,1.60 GHz,65 W,,,
+65 nm,1.60 GHz,31 W,,,
+65 nm,3.46 GHz,130 W,,,
+90 nm,3.20 GHz,130 W,,,
+130 nm,1.50 GHz,24.5 W,,,
+180 nm,1.00 GHz,29 W,,,
+180 nm,1.00 GHz,29 W,,,
+65 nm,2.80 GHz,95 W,,,
+90 nm,2.66 GHz,95 W,,,
+130 nm,3.06 GHz,81.8 W,,,
+130 nm,2.40 GHz,66.2 W,,,
+130 nm,3.46 GHz,110.7 W,,,
+130 nm,3.20 GHz,92.1 W,,,
+90 nm,3.00 GHz,84 W,,,
+90 nm,2.80 GHz,84 W,,,
+90 nm,2.93 GHz,84 W,,,
+90 nm,2.66 GHz,84 W,,,
+130 nm,2.26 GHz,58 W,,,
+180 nm,1.30 GHz,51.6 W,,,
+180 nm,1.00 GHz,34 W,,,
+130 nm,1.00 GHz,20.5 W,,,
+130 nm,2.40 GHz,59.8 W,,,
+22 nm,2.30 GHz,35 W,32 GB,21 GB/s,650 MHz
+22 nm,2.70 GHz,55 W,32 GB,21 GB/s,650 MHz
+22 nm,2.40 GHz,35 W,32 GB,21 GB/s,650 MHz
+22 nm,2.70 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,2.80 GHz,55 W,32 GB,21 GB/s,650 MHz
+22 nm,2.40 GHz,35 W,32 GB,21.3 GB/s,200 MHz
+22 nm,2.20 GHz,35 W,32 GB,21.3 GB/s,350 MHz
+22 nm,2.80 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,2.80 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,2.50 GHz,35 W,32 GB,21.3 GB/s,200 MHz
+22 nm,2.90 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+14 nm,2.80 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.60 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.40 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.30 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,1.60 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,51 W,64 GB,,350 MHz
+,2.90 GHz,54 W,64 GB,,350 MHz
+14 nm,2.70 GHz,35 W,64 GB,,350 MHz
+,2.70 GHz,35 W,64 GB,,350 MHz
+14 nm,3.00 GHz,51 W,64 GB,,350 MHz
+22 nm,2.41 GHz,10 W,8 GB,,688 MHz
+22 nm,2.00 GHz,10 W,8 GB,,688 MHz
+22 nm,2.00 GHz,10 W,8 GB,,688 MHz
+14 nm,1.60 GHz,6 W,8 GB,,320 MHz
+14 nm,1.60 GHz,6 W,8 GB,,320 MHz
+14 nm,2.00 GHz,10 W,8 GB,,250 MHz
+14 nm,1.50 GHz,10 W,8 GB,,250 MHz
+22 nm,1.60 GHz,4.5 W,4 GB,,313 MHz
+22 nm,1.58 GHz,4.3 W,4 GB,,313 MHz
+22 nm,1.58 GHz,4.5 W,4 GB,10.66 GB/s,311 MHz
+22 nm,2.00 GHz,7.5 W,8 GB,,313 MHz
+22 nm,1.86 GHz,7.5 W,8 GB,,313 MHz
+22 nm,2.13 GHz,7.5 W,8 GB,,313 MHz
+22 nm,2.16 GHz,7.5 W,8 GB,,313 MHz
+22 nm,2.16 GHz,7.5 W,8 GB,21.32 GB/s,311 MHz
+22 nm,1.60 GHz,7.5 W,8.79 GB,,313 MHz
+22 nm,1.86 GHz,7.5 W,8 GB,,313 MHz
+22 nm,1.83 GHz,7.5 W,8 GB,,313 MHz
+22 nm,1.83 GHz,7.5 W,8 GB,21.32 GB/s,313 MHz
+14 nm,1.10 GHz,6 W,8 GB,,200 MHz
+14 nm,1.10 GHz,6 W,8 GB,,200 MHz
+14 nm,1.60 GHz,6 W,8 GB,,320 MHz
+14 nm,1.60 GHz,6 W,8 GB,,320 MHz
+14 nm,1.60 GHz,6 W,8 GB,,320 MHz
+14 nm,1.60 GHz,6 W,8 GB,,320 MHz
+14 nm,1.04 GHz,4 W,8 GB,,320 MHz
+14 nm,1.04 GHz,4 W,8 GB,,320 MHz
+14 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,100 MHz
+14 nm,1.90 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,1.60 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.00 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.80 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.50 GHz,6 W,16 GB,29.8 GB/s,300 MHz
+14 nm,2.20 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.20 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,2.50 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.20 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.10 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.30 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.50 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.60 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.30 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.00 GHz,65 W,64 GB,,350 MHz
+14 nm,2.40 GHz,35 W,64 GB,,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.10 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,35 W,64 GB,,350 MHz
+14 nm,3.40 GHz,65 W,64 GB,,350 MHz
+14 nm,3.50 GHz,65 W,64 GB,,350 MHz
+14 nm,2.80 GHz,35 W,64 GB,,350 MHz
+14 nm,3.80 GHz,91 W,64 GB,,350 MHz
+22 nm,2.90 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+32 nm,3.20 GHz,130 W,64.23 GB,51.2 GB/s,
+22 nm,3.00 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+32 nm,3.30 GHz,130 W,64 GB,51.2 GB/s,
+32 nm,3.50 GHz,150 W,64.45 GB,51.2 GB/s,
+22 nm,3.70 GHz,130 W,64 GB,59.7 GB/s,
+22 nm,3.00 GHz,57 W,32 GB,25.6 GB/s,400 MHz
+22 nm,3.40 GHz,130 W,64 GB,59.7 GB/s,
+22 nm,3.10 GHz,57 W,32 GB,25.6 GB/s,400 MHz
+22 nm,3.60 GHz,130 W,64 GB,59.7 GB/s,
+22 nm,3.30 GHz,140 W,64 GB,68 GB/s,
+22 nm,3.50 GHz,140 W,64 GB,68 GB/s,
+22 nm,3.00 GHz,140 W,64 GB,68 GB/s,
+14 nm,3.40 GHz,140 W,128 GB,,
+14 nm,3.60 GHz,140 W,128 GB,,
+14 nm,3.20 GHz,140 W,128 GB,,
+14 nm,3.00 GHz,140 W,128 GB,,
+14 nm,4.00 GHz,112 W,64 GB,,
+14 nm,4.30 GHz,112 W,64 GB,,
+14 nm,3.50 GHz,140 W,128 GB,,
+14 nm,3.30 GHz,140 W,128 GB,,
+14 nm,3.60 GHz,140 W,128 GB,,
+14 nm,2.90 GHz,140 W,128 GB,,
+,3.10 GHz,165 W,128 GB,,
+,2.80 GHz,165 W,128 GB,,
+,2.60 GHz,165 W,128 GB,,
+14 nm,1.90 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.70 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.70 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.40 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.50 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.80 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.50 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.90 GHz,35 W,64 GB,,350 MHz
+14 nm,4.20 GHz,91 W,64 GB,,350 MHz
+14 nm,3.60 GHz,65 W,64 GB,,350 MHz
+14 nm,2.80 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.00 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.10 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+,32 MHz,,,,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,,,1 GB,6.4 GB/s,400 MHz
+,33 MHz,0.025 W,,,
+45 nm,600 MHz,3.3 W,2 GB,,320 MHz
+32 nm,,,2 GB,6.4 GB/s,400 MHz
+14 nm,1.60 GHz,,8 GB,25.6 GB/s,200 MHz
+32 nm,1.60 GHz,3.5 W,2.44 GB,,400 MHz
+22 nm,1.33 GHz,3 W,8 GB,,
+32 nm,1.86 GHz,10 W,4 GB,6.4 GB/s,400 MHz
+22 nm,1.50 GHz,7 W,16 GB,,
+130 nm,1.66 GHz,122 W,,,
+130 nm,1.60 GHz,122 W,,,
+130 nm,900 MHz,90 W,,,
+90 nm,1.60 GHz,104 W,,,
+90 nm,1.60 GHz,75 W,,,
+65 nm,1.60 GHz,130 W,,,
+65 nm,1.33 GHz,155 W,,,
+65 nm,1.46 GHz,155 W,,,
+65 nm,1.60 GHz,185 W,,,
+65 nm,1.73 GHz,185 W,,,
+90 nm,1.42 GHz,104 W,,,
+90 nm,1.66 GHz,104 W,,,
+90 nm,1.66 GHz,104 W,,,
+90 nm,1.60 GHz,104 W,,,
+90 nm,1.66 GHz,104 W,,,
+90 nm,1.60 GHz,104 W,,,
+90 nm,1.66 GHz,104 W,,,
+90 nm,1.40 GHz,104 W,,,
+90 nm,1.42 GHz,104 W,,,
+90 nm,1.60 GHz,104 W,,,
+90 nm,1.60 GHz,104 W,,,
+90 nm,1.60 GHz,104 W,,,
+130 nm,1.00 GHz,100 W,,,
+130 nm,1.30 GHz,97 W,,,
+130 nm,1.40 GHz,91 W,,,
+130 nm,1.50 GHz,107 W,,,
+130 nm,1.50 GHz,107 W,,,
+130 nm,1.60 GHz,122 W,,,
+130 nm,1.66 GHz,122 W,,,
+22 nm,1.70 GHz,6 W,16 GB,10.7 GB/s,
+22 nm,1.40 GHz,10 W,32 GB,,
+22 nm,1.70 GHz,9 W,32 GB,21.3 GB/s,
+22 nm,2.40 GHz,14 W,64 GB,25.6 GB/s,
+22 nm,1.70 GHz,12 W,32 GB,25.6 GB/s,
+22 nm,2.40 GHz,20 W,64 GB,25.6 GB/s,
+22 nm,1.25 GHz,6 W,16 GB,,
+22 nm,1.70 GHz,7 W,16 GB,,
+22 nm,1.70 GHz,7 W,16 GB,,
+22 nm,1.25 GHz,9.5 W,32 GB,,
+22 nm,1.70 GHz,13 W,32 GB,,
+22 nm,2.40 GHz,15 W,64 GB,,
+22 nm,2.40 GHz,15 W,64 GB,,
+22 nm,2.00 GHz,18 W,32 GB,,
+22 nm,2.40 GHz,20 W,64 GB,,
+22 nm,2.40 GHz,20 W,64 GB,,
+14 nm,2.00 GHz,31 W,256 GB,,
+14 nm,2.10 GHz,32 W,256 GB,,
+14 nm,1.70 GHz,24 W,256 GB,,
+14 nm,1.90 GHz,21.5 W,256 GB,,
+14 nm,2.00 GHz,25 W,256 GB,,
+14 nm,2.10 GHz,25 W,256 GB,,
+14 nm,2.00 GHz,25 W,256 GB,,
+14 nm,2.20 GHz,25 W,256 GB,,
+14 nm,2.20 GHz,21 W,256 GB,,
+14 nm,1.70 GHz,17 W,256 GB,,
+14 nm,2.20 GHz,16 W,256 GB,,
+14 nm,2.10 GHz,15 W,256 GB,,
+14 nm,1.60 GHz,11.5 W,256 GB,,
+14 nm,1.50 GHz,9 W,128 GB,,
+14 nm,1.60 GHz,9.5 W,128 GB,,
+32 nm,1.86 GHz,10 W,4 GB,6.4 GB/s,640 MHz
+32 nm,2.13 GHz,10 W,4 GB,6.4 GB/s,640 MHz
+22 nm,1.46 GHz,5 W,8 GB,,400 MHz
+22 nm,1.33 GHz,6 W,8 GB,,533 MHz
+22 nm,1.46 GHz,7 W,8 GB,,533 MHz
+22 nm,1.75 GHz,8 W,8 GB,,542 MHz
+22 nm,1.91 GHz,10 W,8 GB,,542 MHz
+32 nm,1.86 GHz,6.5 W,4.88 GB,,640 MHz
+32 nm,1.60 GHz,8.1 W,8 GB,10.6 GB/s,
+32 nm,1.60 GHz,6.1 W,8 GB,10.6 GB/s,
+32 nm,2.00 GHz,8.5 W,8 GB,10.6 GB/s,
+32 nm,1.60 GHz,11.7 W,8 GB,,
+32 nm,1.60 GHz,13.1 W,8 GB,,
+32 nm,2.00 GHz,14.1 W,8 GB,,
+28 nm,1.00 GHz,,1 GB,3.2 GB/s,480 MHz
+28 nm,,,2 GB,4.2 GB/s,600 MHz
+28 nm,,,2 GB,4.2 GB/s,600 MHz
+28 nm,,,2 GB,4.2 GB/s,600 MHz
+28 nm,,,2 GB,4.2 GB/s,600 MHz
+28 nm,,,2 GB,4.2 GB/s,600 MHz
+28 nm,,,2 GB,4.2 GB/s,600 MHz
+28 nm,1.20 GHz,,2 GB,4.2 GB/s,456 MHz
+28 nm,1.20 GHz,,2 GB,4.2 GB/s,456 MHz
+14 nm,1.04 GHz,5 W,8 GB,,320 MHz
+14 nm,1.44 GHz,,2 GB,12.8 GB/s,200 MHz
+14 nm,1.44 GHz,,2 GB,12.8 GB/s,200 MHz
+14 nm,1.44 GHz,,2 GB,12.8 GB/s,200 MHz
+14 nm,1.44 GHz,,8 GB,25.6 GB/s,200 MHz
+14 nm,1.44 GHz,,8 GB,25.6 GB/s,200 MHz
+14 nm,1.30 GHz,6.5 W,8 GB,34.1 GB/s,400 MHz
+14 nm,1.60 GHz,9.5 W,8 GB,34.1 GB/s,400 MHz
+14 nm,1.60 GHz,,8 GB,25.6 GB/s,200 MHz
+14 nm,1.60 GHz,12 W,8 GB,38.4 GB/s,500 MHz
+32 nm,,,2 GB,6.4 GB/s,400 MHz
+32 nm,1.20 GHz,,2 GB,8.5 GB/s,300 MHz
+32 nm,,,2 GB,8.5 GB/s,400 MHz
+32 nm,,,2 GB,8.5 GB/s,400 MHz
+32 nm,1.80 GHz,,2.4 GB,6.4 GB/s,533 MHz
+22 nm,,,4 GB,8.5 GB/s,400 MHz
+22 nm,,,4 GB,8.5 GB/s,457 MHz
+22 nm,,,4 GB,12.8 GB/s,457 MHz
+22 nm,,,4 GB,12.8 GB/s,457 MHz
+22 nm,,,4 GB,12.8 GB/s,457 MHz
+22 nm,,,4 GB,12.8 GB/s,457 MHz
+22 nm,,,4 GB,12.8 GB/s,457 MHz
+22 nm,1.33 GHz,,1 GB,5.3 GB/s,311 MHz
+22 nm,1.33 GHz,,2 GB,10.6 GB/s,311 MHz
+22 nm,1.33 GHz,,2 GB,10.6 GB/s,311 MHz
+22 nm,1.33 GHz,,1 GB,5.3 GB/s,311 MHz
+22 nm,1.33 GHz,,2 GB,10.6 GB/s,313 MHz
+22 nm,1.33 GHz,,1 GB,5.3 GB/s,313 MHz
+22 nm,1.33 GHz,,4 GB,17.1 GB/s,311 MHz
+22 nm,1.33 GHz,,2 GB,10.6 GB/s,313 MHz
+22 nm,1.33 GHz,,4 GB,17.1 GB/s,311 MHz
+22 nm,1.33 GHz,,2 GB,10.6 GB/s,311 MHz
+22 nm,1.46 GHz,,4 GB,17.1 GB/s,311 MHz
+22 nm,1.46 GHz,,4 GB,17.1 GB/s,311 MHz
+22 nm,1.50 GHz,,2 GB,10.6 GB/s,313 MHz
+22 nm,1.49 GHz,,2 GB,10.6 GB/s,311 MHz
+22 nm,1.49 GHz,,4 GB,21.3 GB/s,313 MHz
+22 nm,1.59 GHz,,4 GB,17.1 GB/s,311 MHz
+45 nm,600 MHz,3.3 W,2 GB,,320 MHz
+45 nm,800 MHz,0.65 W,,,
+45 nm,1.10 GHz,2 W,,,
+45 nm,1.00 GHz,3.6 W,2 GB,,320 MHz
+45 nm,1.20 GHz,1.3 W,1 GB,1.6 GB/s,200 MHz
+45 nm,1.10 GHz,2.2 W,,,
+45 nm,1.00 GHz,3.6 W,2 GB,,320 MHz
+45 nm,1.10 GHz,2.2 W,,,
+45 nm,1.00 GHz,7 W,2.93 GB,,320 MHz
+45 nm,1.20 GHz,1.4 W,,,
+45 nm,1.00 GHz,7 W,2.93 GB,,320 MHz
+45 nm,1.60 GHz,4 W,,,
+45 nm,1.33 GHz,2 W,,,
+45 nm,1.30 GHz,3.6 W,2 GB,,400 MHz
+45 nm,1.60 GHz,2.2 W,2 GB,3.2 GB/s,400 MHz
+45 nm,1.33 GHz,2.2 W,,,
+45 nm,1.30 GHz,3.6 W,2 GB,,400 MHz
+45 nm,1.60 GHz,2 W,,,
+45 nm,1.30 GHz,7 W,2.93 GB,,400 MHz
+45 nm,1.90 GHz,2.2 W,2 GB,3.2 GB/s,400 MHz
+45 nm,1.66 GHz,5.5 W,2 GB,,
+45 nm,1.60 GHz,2.2 W,,,
+45 nm,1.20 GHz,3 W,2.93 GB,,400 MHz
+45 nm,1.30 GHz,7 W,2.93 GB,,400 MHz
+45 nm,1.66 GHz,6.5 W,2 GB,,200 MHz
+45 nm,1.66 GHz,10 W,4 GB,6.4 GB/s,
+45 nm,1.66 GHz,13 W,4 GB,6.4 GB/s,
+45 nm,1.86 GHz,2.4 W,,,
+45 nm,1.50 GHz,3 W,2.93 GB,,400 MHz
+45 nm,1.60 GHz,4.5 W,2 GB,,400 MHz
+45 nm,1.50 GHz,8.5 W,2 GB,,200 MHz
+45 nm,1.83 GHz,6.5 W,2 GB,,200 MHz
+45 nm,2.00 GHz,2.4 W,,,
+45 nm,1.60 GHz,2.5 W,,,
+45 nm,1.60 GHz,8 W,,,
+45 nm,1.66 GHz,8.5 W,2 GB,,200 MHz
+45 nm,1.60 GHz,4.5 W,2 GB,,400 MHz
+45 nm,2.13 GHz,2.5 W,,,
+45 nm,1.83 GHz,6.5 W,2 GB,,200 MHz
+45 nm,1.80 GHz,13 W,4 GB,6.4 GB/s,
+45 nm,1.80 GHz,10 W,4 GB,6.4 GB/s,
+45 nm,1.66 GHz,2.5 W,,,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,400 MHz,2.2 W,2 GB,1.6 GB/s,
+32 nm,1.73 GHz,130 W,,,
+32 nm,2.66 GHz,170 W,,,
+14 nm,1.50 GHz,260 W,384 GB,115.2 GB/s,
+22 nm,1.10 GHz,300 W,6 GB,240 GB/s,
+22 nm,1.10 GHz,300 W,6 GB,240 GB/s,
+32 nm,3.60 GHz,95 W,32 GB,21 GB/s,
+14 nm,1.60 GHz,35 W,128 GB,,
+32 nm,1.60 GHz,80 W,288 GB,25.6 GB/s,
+,1.00 GHz,25 W,32 GB,25.6 GB/s,
+22 nm,3.10 GHz,80 W,32 GB,25.6 GB/s,
+14 nm,1.80 GHz,47 W,32 GB,25.6 GB/s,700 MHz
+14 nm,3.00 GHz,80 W,64 GB,34.1 GB/s,
+14 nm,3.00 GHz,72 W,64 GB,37.5 GB/s,
+32 nm,2.90 GHz,135 W,384 GB,51.2 GB/s,
+22 nm,2.70 GHz,130 W,768 GB,59.7 GB/s,
+22 nm,2.40 GHz,115 W,768 GB,59.7 GB/s,
+14 nm,3.50 GHz,140 W,1.54 TB,76.8 GB/s,
+14 nm,3.70 GHz,140 W,1.54 TB,76.8 GB/s,
+14 nm,3.60 GHz,140 W,1.54 TB,76.8 GB/s,
+14 nm,3.20 GHz,140 W,1.54 TB,76.8 GB/s,
+14 nm,3.40 GHz,140 W,1.54 TB,76.8 GB/s,
+14 nm,1.70 GHz,85 W,1.54 TB,59.7 GB/s,
+14 nm,1.60 GHz,50 W,1.54 TB,59.7 GB/s,
+14 nm,1.70 GHz,85 W,1.54 TB,59.7 GB/s,
+14 nm,2.20 GHz,75 W,1.54 TB,68.3 GB/s,
+14 nm,2.10 GHz,85 W,1.54 TB,68.3 GB/s,
+14 nm,2.60 GHz,85 W,1.54 TB,68.3 GB/s,
+14 nm,1.90 GHz,75 W,1.54 TB,68.3 GB/s,
+14 nm,1.80 GHz,55 W,1.54 TB,68.3 GB/s,
+14 nm,2.20 GHz,85 W,1.54 TB,68.3 GB/s,
+14 nm,3.50 GHz,135 W,1.54 TB,76.8 GB/s,
+14 nm,2.40 GHz,90 W,1.54 TB,68.3 GB/s,
+14 nm,3.40 GHz,135 W,1.54 TB,76.8 GB/s,
+14 nm,1.80 GHz,75 W,1.54 TB,76.8 GB/s,
+14 nm,1.70 GHz,65 W,1.54 TB,76.8 GB/s,
+14 nm,2.20 GHz,105 W,1.54 TB,76.8 GB/s,
+14 nm,2.00 GHz,105 W,,76.8 GB/s,
+14 nm,3.20 GHz,135 W,1.54 TB,76.8 GB/s,
+14 nm,2.30 GHz,105 W,1.54 TB,76.8 GB/s,
+14 nm,2.40 GHz,120 W,1.54 TB,76.8 GB/s,
+14 nm,2.10 GHz,120 W,1.54 TB,76.8 GB/s,
+14 nm,3.00 GHz,160 W,1.54 TB,76.8 GB/s,
+14 nm,2.60 GHz,135 W,1.54 TB,76.8 GB/s,
+14 nm,2.10 GHz,120 W,1.54 TB,76.8 GB/s,
+14 nm,2.60 GHz,145 W,1.54 TB,76.8 GB/s,
+14 nm,2.30 GHz,145 W,1.54 TB,76.8 GB/s,
+14 nm,2.20 GHz,135 W,1.54 TB,76.8 GB/s,
+14 nm,2.20 GHz,145 W,1.54 TB,76.8 GB/s,
+14 nm,2.20 GHz,145 W,1.54 TB,76.8 GB/s,
+14 nm,2.40 GHz,145 W,1.54 TB,76.8 GB/s,
+14 nm,1.80 GHz,105 W,1.54 TB,68 GB/s,
+14 nm,2.10 GHz,105 W,1.54 TB,68 GB/s,
+14 nm,2.60 GHz,135 W,1.54 TB,68 GB/s,
+14 nm,1.80 GHz,75 W,1.54 TB,68 GB/s,
+14 nm,2.10 GHz,105 W,1.54 TB,68 GB/s,
+14 nm,2.20 GHz,105 W,1.54 TB,68 GB/s,
+14 nm,2.50 GHz,135 W,1.54 TB,68 GB/s,
+14 nm,2.20 GHz,120 W,1.54 TB,68 GB/s,
+14 nm,2.20 GHz,135 W,1.54 TB,68 GB/s,
+14 nm,2.20 GHz,135 W,1.54 TB,68 GB/s,
+22 nm,1.60 GHz,85 W,768 GB,51 GB/s,
+22 nm,2.00 GHz,52 W,768 GB,59 GB/s,
+22 nm,1.90 GHz,85 W,768 GB,51 GB/s,
+22 nm,2.30 GHz,75 W,768 GB,59 GB/s,
+22 nm,2.40 GHz,85 W,768 GB,59 GB/s,
+22 nm,3.00 GHz,105 W,768 GB,59 GB/s,
+22 nm,2.00 GHz,75 W,768 GB,59 GB/s,
+22 nm,2.40 GHz,85 W,768 GB,59 GB/s,
+22 nm,1.80 GHz,55 W,768 GB,59 GB/s,
+22 nm,3.50 GHz,135 W,768 GB,68 GB/s,
+22 nm,2.60 GHz,90 W,768 GB,59 GB/s,
+22 nm,3.40 GHz,135 W,768 GB,68 GB/s,
+22 nm,2.30 GHz,105 W,768 GB,68 GB/s,
+22 nm,1.80 GHz,75 W,768 GB,68 GB/s,
+22 nm,1.80 GHz,65 W,768 GB,68 GB/s,
+22 nm,2.20 GHz,105 W,768 GB,68 GB/s,
+22 nm,2.20 GHz,105 W,768 GB,68 GB/s,
+22 nm,2.60 GHz,105 W,768 GB,68 GB/s,
+22 nm,3.20 GHz,135 W,768 GB,68 GB/s,
+22 nm,2.30 GHz,120 W,768 GB,68 GB/s,
+22 nm,2.50 GHz,120 W,768 GB,68 GB/s,
+22 nm,2.00 GHz,120 W,768 GB,68 GB/s,
+22 nm,1.70 GHz,105 W,768 GB,68 GB/s,
+22 nm,2.00 GHz,105 W,768 GB,68 GB/s,
+22 nm,3.10 GHz,160 W,768 GB,68 GB/s,
+22 nm,2.60 GHz,135 W,768 GB,68 GB/s,
+22 nm,2.60 GHz,135 W,768 GB,68 GB/s,
+22 nm,1.90 GHz,105 W,768 GB,68 GB/s,
+22 nm,3.20 GHz,140 W,768 GB,68 GB/s,
+22 nm,2.30 GHz,120 W,768 GB,68 GB/s,
+22 nm,1.70 GHz,105 W,768 GB,68 GB/s,
+22 nm,3.00 GHz,140 W,768 GB,68 GB/s,
+22 nm,2.10 GHz,105 W,768 GB,68 GB/s,
+22 nm,3.50 GHz,140 W,768 GB,68 GB/s,
+22 nm,2.60 GHz,145 W,768 GB,68 GB/s,
+22 nm,2.90 GHz,135 W,768 GB,68 GB/s,
+22 nm,1.80 GHz,45 W,384 GB,51.2 GB/s,
+22 nm,3.70 GHz,140 W,768 GB,68 GB/s,
+22 nm,2.30 GHz,135 W,768 GB,68 GB/s,
+22 nm,2.10 GHz,120 W,768 GB,68 GB/s,
+22 nm,2.00 GHz,50 W,384 GB,51.2 GB/s,
+22 nm,3.50 GHz,140 W,768 GB,68 GB/s,
+22 nm,2.00 GHz,135 W,768 GB,68 GB/s,
+22 nm,1.80 GHz,55 W,384 GB,51.2 GB/s,
+22 nm,2.10 GHz,135 W,768 GB,68 GB/s,
+22 nm,1.80 GHz,70 W,384 GB,51.2 GB/s,
+22 nm,2.00 GHz,65 W,384 GB,51.2 GB/s,
+22 nm,2.30 GHz,145 W,768 GB,68 GB/s,
+22 nm,3.00 GHz,130 W,768 GB,59.7 GB/s,
+22 nm,2.80 GHz,115 W,768 GB,59.7 GB/s,
+22 nm,3.40 GHz,150 W,256 GB,59.7 GB/s,
+22 nm,2.50 GHz,115 W,768 GB,59.7 GB/s,
+22 nm,3.30 GHz,130 W,768 GB,59.7 GB/s,
+22 nm,2.20 GHz,95 W,768 GB,59.7 GB/s,
+22 nm,1.70 GHz,70 W,768 GB,51.2 GB/s,
+22 nm,2.40 GHz,95 W,768 GB,59.7 GB/s,
+22 nm,2.60 GHz,95 W,768 GB,59.7 GB/s,
+22 nm,2.40 GHz,95 W,384 GB,38.4 GB/s,
+22 nm,1.90 GHz,70 W,768 GB,59.7 GB/s,
+22 nm,1.70 GHz,60 W,384 GB,38.4 GB/s,
+22 nm,3.50 GHz,130 W,768 GB,59.7 GB/s,
+22 nm,2.50 GHz,95 W,384 GB,38.4 GB/s,
+22 nm,2.40 GHz,115 W,768 GB,59.7 GB/s,
+22 nm,1.80 GHz,70 W,384 GB,38.4 GB/s,
+22 nm,2.00 GHz,95 W,768 GB,51.2 GB/s,
+22 nm,3.50 GHz,130 W,768 GB,59.7 GB/s,
+22 nm,2.40 GHz,95 W,768 GB,59.7 GB/s,
+22 nm,1.90 GHz,95 W,384 GB,38.4 GB/s,
+22 nm,2.40 GHz,60 W,768 GB,51.2 GB/s,
+22 nm,2.40 GHz,60 W,384 GB,38.4 GB/s,
+22 nm,2.20 GHz,95 W,768 GB,59.7 GB/s,
+22 nm,2.60 GHz,80 W,768 GB,51.2 GB/s,
+22 nm,2.50 GHz,80 W,384 GB,38.4 GB/s,
+22 nm,3.30 GHz,130 W,768 GB,59.7 GB/s,
+22 nm,1.90 GHz,70 W,768 GB,59.7 GB/s,
+22 nm,1.90 GHz,70 W,768 GB,51.2 GB/s,
+22 nm,1.80 GHz,60 W,384 GB,38.4 GB/s,
+22 nm,2.10 GHz,80 W,768 GB,51.2 GB/s,
+22 nm,2.20 GHz,80 W,384 GB,38.4 GB/s,
+22 nm,3.70 GHz,130 W,256 GB,59.7 GB/s,
+22 nm,2.60 GHz,95 W,768 GB,51.2 GB/s,
+22 nm,2.00 GHz,50 W,768 GB,42.6 GB/s,
+22 nm,2.00 GHz,50 W,384 GB,32 GB/s,
+22 nm,3.50 GHz,130 W,256 GB,59.7 GB/s,
+22 nm,2.30 GHz,95 W,768 GB,51.2 GB/s,
+22 nm,2.60 GHz,95 W,768 GB,42.6 GB/s,
+22 nm,2.50 GHz,80 W,768 GB,42.6 GB/s,
+22 nm,2.40 GHz,80 W,384 GB,32 GB/s,
+22 nm,3.70 GHz,130 W,256 GB,59.7 GB/s,
+22 nm,2.20 GHz,60 W,384 GB,38.4 GB/s,
+22 nm,1.80 GHz,80 W,768 GB,42.6 GB/s,
+22 nm,1.80 GHz,80 W,384 GB,32 GB/s,
+22 nm,2.20 GHz,95 W,768 GB,42.6 GB/s,
+32 nm,3.10 GHz,150 W,256 GB,51.2 GB/s,
+32 nm,2.70 GHz,130 W,384 GB,51.2 GB/s,
+32 nm,2.60 GHz,115 W,384 GB,51.2 GB/s,
+32 nm,2.90 GHz,130 W,384 GB,51.2 GB/s,
+32 nm,2.40 GHz,115 W,384 GB,51.2 GB/s,
+32 nm,2.20 GHz,95 W,384 GB,51.2 GB/s,
+32 nm,2.10 GHz,95 W,384 GB,51.2 GB/s,
+32 nm,2.00 GHz,95 W,384 GB,51.2 GB/s,
+32 nm,1.80 GHz,70 W,384 GB,,
+32 nm,1.80 GHz,70 W,384 GB,51.2 GB/s,
+32 nm,3.30 GHz,130 W,384 GB,51.2 GB/s,
+32 nm,2.30 GHz,95 W,384 GB,38.4 GB/s,
+32 nm,1.80 GHz,70 W,384 GB,38.4 GB/s,
+32 nm,2.50 GHz,95 W,384 GB,42.6 GB/s,
+32 nm,2.10 GHz,95 W,384 GB,38.4 GB/s,
+32 nm,3.00 GHz,80 W,384 GB,51.2 GB/s,
+32 nm,1.80 GHz,70 W,384 GB,,
+32 nm,2.60 GHz,115 W,384 GB,51.2 GB/s,
+32 nm,2.00 GHz,60 W,384 GB,42.6 GB/s,
+32 nm,2.70 GHz,130 W,384 GB,51.2 GB/s,
+32 nm,2.40 GHz,95 W,384 GB,32 GB/s,
+32 nm,2.30 GHz,95 W,384 GB,42.6 GB/s,
+32 nm,3.30 GHz,130 W,256 GB,51.2 GB/s,
+32 nm,2.00 GHz,60 W,384 GB,32 GB/s,
+32 nm,2.20 GHz,95 W,384 GB,32 GB/s,
+32 nm,2.40 GHz,95 W,384 GB,51.2 GB/s,
+32 nm,1.80 GHz,60 W,384 GB,,
+32 nm,2.20 GHz,95 W,384 GB,42.6 GB/s,
+32 nm,3.20 GHz,130 W,256 GB,51.2 GB/s,
+32 nm,2.00 GHz,95 W,384 GB,42.6 GB/s,
+32 nm,1.90 GHz,95 W,384 GB,32 GB/s,
+32 nm,2.90 GHz,130 W,384 GB,51.2 GB/s,
+32 nm,2.00 GHz,50 W,384 GB,,
+32 nm,1.80 GHz,60 W,,32 GB/s,
+32 nm,3.60 GHz,130 W,375 GB,51.2 GB/s,
+32 nm,2.40 GHz,80 W,384 GB,34.1 GB/s,
+32 nm,2.40 GHz,95 W,384 GB,42.6 GB/s,
+32 nm,2.20 GHz,80 W,384 GB,25 GB/s,
+32 nm,2.20 GHz,95 W,384 GB,34.1 GB/s,
+32 nm,1.80 GHz,80 W,384 GB,25 GB/s,
+32 nm,2.00 GHz,95 W,384 GB,34.1 GB/s,
+32 nm,1.80 GHz,80 W,384 GB,34.1 GB/s,
+14 nm,3.30 GHz,73 W,64 GB,37.5 GB/s,350 MHz
+14 nm,3.50 GHz,72 W,64 GB,37.5 GB/s,
+14 nm,3.70 GHz,72 W,64 GB,37.5 GB/s,
+14 nm,3.70 GHz,73 W,64 GB,37.5 GB/s,350 MHz
+14 nm,3.80 GHz,72 W,64 GB,37.5 GB/s,
+14 nm,3.80 GHz,73 W,64 GB,37.5 GB/s,350 MHz
+14 nm,3.90 GHz,72 W,64 GB,37.5 GB/s,
+14 nm,4.10 GHz,79 W,64 GB,37.5 GB/s,350.00 GHz
+14 nm,2.10 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.20 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.00 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.10 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.30 GHz,80 W,64 GB,34.1 GB/s,400 MHz
+14 nm,3.40 GHz,80 W,64 GB,34.1 GB/s,
+14 nm,3.50 GHz,80 W,64 GB,34.1 GB/s,
+14 nm,2.00 GHz,25 W,64 GB,34.1 GB/s,400 MHz
+14 nm,2.10 GHz,25 W,64 GB,34.1 GB/s,
+14 nm,3.50 GHz,80 W,64 GB,34.1 GB/s,400 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,
+14 nm,2.40 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.60 GHz,80 W,64 GB,34.1 GB/s,
+14 nm,3.60 GHz,80 W,64 GB,34.1 GB/s,400 MHz
+14 nm,3.70 GHz,80 W,64 GB,34.1 GB/s,
+14 nm,2.80 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.00 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,1.90 GHz,45 W,64 GB,,650 MHz
+14 nm,2.50 GHz,35 W,64 GB,,350 MHz
+14 nm,3.00 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.00 GHz,45 W,64 GB,,700 MHz
+14 nm,3.00 GHz,45 W,64 GB,,350 MHz
+14 nm,3.50 GHz,65 W,64 GB,,350 MHz
+14 nm,2.30 GHz,35 W,32 GB,29.8 GB/s,300 MHz
+14 nm,2.00 GHz,47 W,32 GB,25.6 GB/s,800 MHz
+14 nm,3.50 GHz,95 W,32 GB,29.8 GB/s,300 MHz
+14 nm,3.40 GHz,65 W,32 GB,29.8 GB/s,300 MHz
+22 nm,1.10 GHz,13 W,32 GB,25.6 GB/s,
+22 nm,3.30 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.30 GHz,80 W,32 GB,25.6 GB/s,
+22 nm,1.80 GHz,25 W,32 GB,25.6 GB/s,
+22 nm,3.40 GHz,80 W,32 GB,25.6 GB/s,
+22 nm,3.40 GHz,80 W,32 GB,25.6 GB/s,
+22 nm,2.00 GHz,25 W,32 GB,25.6 GB/s,
+22 nm,3.50 GHz,80 W,32 GB,25.6 GB/s,
+22 nm,3.40 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.50 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.60 GHz,80 W,32 GB,25.6 GB/s,
+22 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,80 W,32 GB,25.6 GB/s,
+22 nm,2.70 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.60 GHz,82 W,32 GB,25.6 GB/s,
+22 nm,3.60 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.70 GHz,82 W,32 GB,25.6 GB/s,
+22 nm,3.60 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.70 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.80 GHz,25 W,32 GB,25.6 GB/s,
+22 nm,2.50 GHz,40 W,32 GB,25.6 GB/s,
+22 nm,2.30 GHz,17 W,32.23 GB,25.6 GB/s,
+22 nm,3.10 GHz,69 W,32.77 GB,25.6 GB/s,
+22 nm,3.20 GHz,77 W,32.77 GB,25.6 GB/s,650 MHz
+22 nm,3.30 GHz,69 W,32.77 GB,25.6 GB/s,
+22 nm,3.40 GHz,69 W,32.77 GB,25.6 GB/s,
+22 nm,3.40 GHz,77 W,32.77 GB,25.6 GB/s,650 MHz
+22 nm,2.50 GHz,45 W,32.77 GB,,650 MHz
+22 nm,3.50 GHz,69 W,32.77 GB,25.6 GB/s,
+22 nm,3.60 GHz,69 W,32.77 GB,25.6 GB/s,
+22 nm,3.50 GHz,77 W,32.77 GB,25.6 GB/s,650 MHz
+22 nm,3.70 GHz,87 W,32.77 GB,25.6 GB/s,
+,2.00 GHz,40 W,32 GB,25.6 GB/s,
+32 nm,3.10 GHz,80 W,32 GB,21 GB/s,
+32 nm,2.20 GHz,20 W,32 GB,21 GB/s,
+32 nm,3.10 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,3.20 GHz,80 W,32 GB,21 GB/s,
+32 nm,3.30 GHz,80 W,32 GB,21 GB/s,
+32 nm,3.20 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,3.30 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,2.40 GHz,45 W,32 GB,21 GB/s,650 MHz
+32 nm,3.40 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,3.40 GHz,80 W,32 GB,21 GB/s,
+32 nm,3.50 GHz,95 W,32 GB,21 GB/s,
+14 nm,2.20 GHz,35 W,128 GB,,
+14 nm,2.20 GHz,45 W,128 GB,,
+14 nm,2.40 GHz,45 W,128 GB,,
+14 nm,2.00 GHz,45 W,128 GB,,
+14 nm,2.20 GHz,35 W,128 GB,,
+14 nm,1.90 GHz,35 W,128 GB,,
+14 nm,1.30 GHz,20 W,128 GB,,
+14 nm,2.20 GHz,45 W,128 GB,,
+14 nm,2.10 GHz,45 W,128 GB,,
+14 nm,1.70 GHz,35 W,128 GB,,
+14 nm,1.60 GHz,35 W,128 GB,,
+14 nm,2.00 GHz,45 W,128 GB,,
+14 nm,2.10 GHz,45 W,128 GB,,
+14 nm,1.90 GHz,45 W,128 GB,,
+14 nm,2.00 GHz,45 W,128 GB,,
+14 nm,1.50 GHz,45 W,128 GB,,
+14 nm,1.50 GHz,45 W,128 GB,,
+14 nm,2.10 GHz,65 W,128 GB,,
+14 nm,2.30 GHz,65 W,128 GB,,
+14 nm,1.30 GHz,45 W,128 GB,,
+14 nm,1.30 GHz,45 W,128 GB,,
+32 nm,2.13 GHz,80 W,288 GB,25.6 GB/s,
+130 nm,2.40 GHz,40 W,,,
+90 nm,2.80 GHz,55 W,,,
+32 nm,2.26 GHz,80 W,288 GB,25.6 GB/s,
+130 nm,1.60 GHz,30 W,,,
+32 nm,2.40 GHz,80 W,288 GB,25.6 GB/s,
+130 nm,3.00 GHz,85 W,,,
+32 nm,2.53 GHz,80 W,288 GB,25.6 GB/s,
+130 nm,3.00 GHz,85 W,,,
+90 nm,3.80 GHz,110 W,,,
+32 nm,2.66 GHz,80 W,288 GB,25.6 GB/s,
+130 nm,2.80 GHz,74 W,,,
+90 nm,3.80 GHz,110 W,,,
+32 nm,2.40 GHz,80 W,288 GB,32 GB/s,
+130 nm,2.80 GHz,72 W,,,
+32 nm,2.53 GHz,80 W,288 GB,32 GB/s,
+130 nm,2.70 GHz,80 W,,,
+90 nm,3.60 GHz,110 W,,,
+32 nm,1.86 GHz,40 W,288 GB,25.6 GB/s,
+90 nm,3.60 GHz,110 W,,,
+130 nm,2.60 GHz,60 W,,,
+32 nm,1.87 GHz,40 W,,,
+45 nm,1.86 GHz,80 W,144 GB,19.2 GB/s,
+45 nm,2.00 GHz,80 W,,,
+130 nm,2.50 GHz,66 W,,,
+90 nm,3.60 GHz,103 W,,,
+32 nm,2.13 GHz,40 W,288 GB,25.6 GB/s,
+45 nm,2.00 GHz,80 W,144 GB,19.2 GB/s,
+45 nm,2.33 GHz,80 W,,,
+130 nm,2.40 GHz,65 W,,,
+90 nm,3.40 GHz,110 W,,,
+45 nm,2.00 GHz,80 W,144 GB,19.2 GB/s,
+32 nm,2.00 GHz,60 W,,,
+45 nm,2.50 GHz,80 W,,,
+90 nm,3.40 GHz,110 W,,,
+130 nm,2.20 GHz,61 W,,,
+45 nm,2.13 GHz,80 W,144 GB,19.2 GB/s,
+45 nm,1.86 GHz,65 W,,,
+45 nm,2.66 GHz,80 W,,,
+130 nm,2.20 GHz,65 W,,,
+90 nm,3.40 GHz,103 W,,,
+32 nm,2.26 GHz,60 W,288 GB,32 GB/s,
+45 nm,2.26 GHz,80 W,144 GB,19.2 GB/s,
+45 nm,2.33 GHz,65 W,,,
+45 nm,2.83 GHz,80 W,,,
+65 nm,1.66 GHz,15 W,,,
+130 nm,2.00 GHz,58 W,,,
+90 nm,3.20 GHz,110 W,,,
+32 nm,2.93 GHz,130 W,288 GB,25.6 GB/s,
+45 nm,2.26 GHz,80 W,144 GB,25.6 GB/s,
+45 nm,3.00 GHz,80 W,,,
+45 nm,3.00 GHz,65 W,,,
+65 nm,2.16 GHz,31 W,,,
+90 nm,3.20 GHz,110 W,,,
+130 nm,2.00 GHz,57 W,,,
+32 nm,2.66 GHz,95 W,288 GB,32 GB/s,
+45 nm,2.40 GHz,80 W,144 GB,25.6 GB/s,
+45 nm,2.80 GHz,80 W,,,
+90 nm,3.20 GHz,103 W,,,
+130 nm,3.20 GHz,92 W,,,
+180 nm,2.00 GHz,77.5 W,,,
+65 nm,2.00 GHz,31 W,,,
+65 nm,1.60 GHz,65 W,,,
+32 nm,2.80 GHz,95 W,288 GB,32 GB/s,
+45 nm,2.53 GHz,80 W,144 GB,25.6 GB/s,
+45 nm,3.00 GHz,80 W,,,
+130 nm,2.00 GHz,57 W,,,
+130 nm,3.20 GHz,92 W,,,
+65 nm,1.86 GHz,65 W,,,
+32 nm,3.06 GHz,95 W,288 GB,32 GB/s,
+,600 MHz,,,,
+45 nm,2.13 GHz,60 W,144 GB,19.2 GB/s,
+45 nm,2.83 GHz,65 W,,,
+45 nm,1.86 GHz,20 W,,,
+45 nm,2.13 GHz,40 W,,,
+65 nm,1.60 GHz,80 W,,,
+130 nm,1.90 GHz,55 W,,,
+130 nm,3.06 GHz,85 W,,,
+65 nm,1.66 GHz,31 W,,,
+65 nm,2.00 GHz,65 W,,,
+90 nm,2.80 GHz,135 W,,,
+90 nm,3.00 GHz,110 W,,,
+32 nm,2.93 GHz,95 W,288 GB,32 GB/s,
+45 nm,2.00 GHz,38 W,144 GB,25.6 GB/s,
+45 nm,2.50 GHz,95 W,,,
+45 nm,2.33 GHz,50 W,,,
+65 nm,1.86 GHz,80 W,,,
+,900 MHz,,,,
+65 nm,2.60 GHz,95 W,,,
+130 nm,3.06 GHz,87 W,,,
+130 nm,1.80 GHz,55 W,,,
+65 nm,2.33 GHz,65 W,,,
+65 nm,1.86 GHz,65 W,,,
+90 nm,3.00 GHz,103 W,,,
+32 nm,3.20 GHz,95 W,288 GB,32 GB/s,
+45 nm,1.87 GHz,95 W,,,
+32 nm,2.26 GHz,30 W,16.38 GB,17 GB/s,
+45 nm,2.13 GHz,60 W,144 GB,25.6 GB/s,
+45 nm,2.13 GHz,90 W,,,
+45 nm,2.66 GHz,35 W,,,
+45 nm,2.50 GHz,50 W,,,
+65 nm,2.00 GHz,80 W,,,
+90 nm,3.00 GHz,55 W,,,
+180 nm,700 MHz,29.6 W,,,
+65 nm,2.50 GHz,95 W,,,
+180 nm,1.70 GHz,65.8 W,,,
+65 nm,2.66 GHz,65 W,,,
+65 nm,2.13 GHz,65 W,,,
+32 nm,3.06 GHz,95 W,288 GB,32 GB/s,
+32 nm,3.20 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,1.87 GHz,105 W,,,
+45 nm,1.86 GHz,45 W,32 GB,21 GB/s,
+45 nm,2.26 GHz,60 W,144 GB,25.6 GB/s,
+45 nm,2.66 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,2.13 GHz,90 W,,,
+45 nm,2.66 GHz,95 W,,,
+45 nm,3.00 GHz,40 W,,,
+45 nm,2.66 GHz,50 W,,,
+65 nm,1.60 GHz,80 W,,,
+65 nm,2.33 GHz,80 W,,,
+180 nm,700 MHz,29.6 W,,,
+90 nm,3.00 GHz,103 W,,,
+180 nm,933 MHz,29.6 W,,,
+65 nm,3.00 GHz,80 W,,,
+65 nm,3.00 GHz,95 W,,,
+65 nm,2.66 GHz,95 W,,,
+65 nm,2.40 GHz,65 W,,,
+32 nm,3.46 GHz,130 W,288 GB,32 GB/s,
+45 nm,2.00 GHz,105 W,,,
+45 nm,2.40 GHz,95 W,32 GB,21 GB/s,
+45 nm,2.40 GHz,60 W,144 GB,25.6 GB/s,
+45 nm,2.80 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,2.40 GHz,90 W,,,
+45 nm,3.00 GHz,120 W,,,
+45 nm,2.66 GHz,95 W,,,
+65 nm,2.13 GHz,80 W,,,
+65 nm,2.33 GHz,65 W,,,
+65 nm,1.60 GHz,40 W,,,
+65 nm,1.60 GHz,50 W,,,
+180 nm,866 MHz,27.4 W,,,
+250 nm,550 MHz,34 W,,,
+180 nm,1.60 GHz,72 W,,,
+130 nm,2.80 GHz,74 W,,,
+65 nm,3.00 GHz,95 W,,,
+65 nm,2.83 GHz,95 W,,,
+90 nm,3.66 GHz,110 W,,,
+90 nm,2.80 GHz,110 W,,,
+,450 MHz,34.5 W,,,
+45 nm,2.00 GHz,85 W,,,
+45 nm,1.87 GHz,95 W,,,
+45 nm,2.53 GHz,95 W,32 GB,21 GB/s,
+45 nm,2.93 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,3.20 GHz,130 W,144 GB,32 GB/s,
+45 nm,2.40 GHz,90 W,,,
+65 nm,1.60 GHz,40 W,,,
+45 nm,3.16 GHz,120 W,,,
+65 nm,2.40 GHz,80 W,,,
+180 nm,800 MHz,25.4 W,,,
+250 nm,550 MHz,39.5 W,,,
+180 nm,1.50 GHz,68 W,,,
+65 nm,3.20 GHz,150 W,,,
+130 nm,2.80 GHz,77 W,,,
+65 nm,3.00 GHz,95 W,,,
+65 nm,2.66 GHz,65 W,,,
+90 nm,3.33 GHz,129 W,,,
+90 nm,2.80 GHz,103 W,,,
+,450 MHz,46.7 W,,,
+32 nm,3.33 GHz,130 W,24 GB,32 GB/s,
+32 nm,3.33 GHz,130 W,288 GB,32 GB/s,
+45 nm,2.13 GHz,65 W,,,
+45 nm,2.27 GHz,65 W,,,
+45 nm,2.66 GHz,95 W,32 GB,21 GB/s,
+45 nm,1.87 GHz,95 W,,,
+45 nm,3.33 GHz,130 W,144 GB,32 GB/s,
+45 nm,3.06 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,3.33 GHz,120 W,,,
+45 nm,3.00 GHz,65 W,,,
+45 nm,2.83 GHz,95 W,,,
+45 nm,3.33 GHz,80 W,,,
+90 nm,2.80 GHz,110 W,,,
+65 nm,1.86 GHz,40 W,,,
+65 nm,1.86 GHz,50 W,,,
+180 nm,733 MHz,23.3 W,,,
+250 nm,550 MHz,34 W,,,
+65 nm,3.16 GHz,150 W,,,
+130 nm,2.66 GHz,72 W,,,
+180 nm,1.50 GHz,59.2 W,,,
+90 nm,2.66 GHz,165 W,,,
+65 nm,3.20 GHz,130 W,,,
+90 nm,3.16 GHz,110 W,,,
+90 nm,3.50 GHz,110 W,,,
+32 nm,3.60 GHz,130 W,288 GB,32 GB/s,
+,450 MHz,46.7 W,,,
+45 nm,1.73 GHz,23 W,,,
+45 nm,2.53 GHz,85 W,,,
+45 nm,2.67 GHz,130 W,,,
+,1.73 GHz,105 W,,,
+45 nm,2.80 GHz,95 W,32 GB,21 GB/s,
+45 nm,3.20 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,2.66 GHz,95 W,144 GB,32 GB/s,
+45 nm,2.13 GHz,50 W,,,
+45 nm,3.50 GHz,80 W,,,
+14 nm,2.30 GHz,140 W,512 GB,85.3 GB/s,
+45 nm,3.00 GHz,120 W,,,
+14 nm,3.30 GHz,140 W,512 GB,85.3 GB/s,
+14 nm,3.70 GHz,140 W,512 GB,85.3 GB/s,
+14 nm,3.70 GHz,140 W,512 GB,85.3 GB/s,
+14 nm,3.60 GHz,140 W,512 GB,85.3 GB/s,
+14 nm,4.00 GHz,120 W,512 GB,85.3 GB/s,
+14 nm,3.60 GHz,120 W,512 GB,85.3 GB/s,
+65 nm,2.40 GHz,80 W,,,
+65 nm,2.00 GHz,50 W,,,
+65 nm,2.20 GHz,40 W,,,
+65 nm,2.13 GHz,105 W,,,
+65 nm,3.20 GHz,95 W,,,
+180 nm,667 MHz,21.3 W,,,
+250 nm,500 MHz,36 W,,,
+130 nm,1.50 GHz,48 W,,,
+65 nm,3.40 GHz,150 W,,,
+130 nm,2.40 GHz,65 W,,,
+90 nm,2.80 GHz,165 W,,,
+90 nm,3.00 GHz,129 W,,,
+90 nm,2.80 GHz,103 W,,,
+32 nm,3.46 GHz,130 W,24 GB,32 GB/s,
+32 nm,3.46 GHz,130 W,288 GB,32 GB/s,
+,400 MHz,30.8 W,,,
+45 nm,1.73 GHz,35 W,,,
+45 nm,1.73 GHz,48 W,,,
+45 nm,2.00 GHz,130 W,,,
+45 nm,2.00 GHz,105 W,,,
+45 nm,2.93 GHz,95 W,32 GB,21 GB/s,
+45 nm,3.20 GHz,130 W,24 GB,32 GB/s,
+45 nm,2.80 GHz,95 W,144 GB,32 GB/s,
+45 nm,2.13 GHz,65 W,,,
+45 nm,2.40 GHz,30 W,,,
+45 nm,3.00 GHz,95 W,,,
+45 nm,3.16 GHz,65 W,,,
+45 nm,3.40 GHz,80 W,,,
+45 nm,3.20 GHz,150 W,,,
+65 nm,1.86 GHz,50 W,,,
+65 nm,2.40 GHz,80 W,,,
+65 nm,2.13 GHz,35 W,,,
+65 nm,2.66 GHz,120 W,,,
+65 nm,2.40 GHz,105 W,,,
+180 nm,600 MHz,19.2 W,,,
+250 nm,500 MHz,36.2 W,,,
+180 nm,1.40 GHz,64 W,,,
+65 nm,3.33 GHz,150 W,,,
+130 nm,2.40 GHz,77 W,,,
+90 nm,3.00 GHz,165 W,,,
+65 nm,3.46 GHz,130 W,,,
+90 nm,3.00 GHz,,,,
+,400 MHz,18.6 W,,,
+45 nm,3.06 GHz,95 W,32 GB,21 GB/s,
+45 nm,2.13 GHz,60 W,,,
+45 nm,2.27 GHz,130 W,,,
+45 nm,2.00 GHz,130 W,,,
+45 nm,3.16 GHz,95 W,,,
+45 nm,3.33 GHz,130 W,24 GB,32 GB/s,
+45 nm,2.93 GHz,95 W,144 GB,32 GB/s,
+45 nm,2.66 GHz,130 W,,,
+45 nm,3.40 GHz,150 W,,,
+45 nm,3.00 GHz,45 W,,,
+65 nm,2.66 GHz,95 W,,,
+65 nm,2.93 GHz,130 W,,,
+65 nm,2.93 GHz,80 W,,,
+65 nm,3.00 GHz,150 W,,,
+65 nm,3.50 GHz,150 W,,,
+250 nm,500 MHz,44 W,,,
+180 nm,1.00 GHz,30.8 W,,,
+130 nm,2.00 GHz,58 W,,,
+180 nm,1.40 GHz,56 W,,,
+90 nm,3.00 GHz,165 W,,,
+65 nm,2.33 GHz,40 W,,,
+65 nm,3.73 GHz,130 W,,,
+90 nm,2.83 GHz,129 W,,,
+22 nm,1.05 GHz,225 W,8 GB,320 GB/s,
+22 nm,1.05 GHz,245 W,8 GB,352 GB/s,
+22 nm,1.24 GHz,300 W,16 GB,352 GB/s,
+22 nm,1.24 GHz,300 W,16 GB,352 GB/s,
+22 nm,1.24 GHz,270 W,16 GB,352 GB/s,
+22 nm,1.24 GHz,300 W,16 GB,352 GB/s,
+14 nm,1.50 GHz,245 W,384 GB,115.2 GB/s,
+14 nm,1.40 GHz,230 W,384 GB,115.2 GB/s,
+14 nm,1.40 GHz,215 W,384 GB,115.2 GB/s,
+14 nm,1.30 GHz,230 W,384 GB,115.2 GB/s,
+14 nm,1.30 GHz,215 W,384 GB,115.2 GB/s,
+14 nm,1.30 GHz,230 W,384 GB,102 GB/s,
+14 nm,1.30 GHz,215 W,384 GB,102 GB/s,
+32 nm,2.53 GHz,170 W,,,
+32 nm,2.13 GHz,170 W,,,
+32 nm,1.73 GHz,130 W,,,
+32 nm,2.13 GHz,170 W,,,
+32 nm,2.40 GHz,170 W,,,
+32 nm,2.53 GHz,170 W,,,
+32 nm,1.73 GHz,105 W,1.02 TB,,
+22 nm,2.30 GHz,105 W,1.54 TB,68 GB/s,
+22 nm,2.00 GHz,115 W,1.54 TB,85 GB/s,
+14 nm,2.10 GHz,115 W,3.07 TB,85 GB/s,
+14 nm,1.70 GHz,85 W,768 GB,,
+65 nm,3.60 GHz,65 W,,,
+22 nm,1.80 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.20 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.80 GHz,55 W,32 GB,21 GB/s,650 MHz
+14 nm,1.20 GHz,20 W,128 GB,,
+32 nm,2.70 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.60 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,3.40 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+14 nm,800 MHz,4.5 W,16 GB,25.6 GB/s,100 MHz
+14 nm,800 MHz,4.5 W,16 GB,25.6 GB/s,100 MHz
+14 nm,2.20 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,1.60 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.70 GHz,28 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.90 GHz,28 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.30 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,3.10 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,1.80 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.80 GHz,65 W,32 GB,29.86 GB/s,300 MHz
+14 nm,3.10 GHz,65 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.00 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,3.10 GHz,65 W,32 GB,29.86 GB/s,300 MHz
+14 nm,2.10 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.10 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.20 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.50 GHz,28 W,16 GB,25.6 GB/s,300 MHz
+14 nm,800 MHz,4.5 W,16 GB,25.6 GB/s,300 MHz
+14 nm,900 MHz,4.5 W,16 GB,25.6 GB/s,300 MHz
+14 nm,1.10 GHz,4.5 W,16 GB,25.6 GB/s,300 MHz
+14 nm,1.10 GHz,4.5 W,16 GB,25.6 GB/s,100 MHz
+14 nm,1.20 GHz,4.5 W,16 GB,25.6 GB/s,300 MHz
+22 nm,2.80 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.50 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.00 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.80 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,3.00 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.10 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.90 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.70 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.60 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.20 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.50 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,65 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.40 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.00 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,4.00 GHz,88 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.20 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.10 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.00 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.60 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.30 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.30 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.50 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.50 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.20 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.20 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.00 GHz,27 W,32 GB,25.6 GB/s,
+22 nm,2.40 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.40 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.40 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.70 GHz,43 W,32 GB,25.6 GB/s,
+22 nm,2.50 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.30 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.80 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.70 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.80 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.60 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,47 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.90 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.80 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.60 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.60 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.40 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.30 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.60 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.50 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.60 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.90 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.60 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.40 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.60 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.50 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.50 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.80 GHz,47 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.40 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.90 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.80 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.00 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.70 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.80 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.60 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.60 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.90 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.60 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,3.00 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.80 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.70 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.90 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.90 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.70 GHz,37 W,16 GB,,400 MHz
+22 nm,1.60 GHz,25 W,16 GB,,400 MHz
+22 nm,2.50 GHz,27 W,32 GB,25.6 GB/s,
+22 nm,2.90 GHz,37 W,16 GB,25.6 GB/s,400 MHz
+22 nm,1.80 GHz,25 W,16 GB,25.6 GB/s,400 MHz
+22 nm,2.00 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.30 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.70 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.90 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.70 GHz,65 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.20 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.50 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,88 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.50 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,65 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.10 GHz,65 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.40 GHz,84 W,32 GB,25.6 GB/s,350 MHz
+45 nm,1.30 GHz,5.5 W,,,
+65 nm,1.73 GHz,31 W,,,
+65 nm,1.66 GHz,27 W,,,
+65 nm,1.86 GHz,31 W,,,
+65 nm,1.83 GHz,27 W,,,
+65 nm,1.06 GHz,6 W,,,
+65 nm,1.20 GHz,6 W,,,
+65 nm,1.33 GHz,5.5 W,,,
+65 nm,1.06 GHz,5.5 W,,,
+65 nm,1.20 GHz,5.5 W,,,
+45 nm,1.40 GHz,5.5 W,,,
+45 nm,1.20 GHz,5.5 W,,,
+65 nm,1.06 GHz,9 W,,,
+65 nm,1.20 GHz,9 W,,,
+65 nm,1.06 GHz,10 W,,,
+65 nm,1.06 GHz,10 W,,,
+65 nm,1.20 GHz,10 W,,,
+65 nm,1.20 GHz,10 W,,,
+65 nm,1.33 GHz,10 W,,,
+65 nm,1.60 GHz,31 W,,,
+65 nm,1.73 GHz,31 W,,,
+65 nm,1.66 GHz,31 W,,,
+65 nm,1.66 GHz,31 W,,,
+65 nm,1.86 GHz,31 W,,,
+65 nm,1.83 GHz,31 W,,,
+65 nm,2.00 GHz,31 W,,,
+65 nm,2.00 GHz,31 W,,,
+65 nm,2.16 GHz,31 W,,,
+65 nm,1.60 GHz,34 W,,,
+65 nm,2.33 GHz,31 W,,,
+65 nm,1.50 GHz,35 W,,,
+65 nm,1.40 GHz,35 W,,,
+65 nm,1.73 GHz,34 W,,,
+65 nm,1.66 GHz,35 W,,,
+65 nm,1.60 GHz,35 W,,,
+65 nm,1.66 GHz,34 W,,,
+65 nm,1.83 GHz,35 W,,,
+65 nm,1.83 GHz,34 W,,,
+65 nm,1.80 GHz,35 W,,,
+65 nm,2.00 GHz,35 W,,,
+65 nm,2.00 GHz,35 W,,,
+65 nm,2.00 GHz,35 W,,,
+45 nm,2.00 GHz,35 W,,,
+45 nm,2.10 GHz,35 W,,,
+45 nm,2.20 GHz,35 W,,,
+45 nm,2.20 GHz,35 W,,,
+22 nm,1.90 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.90 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.50 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.50 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.30 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.70 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,3.40 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+65 nm,1.80 GHz,35 W,,,
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+65 nm,2.00 GHz,34 W,,,
+65 nm,2.00 GHz,35 W,,,
+65 nm,2.00 GHz,35 W,,,
+65 nm,2.16 GHz,34 W,,,
+65 nm,2.20 GHz,35 W,,,
+65 nm,2.33 GHz,34 W,,,
+65 nm,2.40 GHz,35 W,,,
+45 nm,2.10 GHz,35 W,,,
+45 nm,2.40 GHz,35 W,,,
+65 nm,2.60 GHz,35 W,,,
+45 nm,2.50 GHz,35 W,,,
+45 nm,2.53 GHz,35 W,,,
+45 nm,2.60 GHz,35 W,,,
+45 nm,2.66 GHz,35 W,,,
+45 nm,2.80 GHz,35 W,,,
+45 nm,2.93 GHz,35 W,,,
+45 nm,3.06 GHz,35 W,,,
+45 nm,1.20 GHz,10 W,,,
+45 nm,1.40 GHz,10 W,,,
+45 nm,1.60 GHz,10 W,,,
+45 nm,2.26 GHz,25 W,,,
+45 nm,2.40 GHz,25 W,,,
+45 nm,2.53 GHz,25 W,,,
+22 nm,3.50 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.60 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.70 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,2.00 GHz,28 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.00 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.80 GHz,25 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.60 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.60 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.60 GHz,25 W,16 GB,25.6 GB/s,400 MHz
+22 nm,2.50 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.80 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.40 GHz,37 W,16 GB,25.6 GB/s,400 MHz
+22 nm,3.30 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.80 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.20 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.70 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.60 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.60 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.40 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.60 GHz,35 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+45 nm,1.80 GHz,17 W,,,
+45 nm,1.86 GHz,17 W,,,
+45 nm,2.13 GHz,17 W,,,
+45 nm,1.60 GHz,17 W,,,
+45 nm,2.00 GHz,25 W,,,
+45 nm,2.00 GHz,25 W,,,
+45 nm,2.13 GHz,25 W,,,
+45 nm,2.26 GHz,25 W,,,
+45 nm,2.26 GHz,25 W,,,
+45 nm,2.26 GHz,25 W,,,
+45 nm,2.40 GHz,25 W,,,
+45 nm,2.53 GHz,25 W,,,
+45 nm,2.66 GHz,25 W,,,
+45 nm,2.53 GHz,25 W,,,
+45 nm,2.66 GHz,25 W,,,
+45 nm,2.80 GHz,28 W,,,
+65 nm,1.83 GHz,15 W,,,
+65 nm,1.50 GHz,15 W,,,
+65 nm,1.66 GHz,15 W,,,
+65 nm,1.33 GHz,17 W,,,
+65 nm,1.40 GHz,17 W,,,
+65 nm,1.50 GHz,17 W,,,
+65 nm,1.60 GHz,17 W,,,
+65 nm,1.80 GHz,17 W,,,
+65 nm,1.80 GHz,65 W,,,
+22 nm,3.50 GHz,54 W,32 GB,25.6 GB/s,350 MHz
+65 nm,2.00 GHz,65 W,,,
+65 nm,2.20 GHz,65 W,,,
+65 nm,2.40 GHz,65 W,,,
+65 nm,2.60 GHz,65 W,,,
+65 nm,1.86 GHz,65 W,,,
+65 nm,2.13 GHz,65 W,,,
+65 nm,1.86 GHz,65 W,,,
+65 nm,2.13 GHz,65 W,,,
+65 nm,2.33 GHz,65 W,,,
+65 nm,2.33 GHz,65 W,,,
+65 nm,2.40 GHz,65 W,,,
+65 nm,2.66 GHz,65 W,,,
+65 nm,2.66 GHz,65 W,,,
+65 nm,3.00 GHz,65 W,,,
+45 nm,2.53 GHz,65 W,,,
+45 nm,2.66 GHz,65 W,,,
+45 nm,2.80 GHz,65 W,,,
+45 nm,2.93 GHz,65 W,,,
+45 nm,3.06 GHz,65 W,,,
+45 nm,2.66 GHz,65 W,,,
+45 nm,2.66 GHz,65 W,,,
+45 nm,2.83 GHz,65 W,,,
+45 nm,3.00 GHz,65 W,,,
+45 nm,3.16 GHz,65 W,,,
+45 nm,3.33 GHz,65 W,,,
+65 nm,2.40 GHz,105 W,,,
+65 nm,2.66 GHz,105 W,,,
+45 nm,2.33 GHz,95 W,,,
+45 nm,2.33 GHz,65 W,,,
+45 nm,2.50 GHz,95 W,,,
+45 nm,2.66 GHz,95 W,,,
+45 nm,2.66 GHz,65 W,,,
+45 nm,2.00 GHz,45 W,,,
+45 nm,2.26 GHz,45 W,,,
+45 nm,2.50 GHz,95 W,,,
+45 nm,2.66 GHz,95 W,,,
+45 nm,2.66 GHz,65 W,,,
+45 nm,2.66 GHz,95 W,,,
+45 nm,2.83 GHz,95 W,,,
+45 nm,2.83 GHz,95 W,,,
+45 nm,2.83 GHz,65 W,,,
+45 nm,2.83 GHz,95 W,,,
+45 nm,2.83 GHz,65 W,,,
+45 nm,3.00 GHz,95 W,,,
+32 nm,2.13 GHz,35 W,8.79 GB,17.1 GB/s,500 MHz
+32 nm,2.13 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.20 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.26 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,2.40 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,2.53 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.33 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.93 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,3.06 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,3.20 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,2.26 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.20 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.40 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,2.53 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.33 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.40 GHz,35 W,8.79 GB,17.1 GB/s,500 MHz
+32 nm,2.40 GHz,35 W,8.3 GB,17.1 GB/s,500 MHz
+32 nm,1.07 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.53 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.20 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.66 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.33 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.66 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,3.20 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,3.20 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,3.33 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,3.33 GHz,87 W,16.38 GB,21 GB/s,900 MHz
+32 nm,3.46 GHz,73 W,16.6 GB,21 GB/s,733 MHz
+45 nm,2.66 GHz,95 W,16 GB,21 GB/s,
+45 nm,2.40 GHz,82 W,16 GB,21 GB/s,
+45 nm,2.80 GHz,95 W,16 GB,21 GB/s,
+32 nm,2.00 GHz,25 W,8.79 GB,17.1 GB/s,266 MHz
+32 nm,2.00 GHz,25 W,8 GB,17.1 GB/s,266 MHz
+32 nm,2.66 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.06 GHz,18 W,8.79 GB,12.8 GB/s,166 MHz
+32 nm,1.06 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.13 GHz,25 W,8 GB,17.1 GB/s,266 MHz
+32 nm,2.80 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.20 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,2.26 GHz,25 W,8 GB,17.1 GB/s,266 MHz
+32 nm,1.33 GHz,18 W,8.79 GB,12.8 GB/s,166 MHz
+32 nm,1.33 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+32 nm,1.46 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+45 nm,1.73 GHz,45 W,8 GB,21 GB/s,
+45 nm,1.86 GHz,45 W,8 GB,21 GB/s,
+45 nm,2.53 GHz,82 W,16 GB,21 GB/s,
+45 nm,2.93 GHz,95 W,16 GB,21 GB/s,
+45 nm,2.66 GHz,82 W,16 GB,21 GB/s,
+45 nm,2.93 GHz,95 W,16 GB,21 GB/s,
+45 nm,3.06 GHz,95 W,16 GB,21 GB/s,
+45 nm,2.80 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,2.93 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,3.06 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,3.20 GHz,130 W,24 GB,25.6 GB/s,
+32 nm,3.20 GHz,130 W,24 GB,25.6 GB/s,
+32 nm,3.33 GHz,130 W,24 GB,,
+32 nm,3.33 GHz,73 W,16.38 GB,21 GB/s,733 MHz
+32 nm,2.66 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,2.66 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,3.60 GHz,73 W,16.6 GB,21 GB/s,733 MHz
+32 nm,2.53 GHz,35 W,8.79 GB,17.1 GB/s,500 MHz
+45 nm,1.60 GHz,45 W,8 GB,21 GB/s,
+45 nm,1.73 GHz,45 W,8 GB,21 GB/s,
+45 nm,2.80 GHz,95 W,16 GB,21 GB/s,
+45 nm,2.66 GHz,130 W,24 GB,25.6 GB/s,
+32 nm,3.10 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.50 GHz,35 W,32 GB,21 GB/s,650 MHz
+32 nm,3.10 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,3.10 GHz,65 W,32 GB,21 GB/s,850 MHz
+,2.00 GHz,25 W,32 GB,21.3 GB/s,
+32 nm,3.30 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.60 GHz,35 W,32 GB,21 GB/s,650 MHz
+32 nm,3.30 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,3.40 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.10 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.10 GHz,35 W,16.6 GB,21.3 GB/s,650 MHz
+32 nm,2.10 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.20 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.20 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.20 GHz,35 W,16.6 GB,21.3 GB/s,650 MHz
+32 nm,1.30 GHz,17 W,16.6 GB,21.3 GB/s,350 MHz
+32 nm,2.30 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.30 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.30 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,1.40 GHz,17 W,16 GB,,350 MHz
+32 nm,1.40 GHz,17 W,16 GB,,350 MHz
+32 nm,2.40 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.50 GHz,17 W,16 GB,,350 MHz
+32 nm,1.50 GHz,17 W,16 GB,,350 MHz
+32 nm,2.80 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,2.90 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,3.00 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,3.10 GHz,95 W,32 GB,21 GB/s,
+32 nm,2.70 GHz,35 W,32 GB,21 GB/s,650 MHz
+32 nm,3.10 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,2.50 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.50 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.30 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.40 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.50 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.40 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,3.20 GHz,95 W,32 GB,21 GB/s,
+32 nm,1.60 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,3.30 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,3.30 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,2.70 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,2.30 GHz,45 W,32 GB,21 GB/s,650 MHz
+32 nm,2.50 GHz,35 W,16.6 GB,21.3 GB/s,650 MHz
+32 nm,2.50 GHz,35 W,16.6 GB,21.3 GB/s,650 MHz
+32 nm,2.50 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.60 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.40 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,3.40 GHz,95 W,32 GB,21 GB/s,
+32 nm,3.40 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,1.70 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,3.40 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,2.80 GHz,65 W,32 GB,21 GB/s,850 MHz
+32 nm,1.50 GHz,17 W,16.6 GB,,350 MHz
+32 nm,1.50 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,2.70 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.00 GHz,45 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.10 GHz,25 W,8.01 GB,21.3 GB/s,500 MHz
+32 nm,2.00 GHz,45 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.70 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,2.80 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.30 GHz,25 W,8.01 GB,21.3 GB/s,500 MHz
+32 nm,2.20 GHz,25 W,16.6 GB,,650 MHz
+32 nm,1.60 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,2.20 GHz,45 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.20 GHz,45 W,32 GB,21.3 GB/s,650 MHz
+32 nm,1.80 GHz,17 W,8.01 GB,21.3 GB/s,350 MHz
+32 nm,3.50 GHz,95 W,32 GB,21 GB/s,850 MHz
+32 nm,2.10 GHz,45 W,16.6 GB,,650 MHz
+32 nm,2.10 GHz,45 W,16.6 GB,,650 MHz
+32 nm,2.20 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+32 nm,2.40 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+32 nm,2.50 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+32 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.40 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.50 GHz,25 W,32 GB,21.3 GB/s,
+22 nm,2.50 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.40 GHz,35 W,16 GB,25.6 GB/s,650 MHz
+22 nm,2.60 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.20 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.80 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.60 GHz,17 W,16 GB,25.6 GB/s,350 MHz
+22 nm,3.30 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.80 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.30 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.90 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.40 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.40 GHz,13 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.40 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.50 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.50 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.00 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.60 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.60 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.70 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.60 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.50 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.00 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.70 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.80 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.50 GHz,13 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.80 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.70 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.10 GHz,69 W,32.23 GB,25.6 GB/s,
+22 nm,2.80 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.80 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.90 GHz,17 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.50 GHz,13 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.10 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.80 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.20 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.90 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.90 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.30 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.00 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.40 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.40 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.10 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.70 GHz,35 W,16 GB,25.6 GB/s,650 MHz
+22 nm,1.90 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.70 GHz,17 W,16 GB,25.6 GB/s,350 MHz
+22 nm,2.00 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.50 GHz,25 W,16 GB,25.6 GB/s,550 MHz
+22 nm,2.30 GHz,45 W,32.23 GB,25.6 GB/s,650 MHz
+22 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.10 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.10 GHz,35 W,16.11 GB,25.6 GB/s,650 MHz
+22 nm,2.10 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.30 GHz,45 W,16.11 GB,25.6 GB/s,650 MHz
+22 nm,2.30 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.40 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.20 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.20 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.40 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.00 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.10 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.50 GHz,13 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.60 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.40 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.70 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.50 GHz,77 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.10 GHz,65 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.50 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.70 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.80 GHz,45 W,32 GB,25.6 GB/s,650 MHz
+65 nm,2.66 GHz,130 W,,,
+65 nm,2.93 GHz,130 W,,,
+65 nm,3.00 GHz,130 W,,,
+45 nm,2.53 GHz,45 W,,,
+45 nm,3.00 GHz,130 W,,,
+45 nm,3.20 GHz,136 W,,,
+45 nm,3.20 GHz,150 W,,,
+65 nm,2.93 GHz,75 W,,,
+65 nm,2.60 GHz,44 W,,,
+65 nm,2.80 GHz,44 W,,,
+45 nm,2.80 GHz,44 W,,,
+45 nm,3.06 GHz,44 W,,,
+45 nm,2.00 GHz,55 W,8 GB,21 GB/s,
+45 nm,2.13 GHz,55 W,8 GB,21 GB/s,
+45 nm,3.20 GHz,130 W,24 GB,25.6 GB/s,
+45 nm,3.33 GHz,130 W,24 GB,25.6 GB/s,
+32 nm,3.33 GHz,130 W,24 GB,25.6 GB/s,
+32 nm,3.46 GHz,130 W,24 GB,25.6 GB/s,
+32 nm,2.50 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+14 nm,2.20 GHz,25 W,128 GB,,
+14 nm,1.50 GHz,19 W,128 GB,,
+14 nm,1.60 GHz,25 W,128 GB,,
+14 nm,1.50 GHz,25 W,128 GB,,
+22 nm,2.90 GHz,55 W,32 GB,21 GB/s,650 MHz
+22 nm,3.00 GHz,55 W,32 GB,21 GB/s,650 MHz
+22 nm,2.50 GHz,35 W,32 GB,21 GB/s,650 MHz
+22 nm,2.60 GHz,35 W,32 GB,21 GB/s,650 MHz
+22 nm,2.60 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.10 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,2.70 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.20 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+22 nm,3.30 GHz,55 W,32 GB,25.6 GB/s,650 MHz
+14 nm,2.40 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.30 GHz,54 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.50 GHz,54 W,64 GB,,350 MHz
+14 nm,3.60 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.50 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.00 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,35 W,64 GB,,350 MHz
+14 nm,3.70 GHz,51 W,64 GB,,350 MHz
+14 nm,3.60 GHz,51 W,64 GB,,350 MHz
+14 nm,3.00 GHz,35 W,64 GB,,350 MHz
+22 nm,3.00 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,3.10 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,2.60 GHz,35 W,32 GB,21.3 GB/s,200 MHz
+22 nm,2.70 GHz,35 W,32 GB,21.3 GB/s,200 MHz
+22 nm,3.20 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,3.20 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,3.30 GHz,53 W,32 GB,21.3 GB/s,350 MHz
+22 nm,2.80 GHz,35 W,32 GB,21.3 GB/s,200 MHz
+22 nm,2.90 GHz,35 W,32 GB,21.3 GB/s,200 MHz
+22 nm,2.30 GHz,35 W,32 GB,21.3 GB/s,350 MHz
+22 nm,3.20 GHz,53 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.70 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.30 GHz,53 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.30 GHz,53 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.80 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.40 GHz,53 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.90 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.50 GHz,53 W,32 GB,25.6 GB/s,350 MHz
+22 nm,3.00 GHz,35 W,32 GB,25.6 GB/s,200 MHz
+22 nm,3.60 GHz,53 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.50 GHz,25 W,32 GB,25.6 GB/s,400 MHz
+22 nm,2.00 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.40 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.40 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,2.20 GHz,37 W,32 GB,25.6 GB/s,400 MHz
+22 nm,1.10 GHz,11.5 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.60 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.60 GHz,15 W,16 GB,25.6 GB/s,200 MHz
+22 nm,1.90 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.50 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.60 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.00 GHz,10 W,32 GB,25.6 GB/s,350 MHz
+22 nm,2.20 GHz,35 W,16 GB,25.6 GB/s,650 MHz
+22 nm,2.10 GHz,35 W,32 GB,25.6 GB/s,650 MHz
+22 nm,1.80 GHz,17 W,32 GB,25.6 GB/s,350 MHz
+22 nm,1.40 GHz,17 W,16 GB,25.6 GB/s,350 MHz
+65 nm,3.46 GHz,65 W,,,
+65 nm,3.33 GHz,86 W,,,
+90 nm,3.33 GHz,84 W,,,
+65 nm,3.20 GHz,86 W,,,
+90 nm,3.20 GHz,84 W,,,
+90 nm,3.20 GHz,73 W,,,
+90 nm,3.20 GHz,73 W,,,
+65 nm,3.06 GHz,86 W,,,
+90 nm,3.06 GHz,84 W,,,
+90 nm,3.06 GHz,84 W,,,
+90 nm,3.06 GHz,73 W,,,
+90 nm,2.93 GHz,84 W,,,
+90 nm,2.93 GHz,84 W,,,
+,300 MHz,18.48 W,,,
+90 nm,2.93 GHz,73 W,,,
+,266 MHz,16.59 W,,,
+90 nm,2.80 GHz,84 W,,,
+250 nm,466 MHz,,,,
+130 nm,650 MHz,8.3 W,,,
+90 nm,2.80 GHz,84 W,,,
+180 nm,766 MHz,20 W,,,
+130 nm,2.80 GHz,68.4 W,,,
+90 nm,2.80 GHz,73 W,,,
+180 nm,933 MHz,20.6 W,,,
+180 nm,733 MHz,23.6 W,,,
+130 nm,2.70 GHz,66.8 W,,,
+90 nm,1.00 GHz,5.5 W,,,
+90 nm,2.80 GHz,73 W,,,
+180 nm,400 MHz,6.5 W,,,
+180 nm,950 MHz,28 W,,,
+180 nm,700 MHz,18.3 W,,,
+130 nm,2.60 GHz,62.6 W,,,
+90 nm,1.00 GHz,5.5 W,,,
+90 nm,2.66 GHz,84 W,,,
+32 nm,1.50 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,1.50 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,2.40 GHz,65 W,32 GB,17 GB/s,850 MHz
+180 nm,900 MHz,24 W,,,
+180 nm,866 MHz,23.3 W,,,
+130 nm,900 MHz,34.8 W,,,
+180 nm,667 MHz,17.5 W,,,
+130 nm,2.50 GHz,61 W,,,
+90 nm,900 MHz,5 W,,,
+90 nm,2.66 GHz,84 W,,,
+32 nm,1.00 GHz,10 W,4.88 GB,,350 MHz
+32 nm,1.60 GHz,35 W,16.6 GB,21.3 GB/s,650 MHz
+32 nm,2.00 GHz,35 W,32 GB,17 GB/s,650 MHz
+180 nm,850 MHz,18.8 W,,,
+130 nm,2.50 GHz,61 W,,,
+180 nm,900 MHz,26.7 W,,,
+180 nm,633 MHz,16.5 W,,,
+130 nm,2.40 GHz,59.8 W,,,
+130 nm,900 MHz,7 W,,,
+90 nm,2.66 GHz,73 W,,,
+32 nm,1.40 GHz,17 W,16.6 GB,21.3 GB/s,350 MHz
+32 nm,1.60 GHz,35 W,16.6 GB,21.3 GB/s,650 MHz
+32 nm,2.50 GHz,65 W,32 GB,17 GB/s,850 MHz
+180 nm,800 MHz,22 W,,,
+180 nm,800 MHz,17.6 W,,,
+130 nm,2.40 GHz,35 W,,,
+180 nm,850 MHz,25.7 W,,,
+180 nm,600 MHz,15.8 W,,,
+130 nm,2.30 GHz,58.3 W,,,
+90 nm,1.70 GHz,21 W,,,
+90 nm,2.66 GHz,73 W,,,
+32 nm,1.60 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.10 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,2.10 GHz,35 W,32 GB,17 GB/s,650 MHz
+65 nm,1.00 GHz,10 W,,,
+130 nm,600 MHz,7 W,,,
+130 nm,733 MHz,,,,
+180 nm,750 MHz,15.8 W,,,
+130 nm,2.20 GHz,35 W,,,
+180 nm,800 MHz,20.8 W,,,
+180 nm,566 MHz,19.2 W,,,
+130 nm,2.20 GHz,57.1 W,,,
+90 nm,1.60 GHz,21 W,,,
+90 nm,2.53 GHz,84 W,,,
+32 nm,1.70 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.10 GHz,17 W,16.6 GB,21.3 GB/s,350 MHz
+32 nm,2.60 GHz,65 W,32 GB,17 GB/s,850 MHz
+65 nm,1.73 GHz,27 W,,,
+65 nm,1.20 GHz,5.5 W,,,
+180 nm,733 MHz,20.6 W,,,
+180 nm,700 MHz,15 W,,,
+130 nm,2.00 GHz,32 W,,,
+250 nm,533 MHz,28.3 W,,,
+130 nm,2.10 GHz,55.5 W,,,
+130 nm,1.40 GHz,34.8 W,,,
+130 nm,800 MHz,7 W,,,
+90 nm,1.50 GHz,21 W,,,
+90 nm,2.53 GHz,84 W,,,
+32 nm,1.80 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.20 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,2.20 GHz,35 W,32 GB,17 GB/s,650 MHz
+,466 MHz,20.7 W,,,
+65 nm,2.20 GHz,35 W,,,
+65 nm,930 MHz,5.5 W,,,
+65 nm,1.86 GHz,30 W,,,
+180 nm,650 MHz,14 W,,,
+130 nm,1.80 GHz,66.1 W,,,
+130 nm,1.33 GHz,19 W,,,
+250 nm,500 MHz,27 W,,,
+130 nm,2.00 GHz,52.8 W,,,
+130 nm,1.30 GHz,33.4 W,,,
+65 nm,1.06 GHz,5.5 W,,,
+90 nm,1.40 GHz,21 W,,,
+90 nm,2.53 GHz,84 W,,,
+32 nm,2.70 GHz,65 W,32 GB,17 GB/s,850 MHz
+32 nm,1.30 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,1.90 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.60 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.60 GHz,35 W,32 GB,17 GB/s,650 MHz
+,433 MHz,19.4 W,,,
+45 nm,2.70 GHz,65 W,,,
+65 nm,1.83 GHz,35 W,,,
+65 nm,2.00 GHz,31 W,,,
+180 nm,600 MHz,13 W,,,
+130 nm,1.70 GHz,30 W,,,
+250 nm,433 MHz,24.1 W,,,
+130 nm,1.20 GHz,32.1 W,,,
+65 nm,2.00 GHz,27 W,,,
+90 nm,1.30 GHz,21 W,,,
+90 nm,2.53 GHz,73 W,,,
+32 nm,1.40 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+32 nm,1.70 GHz,35 W,16 GB,21.3 GB/s,650 MHz
+32 nm,1.80 GHz,35 W,32 GB,17 GB/s,650 MHz
+,400 MHz,13.8 W,,,
+45 nm,2.60 GHz,65 W,,,
+45 nm,2.10 GHz,35 W,,,
+65 nm,1.66 GHz,35 W,,,
+65 nm,1.60 GHz,65 W,,,
+65 nm,2.13 GHz,31 W,,,
+65 nm,1.33 GHz,27 W,,,
+,550 MHz,,,,
+130 nm,1.60 GHz,30 W,,,
+250 nm,400 MHz,23.7 W,,,
+130 nm,1.20 GHz,24.4 W,,,
+130 nm,1.80 GHz,66.1 W,,,
+130 nm,1.10 GHz,28.9 W,,,
+65 nm,1.86 GHz,27 W,,,
+130 nm,1.50 GHz,24.5 W,,,
+90 nm,2.40 GHz,73 W,,,
+32 nm,1.90 GHz,35 W,32 GB,17 GB/s,650 MHz
+32 nm,1.50 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+,1.30 GHz,10 W,16 GB,21.3 GB/s,
+32 nm,2.00 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+32 nm,1.20 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+,366 MHz,13.1 W,,,
+45 nm,2.00 GHz,35 W,,,
+45 nm,2.50 GHz,65 W,,,
+45 nm,2.20 GHz,35 W,,,
+45 nm,1.30 GHz,10 W,,,
+65 nm,2.26 GHz,31 W,,,
+65 nm,2.00 GHz,65 W,,,
+65 nm,2.00 GHz,35 W,,,
+,500 MHz,,,,
+130 nm,1.50 GHz,30 W,,,
+250 nm,366 MHz,21.7 W,,,
+130 nm,1.13 GHz,23.8 W,,,
+130 nm,1.70 GHz,63.5 W,,,
+65 nm,1.73 GHz,27 W,,,
+180 nm,1.10 GHz,33 W,,,
+130 nm,1.40 GHz,24.5 W,,,
+90 nm,2.26 GHz,73 W,,,
+32 nm,2.00 GHz,35 W,32 GB,17 GB/s,650 MHz
+32 nm,1.30 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+45 nm,2.30 GHz,35 W,,,
+32 nm,1.06 GHz,18 W,8 GB,17.1 GB/s,166 MHz
+,300 MHz,11.8 W,,,
+90 nm,2.40 GHz,84 W,,,
+32 nm,1.86 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+45 nm,2.40 GHz,65 W,,,
+45 nm,1.20 GHz,10 W,,,
+65 nm,2.00 GHz,31 W,,,
+65 nm,2.20 GHz,65 W,,,
+65 nm,1.80 GHz,35 W,,,
+65 nm,1.73 GHz,30 W,,,
+65 nm,1.83 GHz,27 W,,,
+180 nm,450 MHz,15.5 W,,,
+130 nm,1.40 GHz,30 W,,,
+130 nm,1.06 GHz,23.2 W,,,
+250 nm,333 MHz,19.7 W,,,
+130 nm,1.00 GHz,27.8 W,,,
+65 nm,1.60 GHz,27 W,,,
+130 nm,1.30 GHz,24.5 W,,,
+90 nm,2.26 GHz,73 W,,,
+22 nm,1.50 GHz,17 W,16 GB,25.6 GB/s,350 MHz
+32 nm,1.40 GHz,17 W,16 GB,21.3 GB/s,350 MHz
+45 nm,1.40 GHz,10 W,,,
+,266 MHz,9.8 W,,,
+32 nm,1.06 GHz,18 W,8 GB,12.8 GB/s,166 MHz
+45 nm,1.33 GHz,30 W,,,
+32 nm,1.86 GHz,35 W,8 GB,17.1 GB/s,500 MHz
+45 nm,1.20 GHz,10 W,,,
+45 nm,1.90 GHz,35 W,,,
+45 nm,1.20 GHz,5.5 W,,,
+65 nm,2.16 GHz,31 W,,,
+65 nm,2.40 GHz,65 W,,,
+65 nm,1.20 GHz,19 W,,,
+65 nm,1.66 GHz,27 W,,,
+65 nm,1.60 GHz,35 W,,,
+65 nm,1.60 GHz,30 W,,,
+130 nm,1.20 GHz,20.8 W,,,
+130 nm,1.00 GHz,22 W,,,
+250 nm,300 MHz,17.8 W,,,
+180 nm,1.00 GHz,29 W,,,
+65 nm,1.46 GHz,27 W,,,
+130 nm,1.20 GHz,24.5 W,,,
+90 nm,2.13 GHz,73 W,,,
+14 nm,1.70 GHz,85 W,768 GB,,
+14 nm,1.80 GHz,85 W,768 GB,,
+14 nm,2.00 GHz,70 W,768 GB,,
+14 nm,2.10 GHz,85 W,768 GB,,
+14 nm,2.60 GHz,85 W,768 GB,,
+14 nm,2.20 GHz,85 W,768 GB,,
+14 nm,2.20 GHz,85 W,768 GB,,
+14 nm,2.10 GHz,85 W,768 GB,,
+14 nm,2.10 GHz,85 W,768 GB,,
+14 nm,2.40 GHz,85 W,768 GB,,
+14 nm,2.30 GHz,105 W,768 GB,,
+14 nm,1.90 GHz,85 W,768 GB,,
+14 nm,2.20 GHz,105 W,768 GB,,
+14 nm,3.60 GHz,105 W,768 GB,,
+14 nm,2.20 GHz,105 W,768 GB,,
+14 nm,2.60 GHz,125 W,768 GB,,
+14 nm,2.60 GHz,135 W,768 GB,,
+14 nm,2.60 GHz,125 W,768 GB,,
+14 nm,3.40 GHz,115 W,768 GB,,
+14 nm,2.10 GHz,125 W,768 GB,,
+14 nm,2.10 GHz,135 W,768 GB,,
+14 nm,2.10 GHz,125 W,768 GB,,
+14 nm,2.60 GHz,140 W,768 GB,,
+14 nm,3.20 GHz,130 W,1.5 TB,,
+14 nm,3.20 GHz,130 W,768 GB,,
+14 nm,3.00 GHz,150 W,768 GB,,
+14 nm,2.00 GHz,125 W,768 GB,,
+14 nm,2.00 GHz,135 W,768 GB,,
+14 nm,2.00 GHz,125 W,768 GB,,
+14 nm,2.30 GHz,140 W,768 GB,,
+14 nm,2.30 GHz,140 W,1.5 TB,,
+14 nm,2.60 GHz,150 W,768 GB,,
+14 nm,2.60 GHz,150 W,1.5 TB,,
+14 nm,3.50 GHz,150 W,768 GB,,
+14 nm,2.60 GHz,160 W,768 GB,,
+14 nm,3.20 GHz,165 W,768 GB,,
+14 nm,2.40 GHz,150 W,768 GB,,
+14 nm,2.40 GHz,160 W,768 GB,,
+14 nm,2.70 GHz,165 W,768 GB,,
+14 nm,2.10 GHz,140 W,768 GB,,
+14 nm,3.00 GHz,200 W,768 GB,,
+14 nm,2.00 GHz,125 W,768 GB,,
+14 nm,3.60 GHz,105 W,768 GB,,
+14 nm,3.00 GHz,150 W,768 GB,,
+14 nm,2.10 GHz,150 W,768 GB,,
+14 nm,2.10 GHz,160 W,768 GB,,
+14 nm,2.10 GHz,150 W,768 GB,,
+14 nm,2.10 GHz,150 W,1.5 TB,,
+14 nm,2.00 GHz,150 W,768 GB,,
+14 nm,2.70 GHz,205 W,768 GB,,
+14 nm,2.10 GHz,165 W,768 GB,,
+14 nm,2.10 GHz,165 W,1.5 TB,,
+14 nm,2.10 GHz,165 W,768 GB,,
+14 nm,2.10 GHz,173 W,768 GB,,
+14 nm,2.10 GHz,165 W,1.5 TB,,
+14 nm,2.50 GHz,205 W,768 GB,,
+14 nm,2.50 GHz,205 W,1.5 TB,,
+14 nm,2.00 GHz,115 W,3.07 TB,85 GB/s,
+14 nm,2.00 GHz,115 W,3.07 TB,85 GB/s,
+14 nm,2.10 GHz,115 W,3.07 TB,85 GB/s,
+14 nm,2.20 GHz,140 W,3.07 TB,85 GB/s,
+14 nm,2.40 GHz,165 W,3.07 TB,85 GB/s,
+14 nm,2.10 GHz,140 W,3.07 TB,85 GB/s,
+14 nm,2.20 GHz,150 W,3.07 TB,85 GB/s,
+14 nm,2.20 GHz,165 W,3.07 TB,85 GB/s,
+14 nm,2.80 GHz,165 W,3.07 TB,85 GB/s,
+14 nm,3.20 GHz,140 W,3.07 TB,85 GB/s,
+14 nm,2.40 GHz,165 W,3.07 TB,85 GB/s,
+22 nm,2.10 GHz,115 W,1.54 TB,85 GB/s,
+22 nm,1.90 GHz,115 W,1.54 TB,85 GB/s,
+22 nm,2.20 GHz,115 W,1.54 TB,85 GB/s,
+22 nm,2.20 GHz,140 W,1.54 TB,85 GB/s,
+22 nm,2.50 GHz,165 W,1.54 TB,85 GB/s,
+22 nm,2.10 GHz,140 W,1.54 TB,85 GB/s,
+22 nm,2.30 GHz,150 W,1.54 TB,85 GB/s,
+22 nm,2.00 GHz,115 W,1.54 TB,85 GB/s,
+22 nm,2.50 GHz,165 W,1.54 TB,85 GB/s,
+22 nm,2.80 GHz,165 W,1.54 TB,85 GB/s,
+22 nm,3.20 GHz,140 W,1.54 TB,85 GB/s,
+22 nm,2.30 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.50 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.80 GHz,155 W,1.54 TB,85 GB/s,
+22 nm,1.90 GHz,105 W,1.54 TB,68 GB/s,
+22 nm,2.00 GHz,105 W,1.54 TB,68 GB/s,
+22 nm,2.20 GHz,105 W,1.54 TB,68 GB/s,
+22 nm,2.30 GHz,105 W,1.54 TB,68 GB/s,
+22 nm,2.60 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.30 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.50 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.80 GHz,155 W,1.54 TB,85 GB/s,
+22 nm,3.40 GHz,155 W,1.54 TB,85 GB/s,
+22 nm,3.20 GHz,155 W,1.54 TB,85 GB/s,
+22 nm,2.80 GHz,155 W,1.54 TB,85 GB/s,
+22 nm,2.20 GHz,105 W,1.54 TB,85 GB/s,
+22 nm,2.50 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.30 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,3.00 GHz,130 W,1.54 TB,85 GB/s,
+22 nm,2.30 GHz,105 W,1.54 TB,68 GB/s,
+32 nm,2.00 GHz,105 W,1.02 TB,,
+32 nm,2.13 GHz,105 W,1.02 TB,,
+32 nm,2.00 GHz,130 W,1.02 TB,,
+32 nm,2.26 GHz,130 W,1.02 TB,,
+32 nm,2.40 GHz,130 W,1.02 TB,,
+32 nm,1.86 GHz,95 W,2.05 TB,,
+32 nm,2.00 GHz,105 W,2.05 TB,,
+32 nm,2.13 GHz,105 W,2.05 TB,,
+32 nm,2.00 GHz,130 W,2.05 TB,,
+32 nm,2.26 GHz,130 W,2.05 TB,,
+32 nm,2.40 GHz,130 W,2.05 TB,,
+32 nm,2.13 GHz,105 W,4.1 TB,,
+32 nm,2.66 GHz,130 W,4.1 TB,,
+32 nm,2.00 GHz,130 W,4.1 TB,,
+32 nm,2.26 GHz,130 W,4.1 TB,,
+32 nm,2.13 GHz,105 W,4.1 TB,,
+32 nm,2.40 GHz,130 W,4.1 TB,,
+14 nm,2.60 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,2.20 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,3.30 GHz,65 W,32 GB,25.6 GB/s,300 MHz
+14 nm,3.30 GHz,65 W,32 GB,29.86 GB/s,300 MHz
+14 nm,2.70 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.60 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.50 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.70 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.70 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.90 GHz,47 W,32 GB,25.6 GB/s,300 MHz
+14 nm,2.40 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,900 MHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,3.60 GHz,54 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.10 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.90 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.00 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,3.00 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.40 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.80 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.90 GHz,51 W,64 GB,,350 MHz
+14 nm,2.90 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.40 GHz,35 W,64 GB,,350 MHz
+14 nm,3.40 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.90 GHz,54 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.10 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.50 GHz,35 W,64 GB,,350 MHz
+14 nm,4.00 GHz,51 W,64 GB,,350 MHz
+14 nm,4.10 GHz,51 W,64 GB,,350 MHz
+14 nm,4.20 GHz,60 W,64 GB,,350 MHz
+14 nm,1.10 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,2.50 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.20 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,3.30 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.60 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.20 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.40 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.60 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.60 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.40 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.40 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,4.00 GHz,91 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.30 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.00 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.90 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,1.80 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.30 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.40 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.30 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.30 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.00 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.90 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.60 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,45 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.20 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.30 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.50 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.20 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.80 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.50 GHz,91 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.20 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.30 GHz,65 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.00 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.70 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.20 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.70 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.40 GHz,28 W,32 GB,34.1 GB/s,300 MHz
+14 nm,1.90 GHz,25 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.30 GHz,15 W,32 GB,34.1 GB/s,300 MHz
+14 nm,2.70 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.90 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.30 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,2.70 GHz,35 W,64 GB,34.1 GB/s,350 MHz
+14 nm,3.80 GHz,51 W,64 GB,34.1 GB/s,350 MHz
+14 nm,1.10 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,1.10 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,1.20 GHz,4.5 W,16 GB,29.8 GB/s,300 MHz
+14 nm,2.00 GHz,15 W,16 GB,25.6 GB/s,300 MHz
+14 nm,3.10 GHz,28 W,16 GB,25.6 GB/s,300 MHz
