@@ -1,0 +1,149 @@
+\section{Background Knowledge on Statistical Methods}
+\subsection{Hypothesis Testing}
+
+Hypothesis testing is a fundamental statistical procedure used to make inferences about population parameters based on sample data. It is essential in various fields, including scientific research, quality control, and decision-making processes. The primary objective of hypothesis testing is to evaluate the plausibility of a specific claim or hypothesis concerning a population parameter, such as the mean or variance, which is crucial for understanding CPU price determinants.\\
+
+In hypothesis testing, two mutually exclusive hypotheses are formulated: the null hypothesis ($H_0$) and the alternative hypothesis ($H_a$). The null hypothesis typically represents the status quo, the baseline assumption, or the claim that the researcher wishes to test against. The alternative hypothesis represents the opposite or the alternative claim that the researcher aims to support or conclude if the null hypothesis is rejected.\\
+
+The process of hypothesis testing involves the following steps:
+\begin{enumerate}
+    \item Formulate the null hypothesis ($H_0$) and the alternative hypothesis ($H_a$).
+    \item Specify the significance level ($\alpha$), which is the probability of rejecting the null hypothesis when it is true (Type I error).
+    \item Calculate the test statistic from the sample data.
+    \item Determine the critical region or the critical value(s) based on the significance level and the chosen test.
+    \item Compare the test statistic with the critical region or critical value(s).
+    \item Make a decision: Reject or fail to reject the null hypothesis.
+\end{enumerate}
+
+The decision to reject or fail to reject the null hypothesis is based on the comparison between the test statistic and the critical region or critical value(s). If the test statistic falls within the critical region, the null hypothesis is rejected in favor of the alternative hypothesis. If the test statistic does not fall within the critical region, the null hypothesis is not rejected.\\
+
+Types of hypothesis tests relevant to this project include:
+\begin{itemize}
+    \item Tests for Means: Comparing the mean prices of different CPU series or generations.
+    \item Tests for Correlation and Regression Coefficients: Assessing the relationship between CPU specifications (e.g., clock speed, cores) and prices.
+\end{itemize}
+
+Hypothesis testing is subject to two types of errors: Type I error (rejecting the null hypothesis when it is true) and Type II error (failing to reject the null hypothesis when it is false). The significance level ($\alpha$) controls the probability of committing a Type I error, while the power of the test ($1-\beta$) represents the probability of correctly rejecting the null hypothesis when it is false, where $\beta$ is the probability of committing a Type II error.
+
+\subsection{Analysis of Variance (ANOVA)}
+Analysis of Variance (ANOVA) is a statistical method used to determine if there are statistically significant differences between the means of three or more independent groups. For this project, ANOVA helps us understand the impact of categorical variables, such as CPU series and generation, on CPU prices by comparing the average prices across different groups.\\
+
+Key Concepts of ANOVA:
+\begin{itemize}
+    \item Hypotheses:
+    \begin{itemize}
+        \item Null Hypothesis ($H_0$): Assumes that there are no differences in the mean CPU prices among the different groups.\\
+        
+        \item Alternative Hypothesis ($H_a$): Assumes that at least one group mean is different from the others.
+    \end{itemize}
+
+    \item Between-Group Variability: Measures the variation in CPU prices between different groups, reflecting the effect of the categorical variable on prices.
+    
+    \item Within-Group Variability: Measures the variation in CPU prices within each group, reflecting natural price variations among CPUs of the same group.
+    
+    \item F-Statistic: The ratio of between-group variability to within-group variability. A higher F-statistic indicates a greater likelihood that the observed differences between group means are statistically significant.
+    
+    \item P-Value: The probability of observing the data assuming the null hypothesis is true. A low p-value (typically < 0.05) suggests that the differences between group means are statistically significant.
+\end{itemize}
+
+Procedure for Conducting ANOVA:
+
+\begin{itemize}
+    \item Categorize Data: Group the dataset based on categorical variables such as CPU Series (e.g., Intel Core i3, i5, i7) and CPU Generation (e.g., 9th Gen, 10th Gen).
+    
+    \item Calculate Group Means: Determine the mean CPU price for each group.
+    
+    \item Compute Sum of Squares:
+    \begin{itemize}
+        \item Total Sum of Squares (SST): Measures the total variation in CPU prices.
+        \item Between-Group Sum of Squares (SSB): Measures the variation in CPU prices between different groups.
+        \item Within-Group Sum of Squares (SSW): Measures the variation in CPU prices within each group.
+    \end{itemize}
+
+    \item Calculate Mean Squares:
+    \begin{itemize}
+        \item Mean Square Between (MSB): SSB divided by the degrees of freedom between groups.
+        \item Mean Square Within (MSW): SSW divided by the degrees of freedom within groups.
+    \end{itemize}
+
+    \item Compute F-Statistic.
+     
+    \item Determine P-Value: Using statistical software or F-distribution tables, find the p-value corresponding to the calculated F-statistic.
+    
+    \item Post-Hoc Analysis (if necessary): If ANOVA indicates significant differences, conduct post-hoc tests to identify which specific groups differ from each other.
+\end{itemize}
+
+Application in This Project:
+
+\begin{itemize}
+    \item Group Data by CPU Series: Calculate the mean price for each series.
+    \item Perform ANOVA Test for CPU Series: Formulate hypotheses, conduct ANOVA, calculate F-statistic and p-value, and interpret results.
+    \item Group Data by CPU Generation: Calculate the mean price for each generation.
+    \item Perform ANOVA Test for CPU Generation: Formulate hypotheses, conduct ANOVA, calculate F-statistic and p-value, and interpret results.
+\end{itemize}
+
+By using ANOVA, we can systematically evaluate the impact of these categorical variables on CPU pricing, providing valuable insights into pricing trends and refining our predictive models.\\
+
+Formulas (for reference):
+\begin{itemize}
+\item The total sum of squares: \textbf{SST} $ = \sum_{i=1}^{k}\sum_{j = 1}^{n} (X_{ij} - \bar{X})^2 = \sum_{i,j}X^2_{ij} - \dfrac{X^2}{N} $.
+\item The treatment sum of squares: \textbf{SSTr} $ = \sum_{i=1}^{k} n (\bar{X_i} - \bar{X})^2 = \sum_{i=1}^{k} \dfrac{X_i^2}{n} - \dfrac{X^2}{N} $.
+\item The error sum of squares: \textbf{SSE = SST - SSTr}.
+\item Treatment degree of freedom: $df$(\textbf{SSTr}) $= k-1$. Error degree of freedom $df$(\textbf{SSE}) $= N-k = nk-k$.
+\item The mean square for treatment: \textbf{MSTr} = $ \dfrac{\text{\textbf{SSTr}}}{k-1} $.
+\item The mean square for error: \textbf{MSE} = $ \dfrac{\text{\textbf{SSE}}}{nk-k} $.
+\item If $H_0$ is true, then the statistic $F = \dfrac{\text{\textbf{MSTr}}}{\text{\textbf{MSE}}} \sim F_{k-1,nk-k}$: Fisher random variable. If $ F > F_{\alpha, k-1, nk-k} $ we reject $H_0$.
+\end{itemize}
+
+\subsection{Linear Regression}
+Linear regression is a fundamental statistical technique used to model the relationship between a dependent variable (CPU price) and one or more independent variables (CPU specifications). It is widely employed to analyze and make predictions based on observed data.\\
+
+Objective: To find the best-fitting straight line that describes the relationship between CPU price and its specifications.. This line is represented by a linear equation, which takes the following form:\\
+$$ Y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \varepsilon  $$
+Where:
+\begin{itemize}
+    \item Y is the dependent variable
+    \item $ \beta_0 $ is the intercept (the value of y when all independent variables are zero)
+    \item $ \beta_1,  \beta_2, ...,  \beta_n$ are the coefficients (slopes) associated with the respective independent variables
+    \item $x_1, x_2, ..., x_n$ are the independent variables
+    \item $\varepsilon$ is the error term, representing the difference between the observed values and the predicted values
+\end{itemize}
+
+\vspace*{1cm}
+
+The process of linear regression involves estimating the values of the coefficients ($\beta_0$, $\beta_1$, $\beta_2$, ..., $\beta_n$) using a set of observed data points. This estimation is typically performed using the method of least squares, which aims to minimize the sum of squared differences between the observed values and the predicted values obtained from the linear equation.
+Linear regression models can be classified into two main types:
+
+\begin{itemize}
+    \item Simple Linear Regression: This model involves only one independent variable and is represented by the equation $ Y = \beta_0 + \beta_1x + \varepsilon  $.
+    \item Multiple Linear Regression: This model involves two or more independent variables and is represented by the equation $ Y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \varepsilon  $
+\end{itemize}
+
+Procedure for Linear Regression:
+\begin{enumerate}
+    \item Formulate the Model: Define the relationship between CPU price and its specifications.
+    \item Estimate Coefficients: Use the method of least squares to estimate the values of the coefficients ($ \beta_1,  \beta_2, ...,  \beta_n$).
+    \item Evaluate the Model:
+    \begin{itemize}
+        \item R-Squared: Measures the proportion of variance in the dependent variable explained by the independent variables.
+        \item P-Values: Assess the significance of each coefficient.
+        \item Residual Analysis: Check for patterns in the residuals to validate assumptions.
+    \end{itemize}
+    \item Interpret Coefficients: Understand the magnitude and direction of the impact of each independent variable on CPU price.
+    \item Predict: Use the model to predict CPU prices based on new values of the independent variables.
+\end{enumerate}
+
+Assumptions of Linear Regression:
+\begin{itemize}
+    \item Linearity: The relationship between the dependent and independent variables is linear.
+    \item Normality of Residuals: The residuals (errors) are normally distributed.
+    \item Homoscedasticity: Constant variance of residuals.
+    \item Independence: Observations are independent of each other.
+\end{itemize}
+
+By understanding and applying these statistical methods, we can develop robust models to predict CPU prices based on their specifications, providing valuable insights for manufacturers and consumers.
+
+\subsection{Remark}
+To predict the price of CPUs, we primarily rely on \textbf{linear regression} as it directly models the relationship between the CPU specifications (independent variables) and the price (dependent variable). \textbf{ANOVA} can be used as a supplementary method to understand the influence of categorical variables on CPU prices, but it is not essential for the prediction model itself. 
+
+\newpage

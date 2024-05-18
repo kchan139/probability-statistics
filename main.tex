@@ -1,4 +1,4 @@
-\documentclass[a4paper]{article}
+\documentclass[12pt]{article}
 \usepackage{a4wide,amssymb,epsfig,latexsym,multicol,array,hhline,fancyhdr}
 \usepackage[utf8]{vietnam}
 \usepackage[vietnamese,english]{babel}
@@ -17,6 +17,14 @@
 \usepackage{rotating}
 \usepackage{graphics}
 \usepackage{geometry}
+\geometry{
+  paper=a4paper,
+  left=2cm,
+  right=2cm,
+  vmargin=2cm,
+  includeheadfoot=true,
+  headheight=28pt
+}
 \usepackage{setspace}
 \usepackage{epsfig}
 \usepackage{listings}
@@ -121,8 +129,6 @@ FACULTY OF APPLIED SCIENCE
 \end{center}
 \end{figure}
 
-\vspace{1cm}
-
 
 \begin{center}
 \begin{tabular}{c}
@@ -130,11 +136,11 @@ FACULTY OF APPLIED SCIENCE
 ~~\\
 \hline
 \\
-\multicolumn{1}{l}{\textbf{{Semester: 231}}}\\
+\multicolumn{1}{l}{\textbf{{Assignment Semester: 231}}}\\
 \\
-\textbf{{\Huge Central Processing Units (CPUs)}}\\
+\textbf{{\Huge Predicting Intel CPU Prices}}\\
 \\
-% \textbf{{\Huge (chwa biet ghi gi)}}\\[10pt]
+\textbf{{\Huge Using Statistical Methods}}\\[10pt]
 
 \multicolumn{1}{l}{\textbf{{}}}\\
 \\
@@ -142,16 +148,16 @@ FACULTY OF APPLIED SCIENCE
 \end{tabular}
 \end{center}
 
-\vspace{2cm}
+\vspace{0.5cm}
 
 \begin{table}[h]
 	\begin{tabular}{rrl}
-		\hspace{5 cm} & Advisor: & Phan Thị Khánh Vân,\hspace*{10pt} FAS - HCMUT\\[6pt]
-		& Students: & Lê Nguyễn Gia Bảo \hspace*{12pt} - 2210216. \\
+		\hspace{5 cm} & Advisor: & Phan Thị Khánh Vân,\hspace*{5pt} FAS - HCMUT\\[6pt]
+		& Students: & Lê Nguyễn Gia Bảo \hspace*{15pt} - 2210216. \\
 		& 			& Trần Đình Đăng Khoa \hspace*{0pt} - 2211649. \\
-		& 			& Bùi Vũ Thiên Đăng	  \hspace*{13pt} - 2252151. \\
+		& 			& Bùi Vũ Thiên Đăng	  \hspace*{15pt} - 2252151. \\
 		& 			& Trần Tuấn Minh Khoa 	  \hspace*{0pt} - 2252365. \\
-		& 			& Nguyễn Hữu Trí		  \hspace*{28pt} - 2252842. \\
+		& 			& Nguyễn Hữu Trí		  \hspace*{33pt} - 2252842. \\
 	\end{tabular}
 \end{table}
 
@@ -170,13 +176,15 @@ FACULTY OF APPLIED SCIENCE
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \include{sections/members}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \include{sections/abstract}
+\include{sections/abstract}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{sections/intro}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{sections/bg}
+\include{sections/background}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\include{sections/pre-process}
+\include{sections/pre_process}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{sections/des_stat}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \include{sections/conclusion}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
