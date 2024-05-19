@@ -1,7 +1,7 @@
 \section{Background Knowledge on Statistical Methods}
 \subsection{Hypothesis Testing}
 
-Hypothesis testing is a fundamental statistical procedure used to make inferences about population parameters based on sample data. It is essential in various fields, including scientific research, quality control, and decision-making processes. The primary objective of hypothesis testing is to evaluate the plausibility of a specific claim or hypothesis concerning a population parameter, such as the mean or variance, which is crucial for understanding CPU price determinants.\\
+Hypothesis testing is a fundamental statistical procedure used to make inferences about population parameters based on sample data. It is essential in various fields, including scientific research, quality control, and decision-making processes. The primary objective of hypothesis testing is to evaluate the plausibility of a specific claim or hypothesis concerning a population parameter, such as the mean or variance, which is crucial for understanding CPU clock speed determinants.\\
 
 In hypothesis testing, two mutually exclusive hypotheses are formulated: the null hypothesis ($H_0$) and the alternative hypothesis ($H_a$). The null hypothesis typically represents the status quo, the baseline assumption, or the claim that the researcher wishes to test against. The alternative hypothesis represents the opposite or the alternative claim that the researcher aims to support or conclude if the null hypothesis is rejected.\\
 
@@ -19,27 +19,26 @@ The decision to reject or fail to reject the null hypothesis is based on the com
 
 Types of hypothesis tests relevant to this project include:
 \begin{itemize}
-    \item Tests for Means: Comparing the mean prices of different CPU series or generations.
-    \item Tests for Correlation and Regression Coefficients: Assessing the relationship between CPU specifications (e.g., clock speed, cores) and prices.
+    \item Tests for Means: Comparing the mean clock speeds of different CPU series or generations.
+    \item Tests for Correlation and Regression Coefficients: Assessing the relationship between CPU specifications (e.g., number of cores) and clock speeds.
 \end{itemize}
 
 Hypothesis testing is subject to two types of errors: Type I error (rejecting the null hypothesis when it is true) and Type II error (failing to reject the null hypothesis when it is false). The significance level ($\alpha$) controls the probability of committing a Type I error, while the power of the test ($1-\beta$) represents the probability of correctly rejecting the null hypothesis when it is false, where $\beta$ is the probability of committing a Type II error.
 
 \subsection{Analysis of Variance (ANOVA)}
-Analysis of Variance (ANOVA) is a statistical method used to determine if there are statistically significant differences between the means of three or more independent groups. For this project, ANOVA helps us understand the impact of categorical variables, such as CPU series and generation, on CPU prices by comparing the average prices across different groups.\\
+Analysis of Variance (ANOVA) is a statistical method used to determine if there are statistically significant differences between the means of three or more independent groups. For this project, ANOVA helps us understand the impact of categorical variables, such as CPU series and generation, on CPU clock speeds by comparing the average clock speeds across different groups.\\
 
-Key Concepts of ANOVA:
+Key Concepts:
 \begin{itemize}
     \item Hypotheses:
     \begin{itemize}
-        \item Null Hypothesis ($H_0$): Assumes that there are no differences in the mean CPU prices among the different groups.\\
-        
+        \item Null Hypothesis ($H_0$): Assumes that there are no differences in the mean CPU clock speeds among the different groups.
         \item Alternative Hypothesis ($H_a$): Assumes that at least one group mean is different from the others.
     \end{itemize}
 
-    \item Between-Group Variability: Measures the variation in CPU prices between different groups, reflecting the effect of the categorical variable on prices.
+    \item Between-Group Variability: Measures the variation in CPU clock speeds between different groups, reflecting the effect of the categorical variable on clock speeds.
     
-    \item Within-Group Variability: Measures the variation in CPU prices within each group, reflecting natural price variations among CPUs of the same group.
+    \item Within-Group Variability: Measures the variation in CPU clock speeds within each group, reflecting natural clock speed variations among CPUs of the same group.
     
     \item F-Statistic: The ratio of between-group variability to within-group variability. A higher F-statistic indicates a greater likelihood that the observed differences between group means are statistically significant.
     
@@ -51,13 +50,13 @@ Procedure for Conducting ANOVA:
 \begin{itemize}
     \item Categorize Data: Group the dataset based on categorical variables such as CPU Series (e.g., Intel Core i3, i5, i7) and CPU Generation (e.g., 9th Gen, 10th Gen).
     
-    \item Calculate Group Means: Determine the mean CPU price for each group.
+    \item Calculate Group Means: Determine the mean CPU clock speed for each group.
     
     \item Compute Sum of Squares:
     \begin{itemize}
-        \item Total Sum of Squares (SST): Measures the total variation in CPU prices.
-        \item Between-Group Sum of Squares (SSB): Measures the variation in CPU prices between different groups.
-        \item Within-Group Sum of Squares (SSW): Measures the variation in CPU prices within each group.
+        \item Total Sum of Squares (SST): Measures the total variation in CPU clock speeds.
+        \item Between-Group Sum of Squares (SSB): Measures the variation in CPU clock speeds between different groups.
+        \item Within-Group Sum of Squares (SSW): Measures the variation in CPU clock speeds within each group.
     \end{itemize}
 
     \item Calculate Mean Squares:
@@ -76,15 +75,15 @@ Procedure for Conducting ANOVA:
 Application in This Project:
 
 \begin{itemize}
-    \item Group Data by CPU Series: Calculate the mean price for each series.
+    \item Group Data by CPU Series: Calculate the mean clock speed for each series.
     \item Perform ANOVA Test for CPU Series: Formulate hypotheses, conduct ANOVA, calculate F-statistic and p-value, and interpret results.
-    \item Group Data by CPU Generation: Calculate the mean price for each generation.
+    \item Group Data by CPU Generation: Calculate the mean clock speed for each generation.
     \item Perform ANOVA Test for CPU Generation: Formulate hypotheses, conduct ANOVA, calculate F-statistic and p-value, and interpret results.
 \end{itemize}
 
-By using ANOVA, we can systematically evaluate the impact of these categorical variables on CPU pricing, providing valuable insights into pricing trends and refining our predictive models.\\
+By using ANOVA, we can systematically evaluate the impact of these categorical variables on CPU clock speeds, providing valuable insights into performance trends and refining our predictive models.\\
 
-Formulas (for reference):
+\subsubsection{Formulas (for reference)}
 \begin{itemize}
 \item The total sum of squares: \textbf{SST} $ = \sum_{i=1}^{k}\sum_{j = 1}^{n} (X_{ij} - \bar{X})^2 = \sum_{i,j}X^2_{ij} - \dfrac{X^2}{N} $.
 \item The treatment sum of squares: \textbf{SSTr} $ = \sum_{i=1}^{k} n (\bar{X_i} - \bar{X})^2 = \sum_{i=1}^{k} \dfrac{X_i^2}{n} - \dfrac{X^2}{N} $.
@@ -96,20 +95,18 @@ Formulas (for reference):
 \end{itemize}
 
 \subsection{Linear Regression}
-Linear regression is a fundamental statistical technique used to model the relationship between a dependent variable (CPU price) and one or more independent variables (CPU specifications). It is widely employed to analyze and make predictions based on observed data.\\
+Linear regression is a fundamental statistical technique used to model the relationship between a dependent variable (CPU clock speed) and one or more independent variables (CPU specifications). It is widely employed to analyze and make predictions based on observed data.\\
 
-Objective: To find the best-fitting straight line that describes the relationship between CPU price and its specifications.. This line is represented by a linear equation, which takes the following form:\\
+Objective: To find the best-fitting straight line that describes the relationship between CPU clock speed and its specifications. This line is represented by a linear equation, which takes the following form:\\
 $$ Y = \beta_0 + \beta_1x_1 + \beta_2x_2 + ... + \beta_nx_n + \varepsilon  $$
 Where:
 \begin{itemize}
-    \item Y is the dependent variable
-    \item $ \beta_0 $ is the intercept (the value of y when all independent variables are zero)
+    \item $Y$ is the dependent variable (CPU clock speed)
+    \item $ \beta_0 $ is the intercept (the value of Y when all independent variables are zero)
     \item $ \beta_1,  \beta_2, ...,  \beta_n$ are the coefficients (slopes) associated with the respective independent variables
-    \item $x_1, x_2, ..., x_n$ are the independent variables
+    \item $x_1, x_2, ..., x_n$ are the independent variables (CPU specifications)
     \item $\varepsilon$ is the error term, representing the difference between the observed values and the predicted values
 \end{itemize}
-
-\vspace*{1cm}
 
 The process of linear regression involves estimating the values of the coefficients ($\beta_0$, $\beta_1$, $\beta_2$, ..., $\beta_n$) using a set of observed data points. This estimation is typically performed using the method of least squares, which aims to minimize the sum of squared differences between the observed values and the predicted values obtained from the linear equation.
 Linear regression models can be classified into two main types:
@@ -121,7 +118,7 @@ Linear regression models can be classified into two main types:
 
 Procedure for Linear Regression:
 \begin{enumerate}
-    \item Formulate the Model: Define the relationship between CPU price and its specifications.
+    \item Formulate the Model: Define the relationship between CPU clock speed and its specifications.
     \item Estimate Coefficients: Use the method of least squares to estimate the values of the coefficients ($ \beta_1,  \beta_2, ...,  \beta_n$).
     \item Evaluate the Model:
     \begin{itemize}
@@ -129,8 +126,8 @@ Procedure for Linear Regression:
         \item P-Values: Assess the significance of each coefficient.
         \item Residual Analysis: Check for patterns in the residuals to validate assumptions.
     \end{itemize}
-    \item Interpret Coefficients: Understand the magnitude and direction of the impact of each independent variable on CPU price.
-    \item Predict: Use the model to predict CPU prices based on new values of the independent variables.
+    \item Interpret Coefficients: Understand the magnitude and direction of the impact of each independent variable on CPU clock speed. For instance, a positive coefficient for the number of cores indicates that as the number of cores increases, the clock speed tends to increase.
+    \item Predict: Use the model to predict CPU clock speeds based on new values of the independent variables. The predicted values can guide decisions in CPU design and marketing strategies.
 \end{enumerate}
 
 Assumptions of Linear Regression:
@@ -141,9 +138,46 @@ Assumptions of Linear Regression:
     \item Independence: Observations are independent of each other.
 \end{itemize}
 
-By understanding and applying these statistical methods, we can develop robust models to predict CPU prices based on their specifications, providing valuable insights for manufacturers and consumers.
+By understanding and applying linear regression, we can develop robust models to predict CPU clock speeds based on their specifications, providing valuable insights for manufacturers and consumers.
+
+\subsubsection{Formulas (for reference)}
+\subsubsection*{Covariance and Correlation}
+\begin{itemize}
+  \setlength\itemsep{0cm}
+  \item Covariance between the random variables $X$ and $Y$ is: $$ \text{cov}(X, Y) = \sigma_{XY} = E[(X-E(X))(Y - E(Y))] = E(XY) - E(X)E(Y) $$
+  \item The correlation between the random variables $X$ and $Y$ is: $$ \rho_{XY} = \dfrac{\text{cov}(X,Y)}{\sqrt{V(X)V(Y)}} = \dfrac{\sigma_{XY}}{\sigma_X\sigma_Y} = \dfrac{S_{xy}}{\sqrt{S_{xx}\cdot S_{yy}}} \text{, } -1 \leq  \rho_{XY} \leq 1 $$
+\end{itemize}
+
+\subsubsection*{Least Square Method}
+A statistical procedure to find the best fit for a set of data points.\\
+Suppose that we have $n$ pairs of observations $(x_1, y_1), (x_2, y_2), ..., (x_n, y_n)$. We have to find the linear regression model for the data as $ y_i = \beta_0 + \beta_1 x_i + \varepsilon $\\
+The sum of the squares of the deviations of the observations from the true regression line is 
+$$ L = \sum_{i=1}^{n}\varepsilon^2_i = \sum_{i=1}^{n} (y_i - \beta_0 -\beta_1x_1) \rightarrow min $$
+The least squares estimators $\hat{\beta_0}, \hat{\beta_1}$ must satisfy
+\[
+\begin{cases}
+  \displaystyle
+    n\hat{\beta_0} + \hat{\beta_1} \sum_{i=1}^{n}x_i = \sum_{i=1}^{n}y_i \\
+  \displaystyle
+    \hat{\beta_0} \sum_{i=1}^{n}x_i + \hat{\beta_1} \sum_{i=1}^{n}x_i^2 = \sum_{i=1}^{n}x_iy_i \\
+\end{cases}
+\]
+The least squares estimates of the intercept and the slope in the simple linear regression model are $$ \hat{\beta_0} = \bar{y} - \hat{\beta_1} \bar{x}, \quad \hat{\beta_1} = \dfrac{S_{xy}}{S_{xx}} $$
+where $$ S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y}) = \left( \sum_{i=1}^{n}x_iy_i \right) - \dfrac{1}{n}\left( \sum_{i=1}^{n}x_i \right)\left( \sum_{i=1}^{n}y_i \right) $$
+$$ S_{xx} = \sum_{i=1}^{n} (x_i - \bar{x})^2 = \left( \sum_{i=1}^{n}x_i^2 \right) - \dfrac{1}{n}\left( \sum_{i=1}^{n}x_i \right)^2 $$
+The \textbf{fitted} or \textbf{estimated regression line} is therefore: $$ \hat{y} = \hat{\beta_0} + \hat{\beta_1}x $$
+
+\begin{itemize}
+  \item $e_i = y_i - \hat{y_i}$: The error in the fit of the model to the $i^{th}$ observation $y_i$ and is called \textbf{residual}.
+  \item SSE $\displaystyle = \sum_{i=1}^{n} e_i^2 = \sum_{i=1}^{n} (y_i - \hat{y_i})^2 $ : The sum of squares of the residuals.
+  \item SST $\displaystyle = \sum_{i=1}^{n}(y_i - \bar{y})^2 = \sum_{i=1}^{n}y_i^2 - n\bar{y}^2 = S_{yy}$: The total sum of square of the response variable.
+  \item SSR $\displaystyle = \sum_{i=1}^{n}(\hat{y_i} - \bar{y})^2 = \beta_1S_{xy}$: The sum of squares for regression.
+  \item $r^2 = 1 - \dfrac{SSE}{SST} = \rho_{XY}^2$: The coefficient of determination.
+\end{itemize}
+Estimator of Variance: $ \hat{\sigma}^2 = \dfrac{SSE}{n-2} = \dfrac{SST - \beta_1S_{xy}}{n-2} $
+
 
 \subsection{Remark}
-To predict the price of CPUs, we primarily rely on \textbf{linear regression} as it directly models the relationship between the CPU specifications (independent variables) and the price (dependent variable). \textbf{ANOVA} can be used as a supplementary method to understand the influence of categorical variables on CPU prices, but it is not essential for the prediction model itself. 
+To predict the clock speed of CPUs, we primarily rely on \textbf{Linear Regression} as it directly models the relationship between the CPU specifications (independent variables) and the clock speed (dependent variable). \textbf{ANOVA} can be used as a supplementary method to understand the influence of categorical variables on CPU clock speeds, but it is not essential for the prediction model itself.
 
 \newpage

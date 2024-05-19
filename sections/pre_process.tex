@@ -1,34 +1,22 @@
 \section{Data Pre-processing}
-The dataset used in this study is sourced from a CSV file containing detailed specifications of Intel CPUs. This dataset serves as the foundation for our analysis, providing a comprehensive overview of various CPU features necessary for predicting prices. In this section, we describe the structure and contents of the dataset, including the types of features available and their relevance to our study.
+The dataset utilized in this study is derived from a CSV file containing comprehensive specifications of Intel CPUs. This dataset serves as the foundation for our analysis, providing detailed information on various CPU features that are essential for understanding clock speed trends. In this section, we describe the dataset's structure, contents, and the relevance of its attributes to our study.
 
 \subsection{Dataset Overview}
-The CSV file comprises numerous rows, each representing an individual Intel CPU model. Each row contains multiple attributes that describe the specifications and characteristics of the CPU. The dataset includes a diverse range of CPU models, spanning different series, generations, and intended applications (e.g., consumer desktops, laptops, and server-grade CPUs). This diversity ensures that our analysis covers a broad spectrum of CPU types and their respective price points.
+The CSV file comprises numerous rows, each representing an individual Intel CPU model. Each row contains multiple attributes describing the specifications and characteristics of the CPU. The dataset encompasses a diverse range of CPU models across different series, generations, and intended applications (e.g., consumer desktops, laptops, server-grade CPUs), ensuring a comprehensive coverage of CPU types and their respective attributes.
 
 \subsection{Data Relevance and Usefulness}
-
-The attributes in the dataset are crucial for predicting CPU prices because they encapsulate the key characteristics that drive market value. Below, we elaborate on the significance of each attribute in influencing CPU pricing:
+The following attributes from the dataset are particularly relevant for analyzing CPU clock speeds:
 
 \begin{itemize}
-    \item \textbf{Clock Speed}: Measured in gigahertz (GHz), clock speed is a primary performance indicator. CPUs with higher clock speeds can execute more instructions per second, thus enhancing overall performance. This makes clock speed a pivotal factor in pricing, as consumers and professionals often seek higher clock speeds for better performance.
-    
-    \item \textbf{Number of Cores}: The number of cores in a CPU affects its ability to handle multiple tasks simultaneously. Multi-core CPUs can manage parallel processes more efficiently, which is especially beneficial for tasks such as video editing, gaming, and running multiple applications. As a result, CPUs with more cores generally command higher prices.
-    
-    \item \textbf{Number of Threads}: Threads are the smallest units of processing that the operating system can schedule. CPUs with more threads can improve parallel processing capabilities, contributing to better multitasking and performance in threaded applications. This attribute is directly correlated with pricing, as higher thread counts enhance performance.
-    
-    \item \textbf{Cache Size}: Cache memory, typically measured in megabytes (MB), stores frequently accessed data for quick retrieval. Larger cache sizes reduce latency and improve processing speed, making CPUs with substantial cache memory more desirable and thus more expensive.
-    
-    \item \textbf{Power Consumption}: Measured in watts (W), power consumption impacts the efficiency and thermal performance of a CPU. CPUs that offer high performance while maintaining lower power consumption are more attractive, particularly for mobile devices and energy-efficient systems. Efficient power consumption can justify higher prices due to lower operating costs and reduced cooling requirements.
-    
-    \item \textbf{TDP (Thermal Design Power)}: TDP indicates the amount of heat a CPU generates under typical load conditions. CPUs with lower TDP values can be easier to cool, which is a significant consideration for system builders looking to manage heat dissipation effectively. This can influence the price, as better thermal performance can be a premium feature.
-    
-    \item \textbf{Manufacturing Process}: The technology node (e.g., 14nm, 10nm) used in manufacturing a CPU affects its performance, power efficiency, and cost. Smaller manufacturing processes generally lead to more efficient and powerful CPUs, contributing to higher prices due to the advanced technology involved.
-    
-    \item \textbf{Release Date}: The release date provides context regarding the technological advancements and market conditions at the time of a CPU's launch. Newer CPUs often incorporate the latest technologies and improvements, justifying higher prices compared to older models.
+    \item \textbf{Processor\_Base\_Frequency}: This attribute represents the base clock speed of the CPU, measured in gigahertz (GHz). Higher base frequencies generally indicate faster processing capabilities and overall performance.
+    \item \textbf{Max\_Turbo\_Frequency}: Many modern CPUs support Turbo Boost technology, which dynamically increases the clock speed under certain conditions. This attribute specifies the maximum Turbo Boost frequency achievable by the CPU, providing insights into its potential performance capabilities.
+    \item \textbf{nb\_of\_Cores}: The number of cores in a CPU impacts its ability to handle multiple tasks simultaneously. CPUs with more cores can potentially support higher clock speeds under optimal conditions, affecting overall performance trends.
+    \item \textbf{nb\_of\_Threads}: This attribute represents the number of threads supported by the CPU, which is often influenced by technologies like Intel's Hyper-Threading. A higher number of threads can contribute to better resource utilization and potentially higher effective clock speeds for certain workloads.
+    \item \textbf{TDP (Thermal Design Power)}: The TDP indicates the maximum amount of heat the CPU cooling system needs to dissipate. This attribute is closely related to the CPU's power consumption and thermal characteristics, which can impact clock speed potential and performance.
+    \item \textbf{Lithography}: This attribute refers to the manufacturing process node (e.g., 14nm, 10nm) used in producing the CPU. Advancements in manufacturing processes can lead to higher clock speeds and improved efficiency in newer CPU generations.
 \end{itemize}
 
-Our objective is to develop predictive models that can accurately estimate the price of a CPU based on its specifications. Understanding the relationship between each attribute and the price is essential for creating effective models. For instance, clock speed, core count, and cache size are direct performance indicators, while power consumption and TDP relate to efficiency and usability in different environments. The manufacturing process and release date provide context about the technological and market influences on pricing.\\
-
-By focusing on these critical attributes, we aim to develop models that capture the complexities of CPU pricing. This will enable us to make accurate predictions and provide valuable insights for manufacturers and consumers in the decision-making process.
+Our objective is to analyze historical trends in CPU clock speeds using these attributes. Understanding how clock speeds have evolved across different CPU generations, architectural improvements, and technological shifts is crucial for identifying patterns and making informed predictions. By focusing on these critical attributes, we aim to uncover insights into the factors driving CPU clock speed improvements and contributing to the overall technological progress in CPU development.
 
 \subsection{Load Data}
 \begin{lstlisting}[language=R]
