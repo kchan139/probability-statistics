@@ -31,6 +31,7 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows,snakes,backgrounds}
 \usepackage{hyperref}
+\usepackage{url}
 \hypersetup{urlcolor=blue,linkcolor=black,citecolor=black,colorlinks=true} 
 %\usepackage{pstcol} 								% PSTricks with the standard color package
 
@@ -67,7 +68,7 @@
 \newtheorem{lemma}[proposition]{{\bf Lemma}}
 
 \AtBeginDocument{\renewcommand*\contentsname{Contents}}
-\AtBeginDocument{\renewcommand*\refname{References}}
+\AtBeginDocument{\renewcommand*\refname{}}
 %\usepackage{fancyhdr}
 \setlength{\headheight}{40pt}
 \pagestyle{fancy}
@@ -189,7 +190,8 @@ FACULTY OF APPLIED SCIENCE
 \include{sections/conclusion}
 % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-\bibliographystyle{plain}
+\section{References}
+\bibliographystyle{unsrt}
 \bibliography{citations/books.bib}
 \nocite{*}
 
