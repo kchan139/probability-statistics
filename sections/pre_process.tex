@@ -56,10 +56,36 @@ In this section, we load and clean the data for our analysis.
 
 \vspace*{1cm}
 
-\subsection{Handle Missing Values}
+\subsection{Imputation and handle missing values}
 
-In this analysis, we focus on specific attributes of Intel CPUs that directly impact their clock speeds: Processor\_Base\_Frequency, nb\_of\_Cores, nb\_of\_Threads, TDP, and Lithography. It is essential to ensure the integrity and accuracy of these data points for meaningful analysis and reliable model predictions. \textbf{Here's why using the median for imputation is not suitable for these attributes and why removing rows with missing values is a better approach}:
+This dataset, like others, is not perfect, as some rows of values are empty of values. We must decide on how to treat empty/missing values, the process of which is called imputation.
 
+Some common imputation methods are:
+\begin{itemize}
+    \item \textbf{Listwise deletion}: Remove whole rows/list. Also known as complete case deletion.
+    \item \textbf{Median imputation}: Fill with median of available values.
+    \item \textbf{Mean imputation}: Fill with mean of available values.
+    \item \textbf{Regression imputation}: Use linear regression to extrapolate missing values.
+\end{itemize}
+
+Some less common imputation methods are:
+\begin{itemize}
+    \item \textbf{Pairwise deletion}: Similar to listwise deletion but only remove when missing required variables.
+    \item \textbf{Hot-deck imputation}: Pick randomly from available values.
+    \item \textbf{Cold-deck imputation}: Pick from a donor dataset.
+\end{itemize}
+
+We utilized various imputation methods to preprocess data.\\
+
+First, we reselect among the originally selected data columns so as to minimize missing data. So far, we have selected 6 columns as explained in the above section. After this consideration, we have removed the column Max\_Turbo\_Frequency, due to it having a very limited amount of data points especially in correspondence to older CPU processors.\\
+
+Then, we employed listwise deletion to remove cases of missing or bad data. We could have chosen other similar methods like mean imputation, median imputation or regression imputation, and in truth these methods have their own pros and cons. What led us to choose listwise were based on context:
+\begin{itemize}
+    \item We wanted to quickly prototype our programs. Implementation of listwise deletion is quick and simple.
+    \item We wanted a neutral algorithm. Unlike methods like regression imputation, this does not introduce sample bias.
+\end{itemize}
+
+In contrast and for example, here's why using median imputation is not suitable for our attributes and why removing rows with missing values is a better approach:
 \begin{itemize}
     \item Processor\_Base\_Frequency:
     \begin{itemize}
