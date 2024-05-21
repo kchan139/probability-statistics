@@ -2,7 +2,7 @@
 library(dplyr)
 
 # Importing data
-intel_cpu <- read.csv("~/Downloads/Intel_CPUs.csv")
+intel_cpu <- read.csv("../data/Intel_CPUs.csv")
 
 # Specify the desired columns
 desired_cols <- c("Processor_Base_Frequency", "nb_of_Cores", "nb_of_Threads", "TDP", "Lithography")
