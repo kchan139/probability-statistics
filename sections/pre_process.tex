@@ -98,33 +98,8 @@ In this analysis, we focus on specific attributes of Intel CPUs that directly im
 Handling outliers is essential for maintaining the integrity and accuracy of our data analysis. By identifying and removing outliers, we can ensure that our statistical analyses and predictive models are not unduly influenced by anomalous data points. This leads to more reliable insights and better overall model performance.
 
 \begin{lstlisting}[language=R]
-    # Identify Outliers Function
-    identify_outliers <- function (x) 
-    {
-        Q1 <- quantile (x, 0.25, na.rm = TRUE)
-        Q3 <- quantile (x, 0.75, na.rm = TRUE)
-        IQR <- Q3 - Q1
-        lower_bound <- Q1 - 1.5 * IQR
-        upper_bound <- Q3 + 1.5 * IQR
-        return (x < lower_bound | x > upper_bound)
-    }
-
-    # Apply the function to identify outliers for each relevant column
-    outliers <- sapply (intel_cpu_subset[, cols_to_check], identify_outliers)
-
-    # Combine the outliers into a single logical vector indicating any row with an outlier
-    combined_outliers <- apply (outliers, 1, any)
-
-    # Print number of outliers in each column
-    print (colSums (outliers))
-
-    # Remove rows with outliers
-    intel_cpu_cleaned <- intel_cpu_subset[!combined_outliers, ]
-
-    # Verify the changes
-    summary (intel_cpu_cleaned)
+    intel_cpu_temp <- intel_cpu_subset
+    intel_cpu_temp$TDP <- log10(intel_cpu_temp$TDP)
 \end{lstlisting}
-
-\subsection{Feature Scaling/Normalization}
 
 \newpage
