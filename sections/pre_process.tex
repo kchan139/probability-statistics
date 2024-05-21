@@ -56,7 +56,7 @@ In this section, we load and clean the data for our analysis.
 
 \vspace*{1cm}
 
-\subsection{Imputation and handle missing values}
+\subsection{Handling missing values}
 
 This dataset, like others, is not perfect, as some rows of values are empty of values. We must decide on how to treat empty/missing values, the process of which is called imputation.
 
@@ -120,7 +120,8 @@ In contrast and for example, here's why using median imputation is not suitable 
     print (intel_cpu_subset)
 \end{lstlisting}
 
-\subsection{Log transformation and handle outliers}
+\subsection{Handling outliers}
+
 Outliers in our dataset can have both positive and negative implications. Outliers can bring out the true nature of our sample population. Outliers can also mean experimental errors, affecting the integrity and accuracy of our data analysis. In this assignment we chose to preprocess outlier values. Specifically, our initial observations have shown that our dataset is skewed. Thus, we will specifically employ log transformation to adjust the datapoints at certain columns.\\
 
 Log transformation simply means applying a base-10 logarithm function to a column, specifically TDP (Thermal Design Power):
