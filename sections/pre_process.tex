@@ -120,9 +120,10 @@ In contrast and for example, here's why using median imputation is not suitable 
     print (intel_cpu_subset)
 \end{lstlisting}
 
-\subsection{Handle Outliers}
-Handling outliers is essential for maintaining the integrity and accuracy of our data analysis. By identifying and removing outliers, we can ensure that our statistical analyses and predictive models are not unduly influenced by anomalous data points. This leads to more reliable insights and better overall model performance.
+\subsection{Log transformation and handle outliers}
+Outliers in our dataset can have both positive and negative implications. Outliers can bring out the true nature of our sample population. Outliers can also mean experimental errors, affecting the integrity and accuracy of our data analysis. In this assignment we chose to preprocess outlier values. Specifically, our initial observations have shown that our dataset is skewed. Thus, we will specifically employ log transformation to adjust the datapoints at certain columns.\\
 
+Log transformation simply means applying a base-10 logarithm function to a column, specifically TDP (Thermal Design Power):
 \begin{lstlisting}[language=R]
     intel_cpu_temp <- intel_cpu_subset
     intel_cpu_temp$TDP <- log10(intel_cpu_temp$TDP)
