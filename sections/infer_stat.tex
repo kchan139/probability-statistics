@@ -1,18 +1,39 @@
 \section{Inferential Statistics}
 
 \subsection{Multiple Linear Regression to Predict CPU Clock Speed}
-The main objective of this section is constructing a model that portrays the effect of other variables on the Processor Base Frequency. To achieve this we applied a Multi Regression model, in which the dependent variable is Processor Base Frequency, while the rest are independent. Our model comes in this form:
 
-%ai thêm giùm cái pt regression nha :3
+\subsubsection{Data Splitting}
+After finalizing the data we need for statistical analysis, we have to split the data further into two subsets: \textbf{training set and test set}. Training set helps us build and train the model, allowing it to learn the patterns and connections within our data. Then, the test set will be tested on the validated model to give an objective assessment of the model's efficacy and performance on fresh, unseen data. In data science and machine learning, this train-test split strategy is a standard procedure since it ensures that the model generalises effectively to new data and helps prevent over-fitting. In this project, the training set consists of 70\% of the original data, and the remaining 30\% makes up the test set.
 
-We start with our first model, also known as the base model, where it will be built with all the independent variables available.
+\subsubsection{Regression Model}
+The main objective of this section is constructing a model that portrays the effect of other factors on the CPU clock speed. To achieve this we applied a Multi Regression model, in which the dependent variable is Processor Base Frequency - the variable representing CPU clock speed, and the rest are independent. Our model appears as the formula below:\\
+
+$Processor Base Frequency = \beta_0 + \beta_1 nb\_of\_Cores + \beta_2 nb\_of\_Threads + \beta_3 TDP + \beta_4 Lithography$ \\
+
+We start with our \textbf{first model}, also known as the \textbf{base model}, built with all the independent variables available. \\
 
 %ảnh model 2
 
-In this model, our independent variables consist of: 
+In this model, our respone variables consist of: nb\_of\_Cores, nb\_of\_Threads, TDP and Lithography. Now, we should remove the variables that are proven insignificant to our analysis, which can be determined based on the Pr values (last column). If $Pr < 0.05$, the variable is significant. With this insight, the variable that will be deducted is nb\_of\_Threads. Subsequently, we now construct the \textbf{new and theoretically improved model}. \\
 
+%ảnh model 3
 
+However, our group came to the decision of using the base model, since the difference in Adjusted $R^2$ value between the two is not significant enough (0.0001) to implement the second model as an improvement over the first. Hence, our final model now should look like this:\\
 
-\subsection{Result}
+$Processor Base Frequency = \beta_0 + \beta_1 nb\_of\_Cores + \beta_2 nb\_of\_Threads + \beta_3 TDP + \beta_4 Lithography$ \\
+
+Observing the results R gave on model 2, the p - value correlating with F statistics is less than $2.2 \cdot 10^{-16}$. This suggests that our data is robust and valuable for statistical analysis. Additionally, it guarantees that future results from this model provide good evaluations about the relationship between the Processor Base Frequency and the remaining variables. Generally, the regression coefficients ($\beta_i$) and the p - values hold the most influences on the independent variables. 
+
+\subsubsection{Assumptions of Linear Regression}
+
+\subsubsection{Testing}
+We now use the preceding test set to access the accuracy of our model. To gauge the correspondence between our estimates and the actual values, we look at their distribution and compare them.
+
+%plot và bảng so sánh 2 data set
+
+Khúc này là nhận xét nhma đ có data gì nên chưa nhận xét nha bây :')
+
+\subsection{Conclusion}
+After implementing a Multi Regression Model to predict the CPU Clock Speed, we were able to identified 4 variables that are significant to the Processor Base Frequency. The model aid manufacturers in pinpointing the factors that affect the CPU performance through its clock speed, providing appropriate strategies in product development, while also help customer choosing the right CPU specifications for their needs. Overall, the results that the model predict is justifiably similar to the actual data. 
 
 \newpage
