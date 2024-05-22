@@ -16,14 +16,12 @@ We use Shapiro-Wilk normality test to check if this model is normal distribution
     \centering
     \includegraphics[width=0.8\textwidth]{graphics/shapiro.png}
     \caption{Shapiro-Wilk's test}
-    \label{fig:shapiro}
 \end{figure}
 From the result, p-value is smaller than 0.05 so we reject $H_0$ and accept $H_1$. Therefore, Processor Base Frequency should not be approximately normally distributed for each combinations of number of Cores and TDP. So we need to plot out the model diagnose plot to check if it is normal distribution or not:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{graphics/check_normality.png}
     \caption{ggqqplot from ANOVA test}
-    \label{fig:check_normality}
 \end{figure}
 We see that in ggqqplot, most of the points lie closely on the line. So we can assume that Processor Base Frequency is approximately normally distributed for each combinations of number of Cores and TDP.\\
 \\
@@ -38,7 +36,6 @@ We use Levene's test to check if this model is homogeneity:\\
     \centering
     \includegraphics[width=1\textwidth]{graphics/check_homogeneity.png}
     \caption{Leneve's Test for Homogeneity of Variance}
-    \label{fig:check_homogeneity}
 \end{figure}
 From the result, we see that p-value is smaller than 0.05 so we reject $H_0$ and accept $H_1$. Therefore, Processor Base Frequency is not homogeneity across groups of number of Cores and TDP. 
 \subsubsection{Calculate ANOVA}
@@ -49,7 +46,6 @@ From the result, we see that p-value is smaller than 0.05 so we reject $H_0$ and
     \centering
     \includegraphics[width=1\textwidth]{graphics/anova_test.png}
     \caption{Calculate ANOVA}
-    \label{fig:calculate_anova}
 \end{figure}
 From the result, we see that Pr(>F) value is smaller than 0.05 so we reject $H_0$ and accept $H_1$. Therefore, Processor Base Frequency follows different distribution across group defined by the independent variables number of Cores and TDP.
 
@@ -80,7 +76,6 @@ We start with our \textbf{first model}, also known as the \textbf{base model}, b
     \centering
     \includegraphics[width=0.8\textwidth]{graphics/base_model.png}
     \caption{The base model}
-    \label{fig:base_model}
 \end{figure}
 
 
@@ -90,7 +85,6 @@ In this model, our respone variables consist of: \texttt{nb\_of\_Cores}, \texttt
     \centering
     \includegraphics[width=0.8\textwidth]{graphics/improved_model.png}
     \caption{The improved model}
-    \label{fig:improved_model}
 \end{figure}
 
 However, our group came to the decision of using the base model, since the difference in Adjusted $R^2$ value between the two is not significant enough (0.0001) to implement the second model as an improvement over the first. Hence, our final model now should look like this:\\
@@ -105,7 +99,6 @@ Observing the results R gave on model 2, the p - value correlating with F statis
     \centering
     \includegraphics[width=0.8\textwidth]{graphics/assumption_graph.png}
     \caption{Plots for the Assumptions}
-    \label{fig:assumption_graph}
 \end{figure}
 
 \textbf{Residuals vs. Fitted:} This is a scatter plot showing the residuals on the Y-axis and the fitted values on the X-axis, commonly used to detect non-linearity, unequal error variances and outliers. Values that have the residual 0 are those that would end up directly on the estimated regression line. In our graph, the residuals are chaotically and randomly distributed around the 0 line, indicating that the model is suitable for testing. \\
@@ -123,7 +116,6 @@ We first run the model on our \textbf{training set} (70\% of the original data) 
     \centering
     \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
     \caption{Multi Linear Regression model applied on the Training et}
-    \label{fig:train_test_graph}
 \end{figure}
 
 The values plotted on this graph is quite widely distributed from the regression line, proving that the predicted and actual values form an average linear relationship. This confirms that the model is effective.\\
@@ -143,7 +135,6 @@ Then we plot the graph following the exact same way as we did with the training 
     \centering
     \includegraphics[width=0.8\textwidth]{graphics/test_set_graph.png}
     \caption{Multi Linear Regression model applied on the Test Set}
-    \label{fig:assumption_graph}
 \end{figure}
 
 The graph portrays a linear relationship between the predicted and actual values, indicating that the model works on unseen data. This concludes that this model is good at predicting the clock speed based on the key variables mentioned.
