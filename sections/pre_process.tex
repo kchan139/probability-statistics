@@ -103,16 +103,26 @@ In contrast and for example, here's why using median imputation is not suitable 
 \end{lstlisting}
 
 \subsection{Handling outliers}
-Our initial observations have shown that our dataset is skewed. Specifically, X. These values are outliers.\\
+Certain data points in the column TDP (Thermal Design Power) are extreme compared to others in the same column. These values are outliers. In the below figures, they are seen as the lone tall spikes.\\
 
 Outliers in our dataset can have both positive and negative implications. Outliers can bring out the true nature of our sample population, in which case we should retain these values. Outliers can also mean experimental errors, affecting the integrity and accuracy of our data analysis, in which case we should correct or remove these values.\\
 
-In this assignment we chose to correct outlier values. While we could not confidently trace these outlier's origin to experimental errors, X.\\
-
-We will employ log transformation. Log transformation simply means applying a base-10 logarithm function to a column. This should correct the data points at certain columns by re-adjusting data points the more that are far away from 0. Specifically, we will transform the column TDP (Thermal Design Power) where most assumably erroneous outliers occurred:
+In this assignment we have chosen to correct outlier values. We will employ log transformation. Log transformation simply means applying a base-10 logarithm function to a column. This should correct the data points at certain columns by re-adjusting data points the more that are far away from 0. Specifically, we will transform the column TDP where most assumably erroneous outliers occurred:
 \begin{lstlisting}[language=R]
     intel_cpu_temp <- intel_cpu_subset
     intel_cpu_temp$TDP <- log10(intel_cpu_temp$TDP)
 \end{lstlisting}
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=14cm]{graphics/tdp_log_before.png}
+    \end{center}
+\end{figure}
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=14cm]{graphics/tdp_log_after.png}
+    \end{center}
+\end{figure}
 
 \newpage
