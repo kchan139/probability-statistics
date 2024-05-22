@@ -56,7 +56,7 @@ From the result, we see that Pr(>F) value is smaller than 0.05 so we reject $H_0
 \subsection{Multiple Linear Regression to Predict CPU Clock Speed}
 
 \subsubsection{Data Splitting}
-After finalizing the data we need for statistical analysis, we have to split the data further into two subsets: \textbf{training set and test set}. Training set helps us build and train the model, allowing it to learn the patterns and connections within our data. Then, the test set will be tested on the validated model to give an objective assessment of the model's efficacy and performance on fresh, unseen data. In data science and machine learning, this train-test split strategy is a standard procedure since it ensures that the model generalises effectively to new data and helps prevent over-fitting. In this project, the training set consists of 70\% of the original data, and the remaining 30\% makes up the test set.
+After finalizing the data we need for statistical analysis, we have to split the data further into two subsets: \textbf{training set and test set}. Training set helps us build and train the model, allowing it to learn the patterns and connections within our data. Then, the test set will be tested on the validated model to give an objective assessment of the model's efficacy and performance on fresh, unseen data. In data science and machine learning, this train-test split strategy is a standard procedure since it ensures that the model generalises effectively to new data and helps prevent over-fitting. In this project, the training set consists of 70\% of the original data, and the remaining 30\% makes up the test set. This is the code we implemented to split the data:
 
 %%%%%% Khúc này là code format lại giùm nha %%%%%%
 \begin{lstlisting}[language=R]
@@ -68,7 +68,6 @@ After finalizing the data we need for statistical analysis, we have to split the
     test_set <- intel_cpu_subset[-train_ind, ]
 \end{lstlisting}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Chú thích ở dưới: Code served for data splitting
 
 \subsubsection{Regression Model}
 The main objective of this section is constructing a model that portrays the effect of other factors on the CPU clock speed. To achieve this we applied a Multi Regression model, in which the dependent variable is Processor Base Frequency - the variable representing CPU clock speed, and the rest are independent. Our model appears as the formula below:\\
@@ -79,9 +78,9 @@ We start with our \textbf{first model}, also known as the \textbf{base model}, b
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
-    \caption{Multi Linear Regression model applied on the Training et}
-    \label{fig:train_test_graph}
+    \includegraphics[width=0.8\textwidth]{graphics/base_model.png}
+    \caption{The base model}
+    \label{fig:base_model}
 \end{figure}
 
 
@@ -89,9 +88,9 @@ In this model, our respone variables consist of: nb\_of\_Cores, nb\_of\_Threads,
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
-    \caption{Multi Linear Regression model applied on the Training et}
-    \label{fig:train_test_graph}
+    \includegraphics[width=0.8\textwidth]{graphics/improved_model.png}
+    \caption{The improved model}
+    \label{fig:improved_model}
 \end{figure}
 
 However, our group came to the decision of using the base model, since the difference in Adjusted $R^2$ value between the two is not significant enough (0.0001) to implement the second model as an improvement over the first. Hence, our final model now should look like this:\\
