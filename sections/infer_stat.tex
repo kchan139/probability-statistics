@@ -72,7 +72,7 @@ After finalizing the data we need for statistical analysis, we have to split the
 \subsubsection{Regression Model}
 The main objective of this section is constructing a model that portrays the effect of other factors on the CPU clock speed. To achieve this we applied a Multi Regression model, in which the dependent variable is Processor Base Frequency - the variable representing CPU clock speed, and the rest are independent. Our model appears as the formula below:\\
 
-$Processor Base Frequency = \beta_0 + \beta_1 nb\_of\_Cores + \beta_2 nb\_of\_Threads + \beta_3 TDP + \beta_4 Lithography$ \\
+$\text{\texttt{Processor Base Frequency}} = \beta_0 + \beta_1 \times\text{\texttt{nb\_of\_Cores}} + \beta_2 \times\text{\texttt{nb\_of\_Threads}} + \beta_3 \times\text{\texttt{TDP}} + \beta_4 \times\text{\text{Lithography}}$ \\
 
 We start with our \textbf{first model}, also known as the \textbf{base model}, built with all the independent variables available. \\
 
@@ -84,7 +84,7 @@ We start with our \textbf{first model}, also known as the \textbf{base model}, b
 \end{figure}
 
 
-In this model, our respone variables consist of: nb\_of\_Cores, nb\_of\_Threads, TDP and Lithography. Now, we should remove the variables that are proven insignificant to our analysis, which can be determined based on their Pr values (last column). If $Pr < 0.05$, the variable is significant. With this insight, the variable that will be deducted is nb\_of\_Threads. Subsequently, we now construct the \textbf{new and theoretically improved model}. \\
+In this model, our respone variables consist of: \texttt{nb\_of\_Cores}, \texttt{nb\_of\_Threads}, \texttt{TDP} and \texttt{Lithography}. Now, we should remove the variables that are proven insignificant to our analysis, which can be determined based on their Pr values (last column). If $Pr < 0.05$, the variable is significant. With this insight, the variable that will be deducted is nb\_of\_Threads. Subsequently, we now construct the \textbf{new and theoretically improved model}. \\
 
 \begin{figure}[H]
     \centering
@@ -95,9 +95,9 @@ In this model, our respone variables consist of: nb\_of\_Cores, nb\_of\_Threads,
 
 However, our group came to the decision of using the base model, since the difference in Adjusted $R^2$ value between the two is not significant enough (0.0001) to implement the second model as an improvement over the first. Hence, our final model now should look like this:\\
 
-$Processor Base Frequency = 2.8134 - 0.1279 \cdot nb\_of\_Cores + 0.0002 \cdot nb\_of\_Threads + 0.0162 \cdot TDP - 0.0324 \cdot Lithography$ \\
+$\text{\texttt{Processor Base Frequency}} = 2.8134 - 0.1279 \times \text{\texttt{nb\_of\_Cores}} + 0.0002 \times \text{\texttt{nb\_of\_Threads}} + 0.0162 \times \text{\texttt{TDP}} - 0.0324 \times \text{\texttt{Lithography}}$ \\
 
-Observing the results R gave on model 2, the p - value correlating with F statistics is less than $2.2 \cdot 10^{-16}$. This suggests that our data is robust and valuable for statistical analysis. Additionally, it guarantees that future results from this model provide good evaluations about the relationship between the Processor Base Frequency and the remaining variables. Generally, the regression coefficients ($\beta_i$) and the p - values hold the most influences on the independent variables. 
+Observing the results R gave on model 2, the p - value correlating with F statistics is less than $2.2 \times 10^{-16}$. This suggests that our data is robust and valuable for statistical analysis. Additionally, it guarantees that future results from this model provide good evaluations about the relationship between the Processor Base Frequency and the remaining variables. Generally, the regression coefficients ($\beta_i$) and the p - values hold the most influences on the independent variables. 
 
 \subsubsection{Assumptions of Linear Regression}
 
