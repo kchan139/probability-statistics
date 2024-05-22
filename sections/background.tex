@@ -176,6 +176,26 @@ The \textbf{fitted} or \textbf{estimated regression line} is therefore: $$ \hat{
 \end{itemize}
 Estimator of Variance: $ \hat{\sigma}^2 = \dfrac{SSE}{n-2} = \dfrac{SST - \beta_1S_{xy}}{n-2} $
 
+\subsection{Imputation}
+
+Most datasets, including the one used in this report, are imperfect, as some rows of values are empty of values. We must decide on how to treat empty/missing values, the process of which is called imputation.\\
+
+Some common imputation methods are:
+\begin{itemize}
+    \item \textbf{Listwise deletion}: Remove whole rows/list. Also known as complete case deletion.
+    \item \textbf{Median imputation}: Fill with median of available values.
+    \item \textbf{Mean imputation}: Fill with mean of available values.
+    \item \textbf{Regression imputation}: Use linear regression to extrapolate missing values.
+\end{itemize}
+
+Some less common imputation methods are:
+\begin{itemize}
+    \item \textbf{Pairwise deletion}: Similar to listwise deletion but only remove when missing required variables.
+    \item \textbf{Hot-deck imputation}: Pick randomly from available values.
+    \item \textbf{Cold-deck imputation}: Pick from a donor dataset.
+\end{itemize}
+
+We utilized various imputation methods to preprocess data.\\
 
 \subsection{Remark}
 To predict the clock speed of CPUs, we primarily rely on \textbf{Linear Regression} as it directly models the relationship between the CPU specifications (independent variables) and the clock speed (dependent variable). \textbf{ANOVA} can be used as a supplementary method to understand the influence of categorical variables on CPU clock speeds, but it is not essential for the prediction model itself.

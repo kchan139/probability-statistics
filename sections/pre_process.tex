@@ -58,25 +58,6 @@ In this section, we load and clean the data for our analysis.
 
 \subsection{Handling missing values}
 
-This dataset, like others, is not perfect, as some rows of values are empty of values. We must decide on how to treat empty/missing values, the process of which is called imputation.
-
-Some common imputation methods are:
-\begin{itemize}
-    \item \textbf{Listwise deletion}: Remove whole rows/list. Also known as complete case deletion.
-    \item \textbf{Median imputation}: Fill with median of available values.
-    \item \textbf{Mean imputation}: Fill with mean of available values.
-    \item \textbf{Regression imputation}: Use linear regression to extrapolate missing values.
-\end{itemize}
-
-Some less common imputation methods are:
-\begin{itemize}
-    \item \textbf{Pairwise deletion}: Similar to listwise deletion but only remove when missing required variables.
-    \item \textbf{Hot-deck imputation}: Pick randomly from available values.
-    \item \textbf{Cold-deck imputation}: Pick from a donor dataset.
-\end{itemize}
-
-We utilized various imputation methods to preprocess data.\\
-
 First, we reselect among the originally selected data columns so as to minimize missing data. So far, we have selected 6 columns as explained in the above section. After this consideration, we have removed the column Max\_Turbo\_Frequency, due to it having a very limited amount of data points especially in correspondence to older CPU processors.\\
 
 Then, we employed listwise deletion to remove cases of missing or bad data. We could have chosen other similar methods like mean imputation, median imputation or regression imputation, and in truth these methods have their own pros and cons. What led us to choose listwise were based on context:
