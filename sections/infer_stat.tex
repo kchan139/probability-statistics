@@ -77,55 +77,22 @@ $Processor Base Frequency = \beta_0 + \beta_1 nb\_of\_Cores + \beta_2 nb\_of\_Th
 
 We start with our \textbf{first model}, also known as the \textbf{base model}, built with all the independent variables available. \\
 
-%%%%%% Khúc này là kqua format lại giùm nha %%%%%%
-% Call:
-% lm(formula = Processor_Base_Frequency ~ nb_of_Cores + nb_of_Threads + 
-%     TDP + Lithography, data = train_set)
-
-% Residuals:
-%      Min       1Q   Median       3Q      Max 
-% -1.63836 -0.27698  0.01221  0.31291  1.17039 
-
-% Coefficients:
-%                Estimate Std. Error t value Pr(>|t|)    
-% (Intercept)    2.813706   0.050545  55.668  < 2e-16 ***
-% nb_of_Cores   -0.127859   0.017229  -7.421 2.59e-13 ***
-% nb_of_Threads  0.000201   0.008336   0.024    0.981    
-% TDP            0.016153   0.000503  32.113  < 2e-16 ***
-% Lithography   -0.032354   0.001757 -18.416  < 2e-16 ***
-% ---
-% Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-% Residual standard error: 0.4579 on 940 degrees of freedom
-% Multiple R-squared:  0.5423,	Adjusted R-squared:  0.5404 
-% F-statistic: 278.5 on 4 and 940 DF,  p-value: < 2.2e-16
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
+    \caption{Multi Linear Regression model applied on the Training et}
+    \label{fig:train_test_graph}
+\end{figure}
 
 
 In this model, our respone variables consist of: nb\_of\_Cores, nb\_of\_Threads, TDP and Lithography. Now, we should remove the variables that are proven insignificant to our analysis, which can be determined based on their Pr values (last column). If $Pr < 0.05$, the variable is significant. With this insight, the variable that will be deducted is nb\_of\_Threads. Subsequently, we now construct the \textbf{new and theoretically improved model}. \\
 
-%%%%%% Khúc này là kqua format lại giùm nha %%%%%%
-% Call:
-% lm(formula = Processor_Base_Frequency ~ nb_of_Cores + TDP + Lithography, 
-%     data = train_set)
-
-% Residuals:
-%      Min       1Q   Median       3Q      Max 
-% -1.63831 -0.27754  0.01245  0.31306  1.17061 
-
-% Coefficients:
-%               Estimate Std. Error t value Pr(>|t|)    
-% (Intercept)  2.8133773  0.0486411   57.84   <2e-16 ***
-% nb_of_Cores -0.1274613  0.0050185  -25.40   <2e-16 ***
-% TDP          0.0161541  0.0004978   32.45   <2e-16 ***
-% Lithography -0.0323520  0.0017534  -18.45   <2e-16 ***
-% ---
-% Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-% Residual standard error: 0.4577 on 941 degrees of freedom
-% Multiple R-squared:  0.5423,	Adjusted R-squared:  0.5409 
-% F-statistic: 371.7 on 3 and 941 DF,  p-value: < 2.2e-16
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
+    \caption{Multi Linear Regression model applied on the Training et}
+    \label{fig:train_test_graph}
+\end{figure}
 
 However, our group came to the decision of using the base model, since the difference in Adjusted $R^2$ value between the two is not significant enough (0.0001) to implement the second model as an improvement over the first. Hence, our final model now should look like this:\\
 
@@ -135,12 +102,30 @@ Observing the results R gave on model 2, the p - value correlating with F statis
 
 \subsubsection{Assumptions of Linear Regression}
 
-% ảnh giả định
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graphics/assumption_graph.png}
+    \caption{Plots for the Assumptions}
+    \label{fig:assumption_graph}
+\end{figure}
+
+\textbf{Residuals vs. Fitted:} This is a scatter plot showing the residuals on the Y-axis and the fitted values on the X-axis, commonly used to detect non-linearity, unequal error variances and outliers. Values that have the residual 0 are those that would end up directly on the estimated regression line. In our graph, the residuals are chaotically and randomly distributed around the 0 line, indicating that the model is suitable for testing. \\
+
+\textbf{Normal Q-Q:} The normal quantile-quantile visualization calculates the normal quantiles of all values in a column. The values (Y-axis) are then plotted against the normal quantiles (X-axis). The values form a pattern that slightly curves to the right of the normal line, showing that the distribution is somewhat skewed to the left. However, as the majority of the values stay on the line, it is safe to assume that normality is ensured to a certain extent. \\
+
+\textbf{Scale - Location:} This plot shows if residuals are spread equally along the ranges of predictors. This is how we can check the assumption of equal variance - homoscedasticity. Homoscedasticity is another important assumption, as it indicates that the variability of the residuals is consistent across the range of fitted values. Apply this on our plot, the square roots of residuals are not so equally spread across the red line but instead, condensed more between the fitted values 2 to 2.5 and sparser as they move further from this range. However, this is not a clear trend from the values, hence the assumption of homoscedasticity is met.\\
+
+\textbf{Residuals vs. Leverage} This plot displays the residuals against the leverage values, which measure the influence of each data point on the model. The points are scattered without any clear pattern, suggesting that there are no influential observations that significantly affect the model. Influential observations can have a disproportionate impact on the model, and this plot helps identify any potential outliers or high-leverage points. The absence of a clear pattern indicates that the model is not unduly influenced by any individual data points. \\
 
 \subsubsection{Testing}
 We first run the model on our \textbf{training set} (70\% of the original data) to validate the model before actual testing. To gauge the correspondence between our estimates and the actual values, we look at their distribution and compare them.\\
 
-%graph train set
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
+    \caption{Multi Linear Regression model applied on the Training et}
+    \label{fig:train_test_graph}
+\end{figure}
 
 The values plotted on this graph is quite widely distributed from the regression line, proving that the predicted and actual values form an average linear relationship. This confirms that the model is effective.\\
 
@@ -155,7 +140,12 @@ We now run the model on the preceding \textbf{test set} (30\% of the original da
 
 Then we plot the graph following the exact same way as we did with the training set.\\
 
-%graph test set
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{graphics/test_set_graph.png}
+    \caption{Multi Linear Regression model applied on the Test Set}
+    \label{fig:assumption_graph}
+\end{figure}
 
 The graph portrays a linear relationship between the predicted and actual values, indicating that the model works on unseen data. This concludes that this model is good at predicting the clock speed based on the key variables mentioned.
 
