@@ -1,3 +1,19 @@
 \section{Discussion}
 
+The analysis conducted in this study focuses on predicting CPU clock speed based on various CPU specifications. The primary attributes used for this prediction include the number of cores, number of threads, cache size, power consumption, TDP (Thermal Design Power), manufacturing process, and release date. This approach provides insights into how these features impact the clock speed, which is a crucial performance metric for CPUs.\\
+
+Our results indicate that certain attributes significantly influence CPU clock speed. Specifically, the number of cores, number of threads, and cache size show a strong positive correlation with clock speed. This finding aligns with the understanding that more cores and threads can handle more tasks simultaneously, thus requiring higher clock speeds to maintain performance. Similarly, larger cache sizes facilitate faster data access, contributing to higher clock speeds.\\
+
+Power consumption and TDP are also critical factors. CPUs with higher power consumption and TDP values generally have higher clock speeds. This is because higher power and thermal limits allow CPUs to operate at higher frequencies, enhancing performance, especially under load. However, this also implies a trade-off between performance and energy efficiency, which is an important consideration for both manufacturers and consumers.\\
+
+The manufacturing process, indicated by lithography, shows that newer manufacturing technologies (with smaller nanometer values) tend to support higher clock speeds. This is due to advancements in semiconductor technology, allowing for more transistors on a chip, reducing heat output, and improving power efficiency.\\
+
+The release date serves as a temporal indicator, showing that newer CPUs generally have higher clock speeds. This trend reflects the continuous improvement in CPU technology and performance over time.\\
+
+The regression analysis used in this study, particularly the linear regression model, effectively captures the relationships between the independent variables and CPU clock speed. The model's performance metrics, such as R-squared and Mean Squared Error (MSE), indicate a good fit, confirming the model's predictive capability. While ANOVA provides additional insights into the impact of categorical variables like CPU series and generation, the regression model is the primary tool for prediction.\\
+
+In conclusion, this study offers a robust methodology for predicting CPU clock speed based on key specifications. The findings have practical implications for CPU manufacturers aiming to optimize design and performance, as well as for consumers looking to make informed purchasing decisions. By leveraging statistical methods and regression analysis, this research contributes to a deeper understanding of CPU performance dynamics and enhances transparency and efficiency in the marketplace.\\
+
+This comprehensive approach demonstrates the value of combining various statistical techniques to predict CPU performance accurately. Future research could explore the incorporation of more complex models, such as machine learning algorithms, to further improve prediction accuracy and handle non-linear relationships among the variables.\\
+
 \newpage
