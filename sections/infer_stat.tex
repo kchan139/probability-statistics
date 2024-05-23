@@ -14,7 +14,7 @@ We use Shapiro-Wilk normality test to check if this model is normal distribution
 \textbf{Alternative hypothesis $H_1$}: Processor Base Frequency should not be approximately normally distributed for each combinations of number of Cores and TDP.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/shapiro.png}
+    \includegraphics[width=0.8\textwidth]{graphics/shapiro_test.png}
     \caption{Shapiro-Wilk's test}
 \end{figure}
 From the result, p-value is smaller than 0.05 so we reject $H_0$ and accept $H_1$. Therefore, Processor Base Frequency should not be approximately normally distributed for each combinations of number of Cores and TDP. So we need to plot out the model diagnose plot to check if it is normal distribution or not:
@@ -44,7 +44,7 @@ From the result, we see that p-value is smaller than 0.05 so we reject $H_0$ and
 \textbf{Alternative hypothesis $H_1$}: Processor Base Frequency follows different distribution across group defined by the independent variables number of Cores and TDP.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{graphics/anova_test.png}
+    \includegraphics[width=1\textwidth]{graphics/calculate_anova.png}
     \caption{Calculate ANOVA}
 \end{figure}
 From the result, we see that Pr(>F) value is smaller than 0.05 so we reject $H_0$ and accept $H_1$. Therefore, Processor Base Frequency follows different distribution across group defined by the independent variables number of Cores and TDP.
