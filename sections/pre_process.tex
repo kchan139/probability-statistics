@@ -11,7 +11,7 @@ The dataset was imported into the workspace using the \texttt{read.csv()} functi
 
 After importing the data, it was summarized using the \texttt{vis\_dat()} function from the \texttt{visdat} library, which visualizes the data type of each attribute across all observations.
 
-\begin{figure}[h]
+\begin{figure}[H]
     \centering
     \includegraphics[width=16cm]{graphics/visdat.png}
     \caption*{Dataset visualization}
@@ -19,6 +19,7 @@ After importing the data, it was summarized using the \texttt{vis\_dat()} functi
 
 It can be seen that the dataset mostly consist of char types with some numeric features and a large of portion of data is missing. Therefore, to work with the dataset, feature selection followed by handling missing values has to be done and data transformation must take place in order to convert the char types into numeric for analyzing purposes.\\
 
+\newpage
 \subsection{Missing values examination and attributes selection}
 
 \begin{figure}[h]
@@ -95,6 +96,42 @@ To handle missing data, we employed median imputation. Although methods like lis
 \end{lstlisting}
 
 The following \texttt{R} code handles the preprocessing of our dataset by converting units where necessary and imputing missing values with the median. The \texttt{convert\_units} function checks if the data contains "GHz" and converts it to "MHz" by multiplying the numeric value by 1000. This ensures uniformity in the measurement units. The mutate function from the \texttt{dplyr} package is used to apply these conversions across all columns of the dataset. For each cell, if the value is missing or empty, it is replaced with \texttt{NA}, then converted using the \texttt{convert\_units} function. Finally, any remaining \texttt{NA} values are imputed with the median of the respective column, ensuring the dataset remains complete and reliable for further analysis.
+
+\newpage
+\subsection{Handling outliers}
+Handling outliers in data is crucial to ensure robust analysis and modeling. Outliers can skew statistical measures and adversely affect model performance.
+
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=14cm]{graphics/tdp_before_after.png}
+    \end{center}
+\end{figure}
+
+\begin{lstlisting}[language=R]
+    # Identify Outliers Function
+    identify_outliers <- function(x) {
+    Q1 <- quantile(x, 0.25, na.rm = TRUE)
+    Q3 <- quantile(x, 0.75, na.rm = TRUE)
+    IQR <- Q3 - Q1
+    lower_bound <- Q1 - 1.5 * IQR
+    upper_bound <- Q3 + 1.5 * IQR
+    return(x < lower_bound | x > upper_bound)
+    }
+
+    # Apply the function to identify outliers for each relevant column
+    outliers <- sapply(data[, desired_cols], identify_outliers)
+
+    # Combine the outliers into a single logical vector indicating any row with an outlier
+    combined_outliers <- apply(outliers, 1, any)
+
+    # Print number of outliers in each column
+    print(colSums(outliers))
+
+    # Remove rows with outliers
+    data <- data[!combined_outliers, ]
+\end{lstlisting}
+
+The provided \texttt{R} code snippet handles outliers in a dataset using the interquartile range (IQR) method. It defines a function \texttt{identify\_outliers} that calculates outliers based on quartiles and IQR for each specified column in data. The function outputs a matrix where each element indicates if the corresponding value in \texttt{data} is an outlier (TRUE or FALSE). By combining these results across rows, it creates a logical vector \texttt{combined\_outliers} to identify rows containing any outliers. The code then prints the number of outliers detected in each column using \texttt{colSums(outliers)}, facilitating insight into outlier distribution across the dataset. Finally, it updates data by removing rows identified as outliers (\texttt{!combined\_outliers}), ensuring a cleaner dataset for subsequent analysis or modeling.
 
 
 \newpage
