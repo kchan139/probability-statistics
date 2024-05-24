@@ -74,30 +74,22 @@ We start with our \textbf{first model}, also known as the \textbf{base model}, b
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/base_model.png}
+    \includegraphics[width=0.8\textwidth]{graphics/base_model_new.png}
     \caption{The base model}
 \end{figure}
 
 
-In this model, our respone variables consist of: \texttt{nb\_of\_Cores}, \texttt{nb\_of\_Threads}, \texttt{TDP} and \texttt{Lithography}. Now, we should remove the variables that are proven insignificant to our analysis, which can be determined based on their Pr values (last column). If $Pr < 0.05$, the variable is significant. With this insight, the variable that will be deducted is nb\_of\_Threads. Subsequently, we now construct the \textbf{new and theoretically improved model}. \\
+In this model, our respone variables consist of: \texttt{nb\_of\_Cores}, \texttt{nb\_of\_Threads}, \texttt{TDP} and \texttt{Lithography}. Now, we should remove the variables that are proven insignificant to our analysis, which can be determined based on their Pr values (last column). If $Pr < 0.05$, the variable is significant. With this insight, there is no variables that should be deducted. Hence, the base model is also our final model. \\
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{graphics/improved_model.png}
-    \caption{The improved model}
-\end{figure}
+$\text{\texttt{Processor Base Frequency}} = 1999.4277 - 116.5358 \times \text{\texttt{nb\_of\_Cores}} + 22.9547 \times \text{\texttt{nb\_of\_Threads}} + 17.9874 \times \text{\texttt{TDP}} - 10.6716 \times \text{\texttt{Lithography}}$ \\
 
-However, our group came to the decision of using the base model, since the difference in Adjusted $R^2$ value between the two is not significant enough (0.0001) to implement the second model as an improvement over the first. Hence, our final model now should look like this:\\
-
-$\text{\texttt{Processor Base Frequency}} = 2.8134 - 0.1279 \times \text{\texttt{nb\_of\_Cores}} + 0.0002 \times \text{\texttt{nb\_of\_Threads}} + 0.0162 \times \text{\texttt{TDP}} - 0.0324 \times \text{\texttt{Lithography}}$ \\
-
-Observing the results R gave on model 2, the p - value correlating with F statistics is less than $2.2 \times 10^{-16}$. This suggests that our data is robust and valuable for statistical analysis. Additionally, it guarantees that future results from this model provide good evaluations about the relationship between the Processor Base Frequency and the remaining variables. Generally, the regression coefficients ($\beta_i$) and the p - values hold the most influences on the independent variables. 
+Observing the results R gave on the model, the p - value correlating with F statistics is less than $2.2 \times 10^{-16}$. This suggests that our data is robust and valuable for statistical analysis. Additionally, it guarantees that future results from this model provide good evaluations about the relationship between Processor Base Frequency and the remaining variables. Generally, the regression coefficients ($\beta_i$) and the p - values hold the most influences on the independent variables. 
 
 \subsubsection{Assumptions of Linear Regression}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/assumption_graph.png}
+    \includegraphics[width=0.8\textwidth]{graphics/assumption_new.png}
     \caption{Plots for the Assumptions}
 \end{figure}
 
@@ -105,7 +97,7 @@ Observing the results R gave on model 2, the p - value correlating with F statis
 
 \textbf{Normal Q-Q:} The normal quantile-quantile visualization calculates the normal quantiles of all values in a column. The values (Y-axis) are then plotted against the normal quantiles (X-axis). The values form a pattern that slightly curves to the right of the normal line, showing that the distribution is somewhat skewed to the left. However, as the majority of the values stay on the line, it is safe to assume that normality is ensured to a certain extent. \\
 
-\textbf{Scale - Location:} This plot shows if residuals are spread equally along the ranges of predictors. This is how we can check the assumption of equal variance - homoscedasticity. Homoscedasticity is another important assumption, as it indicates that the variability of the residuals is consistent across the range of fitted values. Apply this on our plot, the square roots of residuals are not so equally spread across the red line but instead, condensed more between the fitted values 2 to 2.5 and sparser as they move further from this range. However, this is not a clear trend from the values, hence the assumption of homoscedasticity is met.\\
+\textbf{Scale - Location:} This plot shows if residuals are spread equally along the ranges of predictors. This is how we can check the assumption of equal variance - homoscedasticity. Homoscedasticity is another important assumption, as it indicates that the variability of the residuals is consistent across the range of fitted values. Apply this on our plot, the square roots of residuals are not so equally spread across the red line but instead, condensed more between the fitted values 1500 to 3000 and sparser as they move further from this range. However, this does not imply a clear trend from the values, hence the assumption of homoscedasticity is met.\\
 
 \textbf{Residuals vs. Leverage} This plot displays the residuals against the leverage values, which measure the influence of each data point on the model. The points are scattered without any clear pattern, suggesting that there are no influential observations that significantly affect the model. Influential observations can have a disproportionate impact on the model, and this plot helps identify any potential outliers or high-leverage points. The absence of a clear pattern indicates that the model is not unduly influenced by any individual data points. \\
 
@@ -114,8 +106,8 @@ We first run the model on our \textbf{training set} (70\% of the original data) 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/train_test_graph.png}
-    \caption{Multi Linear Regression model applied on the Training et}
+    \includegraphics[width=0.8\textwidth]{graphics/train_set_new.png}
+    \caption{Multi Linear Regression model applied on the Training set}
 \end{figure}
 
 The values plotted on this graph is quite widely distributed from the regression line, proving that the predicted and actual values form an average linear relationship. This confirms that the model is effective.\\
@@ -133,7 +125,7 @@ Then we plot the graph following the exact same way as we did with the training 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{graphics/test_set_graph.png}
+    \includegraphics[width=0.8\textwidth]{graphics/test_set_new.png}
     \caption{Multi Linear Regression model applied on the Test Set}
 \end{figure}
 
