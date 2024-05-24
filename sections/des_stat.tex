@@ -8,27 +8,29 @@
 \begin{itemize}
     \item Processor Base Frequency: 
     \begin{itemize}
-        \item The distribution of processor base frequencies is relatively normal, with most CPUs having base frequencies between 2 and 3 GHz.
-        \item A few CPUs have base frequencies below 2 GHz and above 3 GHz, indicating that while the majority of CPUs fall within a mid-range frequency, there are some outliers at both ends.
+        \item The frequencies range from 0 to around 4200 MHz, with most values concentrated between 1000 and 3500 MHz. 
+        \item The distribution is relatively uniform within this range, with a slight peak around 2500 MHz.
     \end{itemize}
     
     \item Number of Cores: 
     \begin{itemize}
-        \item The distribution of the number of cores is right-skewed, with a large number of CPUs having between 2 and 8 cores.
-        \item There are fewer CPUs with higher core counts, and very few CPUs exceed 16 cores.
+        \item The distribution of the number of cores is right-skewed.
+        \item Most CPUs have 2 or 4 cores, with a significant peak at 2 cores. 
+        \item There are fewer CPUs with 6 or 8 cores, indicating that higher core counts are less common in the dataset.
         \item This suggests that while multi-core processors are common, high-core-count CPUs are less frequent.        
     \end{itemize}
 
     \item Number of Threads: 
     \begin{itemize}
         \item Similar to the number of cores, the distribution of the number of threads is right-skewed.
-        The majority of CPUs have between 2 and 16 threads.
+        \item Most CPUs have either 4 or 8 threads, with a significant peak at 4 threads. 
+        \item The dataset contains a smaller number of CPUs with other thread counts, such as 2, 6, and 12 threads.
         \item There are some CPUs with a significantly higher number of threads, indicating the presence of high-performance CPUs with technologies like Hyper-Threading.     
     \end{itemize}
 
     \item TDP (Thermal Design Power):
     \begin{itemize}
-        \item The distribution of Thermal Design Power (TDP) shows that most CPUs have a TDP between 50 and 125 watts.
+        \item TDP values range widely from 0 to 150 watts. There is a concentration of CPUs with TDP values around 50 watts, with several peaks in the distribution.
         \item There are a few CPUs with higher TDP values, which typically correspond to more powerful processors that require more cooling.
         \item This indicates that most CPUs are designed to operate within a standard thermal envelope, but high-performance CPUs demand more power.
     \end{itemize}
@@ -36,8 +38,8 @@
     \item Lithography: 
     \begin{itemize}
         \item The lithography histogram shows several peaks, indicating different manufacturing process nodes.
-        \item The most common process nodes are 14 nm and 22 nm.
-        \item There are also CPUs manufactured at smaller nodes like 10 nm, and larger nodes like 32 nm and 45 nm.
+        \item Most CPUs have lithography sizes of either 14 nm or 22 nm, with significant peaks at these values. 
+        \item Other common sizes include 32 nm and 45 nm, with fewer CPUs having lithography sizes of 10 nm or 7 nm.
         \item This reflects the advancements in semiconductor manufacturing technology, with newer CPUs being produced at smaller process nodes for improved performance and efficiency.
     \end{itemize}
 
@@ -66,32 +68,29 @@ The boxplots provide a visual representation of the distribution, central tenden
 \begin{itemize}
     \item Boxplot of Processor Base Frequency (GHz):
     \begin{itemize}
-        \item The boxplot shows the median processor base frequency around 2.5 GHz, with the interquartile range (IQR) spanning from approximately 2 GHz to 3 GHz.
-        There are a few outliers above 3.5 GHz, indicating that some CPUs have significantly higher base frequencies than the majority.
+        \item The median processor base frequency is around 2000 MHz. The interquartile range (IQR) spans from approximately 1000 to 3000 MHz. There are no significant outliers beyond this range, indicating a relatively symmetric distribution of base frequencies.
     \end{itemize}
 
     \item Boxplot of Number of Cores:
     \begin{itemize}
-        \item The median number of cores is around 4, with the IQR ranging from 2 to 6 cores.
-        \item Numerous outliers are present above 8 cores, reflecting that high-core-count CPUs, while less common, are still significant.
+        \item The median number of cores is 2. The IQR ranges from 2 to 4 cores. There is one outlier at 8 cores, suggesting that while most CPUs have between 2 and 4 cores, there are a few models with a significantly higher core count.
     \end{itemize}
 
     \item Boxplot of Number of Threads:
     \begin{itemize}
-        \item The median number of threads is around 4, with an IQR from 4 to 8 threads.
-        \item There are many outliers above 16 threads, indicating that some CPUs, likely with Hyper-Threading, support a significantly higher number of threads.
+        \item The median number of threads is 4. The IQR ranges from 4 to 8 threads. There are several outliers, both below 4 and above 8 threads, indicating that there are CPUs with unusual thread counts compared to the majority in the dataset.
     \end{itemize}
     
     \item Boxplot of TDP (W):
     \begin{itemize}
-        \item The median TDP is around 65 W, with the IQR ranging from approximately 55 W to 95 W.
-        \item There are several outliers below 50 W and above 125 W, showing that while most CPUs fall within a certain thermal range, some require much less or much more cooling capacity.
+        \item The median TDP is around 50 watts. The IQR spans from approximately 30 to 75 watts. 
+        \item There is one outlier above 150 watts, indicating that most CPUs have moderate power consumption, with a few exceptions having significantly higher TDP values.
     \end{itemize}
 
     \item Boxplot of Lithography (nm):
     \begin{itemize}
-        \item The median lithography value is 22 nm, with the IQR ranging from 14 nm to 32 nm.
-        \item There is one outlier at 65 nm, indicating an older manufacturing process compared to the more advanced and common nodes.
+        \item The median lithography size is 22 nm. The IQR ranges from 22 to 32 nm. 
+        \item There are a few outliers below 22 nm and one above 45 nm, indicating that while most CPUs have lithography sizes within this range, there are some with newer or older manufacturing technologies.
     \end{itemize}
 \end{itemize}
 
@@ -119,15 +118,48 @@ The boxplots provide several insights that are crucial for our project on predic
     
     \item Lithography:
     \begin{itemize}
-        \item The distribution of lithography values highlights the evolution of manufacturing technology, with most CPUs produced using advanced nodes like 14 nm and 22 nm.
-        \item The outlier at 65 nm represents older technology, which typically correlates with lower efficiency and performance.
+        \item The distribution of lithography values highlights the evolution of manufacturing technology, with most CPUs produced using advanced nodes like 22 nm and 32 nm.
+        \item The outlier at few outliers below 22 nm and one above 45 nm represents older technology, which typically correlates with lower efficiency and performance.
     \end{itemize}
 \end{itemize}
+\subsection{Scatter plot for relationship between Processor Base Frequency with the others}
+\begin{figure}[H]
+    \begin{center}
+    \includegraphics[width=14cm]{graphics/scatter.png}
+    \end{center}
+\end{figure}
+
+\begin{itemize}
+    \item Processor Base Frequency and Number of Cores
+    \begin{itemize}
+        \item The plot in the top left shows the relationship between the number of cores in a processor and its base frequency.
+        \item The data points indicate an inverse relationship - as the number of cores increases, the processor's base frequency tends to decrease. This suggests that adding more cores may come at the cost of lower individual core frequencies.
+    \end{itemize}
+
+    \item Processor Base Frequency and Number of Threads
+    \begin{itemize}
+        \item The plot in the top right shows the relationship between the number of threads in a processor and its base frequency.
+        \item The data points suggest a positive relationship - as the number of threads increases, the processor's base frequency generally increases as well. This implies that more threads can be supported without significantly impacting the core frequencies.
+    \end{itemize}
+
+    \item Processor Base Frequency and TDP
+    \begin{itemize}
+        \item The bottom left plot displays the relationship between the processor's Thermal Design Power (TDP) and its base frequency.
+        \item The wide distribution of data points indicates that processor performance, as measured by base frequency, is not solely determined by power consumption (TDP). There are processors with a wide range of frequencies across various TDP values.
+    \end{itemize}
+
+    \item Processor Base Frequency and Lithography
+    \begin{itemize}
+        \item The bottom right plot illustrates the relationship between the processor's lithography (manufacturing process) and its base frequency.
+        \item The data suggests that processors manufactured using smaller lithography sizes (in nanometers) tend to have higher base frequencies. This is likely due to the performance improvements enabled by advancements in semiconductor manufacturing technology.
+    \end{itemize}
+\end{itemize}
+Overall, this set of scatter plots provides a comprehensive view of how different processor hardware specifications, such as core count, thread count, power consumption, and manufacturing process, are related to the fundamental performance metric of processor base frequency.
 
 \subsection{Correlation Matrix}
 \begin{figure}[H]
     \begin{center}
-    \includegraphics[width=14cm]{graphics/corr_matrix.png}
+    \includegraphics[width=14cm]{graphics/correlation_matrix.png}
     \end{center}
 \end{figure}
 
@@ -136,24 +168,24 @@ Key Observations:
 \begin{itemize}
     \item Processor Base Frequency:
     \begin{itemize}
-        \item Correlation with TDP: The strongest positive correlation is with TDP (0.57). This indicates that CPUs with higher base frequencies generally have higher thermal design power requirements. This is expected as higher clock speeds typically result in greater power consumption and heat generation.
-        \item Negative Correlation with Lithography: There is a moderate negative correlation with Lithography (-0.15). This suggests that CPUs manufactured with smaller process nodes tend to have higher base frequencies. Advanced manufacturing technologies often result in better performance characteristics.
+        \item Correlation with TDP: The strongest positive correlation is with TDP (0.64). This indicates that CPUs with higher base frequencies generally have higher thermal design power requirements. This is expected as higher clock speeds typically result in greater power consumption and heat generation.
+        \item Negative Correlation with Lithography: There is a moderate negative correlation with Lithography (0.02). This suggests that CPUs manufactured with smaller process nodes tend to have higher base frequencies. Advanced manufacturing technologies often result in better performance characteristics.
     \end{itemize}
     
     \item Number of Cores:
     \begin{itemize}
-        \item Strong Positive Correlation with Number of Threads (0.98): This high correlation is expected as CPUs with more cores generally support more threads, especially with technologies like Hyper-Threading.
-        \item Negative Correlation with Lithography (-0.25): Indicates that CPUs with a higher number of cores tend to be manufactured using smaller lithography nodes, aligning with advancements in CPU design that pack more cores into smaller spaces.
+        \item Strong Positive Correlation with Number of Threads (0.74): This high correlation is expected as CPUs with more cores generally support more threads, especially with technologies like Hyper-Threading.
+        \item Negative Correlation with Lithography (-0.43): Indicates that CPUs with a higher number of cores tend to be manufactured using smaller lithography nodes, aligning with advancements in CPU design that pack more cores into smaller spaces.
     \end{itemize}
     
     \item Number of Threads:
     \begin{itemize}
-        \item Positive Correlation with TDP (0.57): Similar to the base frequency, a higher number of threads is associated with higher TDP, reflecting increased power consumption and heat dissipation needs.
+        \item Positive Correlation with TDP (0.43): Similar to the base frequency, a higher number of threads is associated with higher TDP, reflecting increased power consumption and heat dissipation needs.
     \end{itemize}
     
     \item TDP:
     \begin{itemize}
-        \item Slight Positive Correlation with Lithography (0.04): This weak correlation suggests that the thermal design power does not have a strong relationship with the manufacturing process node.
+        \item Slight Positive Correlation with Lithography (0.3): This weak correlation suggests that the thermal design power does not have a strong relationship with the manufacturing process node.
     \end{itemize}
     
     \item Lithography:
