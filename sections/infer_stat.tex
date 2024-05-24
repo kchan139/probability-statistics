@@ -68,7 +68,7 @@ After finalizing the data we need for statistical analysis, we have to split the
 \subsubsection{Regression Model}
 The main objective of this section is constructing a model that portrays the effect of other factors on the CPU clock speed. To achieve this we applied a Multi Regression model, in which the dependent variable is Processor Base Frequency - the variable representing CPU clock speed, and the rest are independent. Our model appears as the formula below:\\
 
-$\text{\texttt{Processor Base Frequency}} = \beta_0 + \beta_1 \times\text{\texttt{nb\_of\_Cores}} + \beta_2 \times\text{\texttt{nb\_of\_Threads}} + \beta_3 \times\text{\texttt{TDP}} + \beta_4 \times\text{\text{Lithography}}$ \\
+$\text{\texttt{Processor Base Frequency}} = \beta_0 + \beta_1 \times\text{\texttt{nb\_of\_Cores}} + \beta_2 \times\text{\texttt{nb\_of\_Threads}} + \beta_3 \times\text{\texttt{TDP}} + \beta_4 \times\text{\texttt{Lithography}}$ \\
 
 We start with our \textbf{first model}, also known as the \textbf{base model}, built with all the independent variables available. \\
 
